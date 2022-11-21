@@ -1,0 +1,49 @@
+
+
+basico:
+
+https://scholar.google.es/
+
+
+esta los tiene categorizados, tiene una api pero hay que verificar la ip:
+
+https://www.base-search.net/
+
+esta tiene api:
+
+https://arxiv.org/help/api/
+
+
+esta api requiere registro, pero es gratis:
+
+https://developer.ieee.org/
+
+la misma sin api:
+https://ieeexplore.ieee.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
