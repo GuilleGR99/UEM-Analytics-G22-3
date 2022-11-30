@@ -1,0 +1,626 @@
+titulo,abstract,clase_pri,clase_otr
+An Actor-Critic Algorithm for Sequence Prediction,"  We present an approach to training neural networks to generate sequences
+using actor-critic methods from reinforcement learning (RL). Current
+log-likelihood training methods are limited by the discrepancy between their
+training and testing modes, as models must generate tokens conditioned on their
+previous guesses rather than the ground-truth tokens. We address this problem
+by introducing a \textit{critic} network that is trained to predict the value
+of an output token, given the policy of an \textit{actor} network. This results
+in a training procedure that is much closer to the test phase, and allows us to
+directly optimize for a task-specific score such as BLEU. Crucially, since we
+leverage these techniques in the supervised learning setting rather than the
+traditional RL setting, we condition the critic network on the ground-truth
+output. We show that our method leads to improved performance on both a
+synthetic task, and for German-English machine translation. Our analysis paves
+the way for such methods to be applied in natural language generation tasks,
+such as machine translation, caption generation, and dialogue modelling.
+
+    ",Machine Learning (cs.LG),
+Playing Flappy Bird via Asynchronous Advantage Actor Critic Algorithm,"  Flappy Bird, which has a very high popularity, has been trained in many
+algorithms. Some of these studies were trained from raw pixel values of game
+and some from specific attributes. In this study, the model was trained with
+raw game images, which had not been seen before. The trained model has learned
+as reinforcement when to make which decision. As an input to the model, the
+reward or penalty at the end of each step was returned and the training was
+completed. Flappy Bird game was trained with the Reinforcement Learning
+algorithm Deep Q-Network and Asynchronous Advantage Actor Critic (A3C)
+algorithms.
+
+    ",Machine Learning (cs.LG),; Neural and Evolutionary Computing (cs.NE)
+Distributional Advantage Actor-Critic,"  In traditional reinforcement learning, an agent maximizes the reward
+collected during its interaction with the environment by approximating the
+optimal policy through the estimation of value functions. Typically, given a
+state s and action a, the corresponding value is the expected discounted sum of
+rewards. The optimal action is then chosen to be the action a with the largest
+value estimated by value function. However, recent developments have shown both
+theoretical and experimental evidence of superior performance when value
+function is replaced with value distribution in context of deep Q learning [1].
+In this paper, we develop a new algorithm that combines advantage actor-critic
+with value distribution estimated by quantile regression. We evaluated this new
+algorithm, termed Distributional Advantage Actor-Critic (DA2C or QR-A2C) on a
+variety of tasks, and observed it to achieve at least as good as baseline
+algorithms, and outperforming baseline in some tasks with smaller variance and
+increased stability.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Machine Learning (stat.ML)
+Sample-efficient Actor-Critic Reinforcement Learning with Supervised Data for Dialogue Management,"  Deep reinforcement learning (RL) methods have significant potential for
+dialogue policy optimisation. However, they suffer from a poor performance in
+the early stages of learning. This is especially problematic for on-line
+learning with real users. Two approaches are introduced to tackle this problem.
+Firstly, to speed up the learning process, two sample-efficient neural networks
+algorithms: trust region actor-critic with experience replay (TRACER) and
+episodic natural actor-critic with experience replay (eNACER) are presented.
+For TRACER, the trust region helps to control the learning step size and avoid
+catastrophic model changes. For eNACER, the natural gradient identifies the
+steepest ascent direction in policy space to speed up the convergence. Both
+models employ off-policy learning with experience replay to improve
+sample-efficiency. Secondly, to mitigate the cold start issue, a corpus of
+demonstration data is utilised to pre-train the models prior to on-line
+reinforcement learning. Combining these two approaches, we demonstrate a
+practical approach to learn deep RL-based dialogue policies and demonstrate
+their effectiveness in a task-oriented information seeking domain.
+
+    ",Computation and Language (cs.CL),; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+Towards Automatic Actor-Critic Solutions to Continuous Control,"  Model-free off-policy actor-critic methods are an efficient solution to
+complex continuous control tasks. However, these algorithms rely on a number of
+design tricks and hyperparameters, making their application to new domains
+difficult and computationally expensive. This paper creates an evolutionary
+approach that automatically tunes these design decisions and eliminates the
+RL-specific hyperparameters from the Soft Actor-Critic algorithm. Our design is
+sample efficient and provides practical advantages over baseline approaches,
+including improved exploration, generalization over multiple control
+frequencies, and a robust ensemble of high-performance policies. Empirically,
+we show that our agent outperforms well-tuned hyperparameter settings in
+popular benchmarks from the DeepMind Control Suite. We then apply it to less
+common control tasks outside of simulated robotics to find high-performance
+solutions with minimal compute and research effort.
+
+    ",Machine Learning (cs.LG),; Neural and Evolutionary Computing (cs.NE); Systems and Control (eess.SY)
+Off-Policy Actor-Critic,"  This paper presents the first actor-critic algorithm for off-policy
+reinforcement learning. Our algorithm is online and incremental, and its
+per-time-step complexity scales linearly with the number of learned weights.
+Previous work on actor-critic algorithms is limited to the on-policy setting
+and does not take advantage of the recent advances in off-policy gradient
+temporal-difference learning. Off-policy techniques, such as Greedy-GQ, enable
+a target policy to be learned while following and obtaining data from another
+(behavior) policy. For many problems, however, actor-critic methods are more
+practical than action value methods (like Greedy-GQ) because they explicitly
+represent the policy; consequently, the policy can be stochastic and utilize a
+large action space. In this paper, we illustrate how to practically combine the
+generality and learning potential of off-policy learning with the flexibility
+in action selection given by actor-critic methods. We derive an incremental,
+linear time and space complexity algorithm that includes eligibility traces,
+prove convergence under assumptions similar to previous off-policy algorithms,
+and empirically show better or comparable performance to existing algorithms on
+standard reinforcement-learning benchmark problems.
+
+    ",Machine Learning (cs.LG),
+Policy Networks with Two-Stage Training for Dialogue Systems,"  In this paper, we propose to use deep policy networks which are trained with
+an advantage actor-critic method for statistically optimised dialogue systems.
+First, we show that, on summary state and action spaces, deep Reinforcement
+Learning (RL) outperforms Gaussian Processes methods. Summary state and action
+spaces lead to good performance but require pre-engineering effort, RL
+knowledge, and domain expertise. In order to remove the need to define such
+summary spaces, we show that deep RL can also be trained efficiently on the
+original state and action spaces. Dialogue systems based on partially
+observable Markov decision processes are known to require many dialogues to
+train, which makes them unappealing for practical deployment. We show that a
+deep RL method based on an actor-critic architecture can exploit a small amount
+of data very efficiently. Indeed, with only a few hundred dialogues collected
+with a handcrafted policy, the actor-critic deep learner is considerably
+bootstrapped from a combination of supervised and batch RL. In addition,
+convergence to an optimal policy is significantly sped up compared to other
+deep RL methods initialized on the data with batch RL. All experiments are
+performed on a restaurant domain derived from the Dialogue State Tracking
+Challenge 2 (DSTC2) dataset.
+
+    ",Computation and Language (cs.CL),; Artificial Intelligence (cs.AI)
+Asymmetric Actor Critic for Image-Based Robot Learning,"  Deep reinforcement learning (RL) has proven a powerful technique in many
+sequential decision making domains. However, Robotics poses many challenges for
+RL, most notably training on a physical system can be expensive and dangerous,
+which has sparked significant interest in learning control policies using a
+physics simulator. While several recent works have shown promising results in
+transferring policies trained in simulation to the real world, they often do
+not fully utilize the advantage of working with a simulator. In this work, we
+exploit the full state observability in the simulator to train better policies
+which take as input only partial observations (RGBD images). We do this by
+employing an actor-critic training algorithm in which the critic is trained on
+full states while the actor (or policy) gets rendered images as input. We show
+experimentally on a range of simulated tasks that using these asymmetric inputs
+significantly improves performance. Finally, we combine this method with domain
+randomization and show real robot experiments for several tasks like picking,
+pushing, and moving a block. We achieve this simulation to real world transfer
+without training on any real world data.
+
+    ",Robotics (cs.RO),; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+Recursive Least Squares Advantage Actor-Critic Algorithms,"  As an important algorithm in deep reinforcement learning, advantage actor
+critic (A2C) has been widely succeeded in both discrete and continuous control
+tasks with raw pixel inputs, but its sample efficiency still needs to improve
+more. In traditional reinforcement learning, actor-critic algorithms generally
+use the recursive least squares (RLS) technology to update the parameter of
+linear function approximators for accelerating their convergence speed.
+However, A2C algorithms seldom use this technology to train deep neural
+networks (DNNs) for improving their sample efficiency. In this paper, we
+propose two novel RLS-based A2C algorithms and investigate their performance.
+Both proposed algorithms, called RLSSA2C and RLSNA2C, use the RLS method to
+train the critic network and the hidden layers of the actor network. The main
+difference between them is at the policy learning step. RLSSA2C uses an
+ordinary first-order gradient descent algorithm and the standard policy
+gradient to learn the policy parameter. RLSNA2C uses the Kronecker-factored
+approximation, the RLS method and the natural policy gradient to learn the
+compatible parameter and the policy parameter. In addition, we analyze the
+complexity and convergence of both algorithms, and present three tricks for
+further improving their convergence speed. Finally, we demonstrate the
+effectiveness of both algorithms on 40 games in the Atari 2600 environment and
+11 tasks in the MuJoCo environment. From the experimental results, it is shown
+that our both algorithms have better sample efficiency than the vanilla A2C on
+most games or tasks, and have higher computational efficiency than other two
+state-of-the-art algorithms.
+
+    ",Machine Learning (cs.LG),
+Combining policy gradient and Q-learning,"  Policy gradient is an efficient technique for improving a policy in a
+reinforcement learning setting. However, vanilla online variants are on-policy
+only and not able to take advantage of off-policy data. In this paper we
+describe a new technique that combines policy gradient with off-policy
+Q-learning, drawing experience from a replay buffer. This is motivated by
+making a connection between the fixed points of the regularized policy gradient
+algorithm and the Q-values. This connection allows us to estimate the Q-values
+from the action preferences of the policy, to which we apply Q-learning
+updates. We refer to the new technique as 'PGQL', for policy gradient and
+Q-learning. We also establish an equivalency between action-value fitting
+techniques and actor-critic algorithms, showing that regularized policy
+gradient techniques can be interpreted as advantage function learning
+algorithms. We conclude with some numerical examples that demonstrate improved
+data efficiency and stability of PGQL. In particular, we tested PGQL on the
+full suite of Atari games and achieved performance exceeding that of both
+asynchronous advantage actor-critic (A3C) and Q-learning.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Optimization and Control (math.OC); Machine Learning (stat.ML)
+A Deeper Look at Discounting Mismatch in Actor-Critic Algorithms,"  We investigate the discounting mismatch in actor-critic algorithm
+implementations from a representation learning perspective. Theoretically,
+actor-critic algorithms usually have discounting for both actor and critic,
+i.e., there is a $\gamma^t$ term in the actor update for the transition
+observed at time $t$ in a trajectory and the critic is a discounted value
+function. Practitioners, however, usually ignore the discounting ($\gamma^t$)
+for the actor while using a discounted critic. We investigate this mismatch in
+two scenarios. In the first scenario, we consider optimizing an undiscounted
+objective $(\gamma = 1)$ where $\gamma^t$ disappears naturally $(1^t = 1)$. We
+then propose to interpret the discounting in critic in terms of a
+bias-variance-representation trade-off and provide supporting empirical
+results. In the second scenario, we consider optimizing a discounted objective
+($\gamma < 1$) and propose to interpret the omission of the discounting in the
+actor update from an auxiliary task perspective and provide supporting
+empirical results.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI)
+Guide Actor-Critic for Continuous Control,"  Actor-critic methods solve reinforcement learning problems by updating a
+parameterized policy known as an actor in a direction that increases an
+estimate of the expected return known as a critic. However, existing
+actor-critic methods only use values or gradients of the critic to update the
+policy parameter. In this paper, we propose a novel actor-critic method called
+the guide actor-critic (GAC). GAC firstly learns a guide actor that locally
+maximizes the critic and then it updates the policy parameter based on the
+guide actor by supervised learning. Our main theoretical contributions are two
+folds. First, we show that GAC updates the guide actor by performing
+second-order optimization in the action space where the curvature matrix is
+based on the Hessians of the critic. Second, we show that the deterministic
+policy gradient method is a special case of GAC when the Hessians are ignored.
+Through experiments, we show that our method is a promising reinforcement
+learning method for continuous controls.
+
+    ",Machine Learning (stat.ML),
+Efficient Parallel Methods for Deep Reinforcement Learning,"  We propose a novel framework for efficient parallelization of deep
+reinforcement learning algorithms, enabling these algorithms to learn from
+multiple actors on a single machine. The framework is algorithm agnostic and
+can be applied to on-policy, off-policy, value based and policy gradient based
+algorithms. Given its inherent parallelism, the framework can be efficiently
+implemented on a GPU, allowing the usage of powerful models while significantly
+reducing training time. We demonstrate the effectiveness of our framework by
+implementing an advantage actor-critic algorithm on a GPU, using on-policy
+experiences and employing synchronous updates. Our algorithm achieves
+state-of-the-art performance on the Atari domain after only a few hours of
+training. Our framework thus opens the door for much faster experimentation on
+demanding problem domains. Our implementation is open-source and is made public
+at ",Machine Learning (cs.LG),
+Pretraining Deep Actor-Critic Reinforcement Learning Algorithms With Expert Demonstrations,"  Pretraining with expert demonstrations have been found useful in speeding up
+the training process of deep reinforcement learning algorithms since less
+online simulation data is required. Some people use supervised learning to
+speed up the process of feature learning, others pretrain the policies by
+imitating expert demonstrations. However, these methods are unstable and not
+suitable for actor-critic reinforcement learning algorithms. Also, some
+existing methods rely on the global optimum assumption, which is not true in
+most scenarios. In this paper, we employ expert demonstrations in a
+actor-critic reinforcement learning framework, and meanwhile ensure that the
+performance is not affected by the fact that expert demonstrations are not
+global optimal. We theoretically derive a method for computing policy gradients
+and value estimators with only expert demonstrations. Our method is
+theoretically plausible for actor-critic reinforcement learning algorithms that
+pretrains both policy and value functions. We apply our method to two of the
+typical actor-critic reinforcement learning algorithms, DDPG and ACER, and
+demonstrate with experiments that our method not only outperforms the RL
+algorithms without pretraining process, but also is more simulation efficient.
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG); Machine Learning (stat.ML)
+The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning,"  In this work we present a new agent architecture, called Reactor, which
+combines multiple algorithmic and architectural contributions to produce an
+agent with higher sample-efficiency than Prioritized Dueling DQN (Wang et al.,
+2016) and Categorical DQN (Bellemare et al., 2017), while giving better
+run-time performance than A3C (Mnih et al., 2016). Our first contribution is a
+new policy evaluation algorithm called Distributional Retrace, which brings
+multi-step off-policy updates to the distributional reinforcement learning
+setting. The same approach can be used to convert several classes of multi-step
+policy evaluation algorithms designed for expected value evaluation into
+distributional ones. Next, we introduce the \b{eta}-leave-one-out policy
+gradient algorithm which improves the trade-off between variance and bias by
+using action values as a baseline. Our final algorithmic contribution is a new
+prioritized replay algorithm for sequences, which exploits the temporal
+locality of neighboring observations for more efficient replay prioritization.
+Using the Atari 2600 benchmarks, we show that each of these innovations
+contribute to both the sample efficiency and final agent performance. Finally,
+we demonstrate that Reactor reaches state-of-the-art performance after 200
+million frames and less than a day of training.
+
+    ",Artificial Intelligence (cs.AI),
+Hybrid actor-critic algorithm for quantum reinforcement learning at CERN beam lines,"  Free energy-based reinforcement learning (FERL) with clamped quantum
+Boltzmann machines (QBM) was shown to significantly improve the learning
+efficiency compared to classical Q-learning with the restriction, however, to
+discrete state-action space environments. In this paper, the FERL approach is
+extended to multi-dimensional continuous state-action space environments to
+open the doors for a broader range of real-world applications. First, free
+energy-based Q-learning is studied for discrete action spaces, but continuous
+state spaces and the impact of experience replay on sample efficiency is
+assessed. In a second step, a hybrid actor-critic scheme for continuous
+state-action spaces is developed based on the Deep Deterministic Policy
+Gradient algorithm combining a classical actor network with a QBM-based critic.
+The results obtained with quantum annealing, both simulated and with D-Wave
+quantum annealing hardware, are discussed, and the performance is compared to
+classical reinforcement learning methods. The environments used throughout
+represent existing particle accelerator beam lines at the European Organisation
+for Nuclear Research (CERN). Among others, the hybrid actor-critic agent is
+evaluated on the actual electron beam line of the Advanced Plasma Wakefield
+Experiment (AWAKE).
+
+    ",Quantum Physics (quant-ph),
+MoTiAC: Multi-Objective Actor-Critics for Real-Time Bidding,"  Online Real-Time Bidding (RTB) is a complex auction game among which
+advertisers struggle to bid for ad impressions when a user request occurs.
+Considering display cost, Return on Investment (ROI), and other influential Key
+Performance Indicators (KPIs), large ad platforms try to balance the trade-off
+among various goals in dynamics. To address the challenge, we propose a
+Multi-ObjecTive Actor-Critics algorithm based on reinforcement learning (RL),
+named MoTiAC, for the problem of bidding optimization with various goals. In
+MoTiAC, objective-specific agents update the global network asynchronously with
+different goals and perspectives, leading to a robust bidding policy. Unlike
+previous RL models, the proposed MoTiAC can simultaneously fulfill
+multi-objective tasks in complicated bidding environments. In addition, we
+mathematically prove that our model will converge to Pareto optimality.
+Finally, experiments on a large-scale real-world commercial dataset from
+Tencent verify the effectiveness of MoTiAC versus a set of recent approaches
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG)
+Demand-Side Scheduling Based on Multi-Agent Deep Actor-Critic Learning for Smart Grids,"  We consider the problem of demand-side energy management, where each
+household is equipped with a smart meter that is able to schedule home
+appliances online. The goal is to minimize the overall cost under a real-time
+pricing scheme. While previous works have introduced centralized approaches in
+which the scheduling algorithm has full observability, we propose the
+formulation of a smart grid environment as a Markov game. Each household is a
+decentralized agent with partial observability, which allows scalability and
+privacy-preservation in a realistic setting. The grid operator produces a price
+signal that varies with the energy demand. We propose an extension to a
+multi-agent, deep actor-critic algorithm to address partial observability and
+the perceived non-stationarity of the environment from the agent's viewpoint.
+This algorithm learns a centralized critic that coordinates training of
+decentralized agents. Our approach thus uses centralized learning but
+decentralized execution. Simulation results show that our online deep
+reinforcement learning method can reduce both the peak-to-average ratio of
+total energy consumed and the cost of electricity for all households based
+purely on instantaneous observations and a price signal.
+
+    ",Machine Learning (cs.LG),; Systems and Control (eess.SY); Machine Learning (stat.ML)
+Stein Variational Policy Gradient,"  Policy gradient methods have been successfully applied to many complex
+reinforcement learning problems. However, policy gradient methods suffer from
+high variance, slow convergence, and inefficient exploration. In this work, we
+introduce a maximum entropy policy optimization framework which explicitly
+encourages parameter exploration, and show that this framework can be reduced
+to a Bayesian inference problem. We then propose a novel Stein variational
+policy gradient method (SVPG) which combines existing policy gradient methods
+and a repulsive functional to generate a set of diverse but well-behaved
+policies. SVPG is robust to initialization and can easily be implemented in a
+parallel manner. On continuous control problems, we find that implementing SVPG
+on top of REINFORCE and advantage actor-critic algorithms improves both average
+return and data efficiency.
+
+    ",Machine Learning (cs.LG),
+Decomposed Soft Actor-Critic Method for Cooperative Multi-Agent Reinforcement Learning,"  Deep reinforcement learning methods have shown great performance on many
+challenging cooperative multi-agent tasks. Two main promising research
+directions are multi-agent value function decomposition and multi-agent policy
+gradients. In this paper, we propose a new decomposed multi-agent soft
+actor-critic (mSAC) method, which effectively combines the advantages of the
+aforementioned two methods. The main modules include decomposed Q network
+architecture, discrete probabilistic policy and counterfactual advantage
+function (optinal). Theoretically, mSAC supports efficient off-policy learning
+and addresses credit assignment problem partially in both discrete and
+continuous action spaces. Tested on StarCraft II micromanagement cooperative
+multiagent benchmark, we empirically investigate the performance of mSAC
+against its variants and analyze the effects of the different components.
+Experimental results demonstrate that mSAC significantly outperforms
+policy-based approach COMA, and achieves competitive results with SOTA
+value-based approach Qmix on most tasks in terms of asymptotic perfomance
+metric. In addition, mSAC achieves pretty good results on large action space
+tasks, such as 2c_vs_64zg and MMM2.
+
+    ",Artificial Intelligence (cs.AI),; Multiagent Systems (cs.MA); Machine Learning (stat.ML)
+Simultaneous Double Q-learning with Conservative Advantage Learning for Actor-Critic Methods,"  Actor-critic Reinforcement Learning (RL) algorithms have achieved impressive
+performance in continuous control tasks. However, they still suffer two
+nontrivial obstacles, i.e., low sample efficiency and overestimation bias. To
+this end, we propose Simultaneous Double Q-learning with Conservative Advantage
+Learning (SDQ-CAL). Our SDQ-CAL boosts the Double Q-learning for off-policy
+actor-critic RL based on a modification of the Bellman optimality operator with
+Advantage Learning. Specifically, SDQ-CAL improves sample efficiency by
+modifying the reward to facilitate the distinction from experience between the
+optimal actions and the others. Besides, it mitigates the overestimation issue
+by updating a pair of critics simultaneously upon double estimators. Extensive
+experiments reveal that our algorithm realizes less biased value estimation and
+achieves state-of-the-art performance in a range of continuous control
+benchmark tasks. We release the source code of our method at:
+\url{",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI)
+A Brief Survey of Deep Reinforcement Learning,"  Deep reinforcement learning is poised to revolutionise the field of AI and
+represents a step towards building autonomous systems with a higher level
+understanding of the visual world. Currently, deep learning is enabling
+reinforcement learning to scale to problems that were previously intractable,
+such as learning to play video games directly from pixels. Deep reinforcement
+learning algorithms are also applied to robotics, allowing control policies for
+robots to be learned directly from camera inputs in the real world. In this
+survey, we begin with an introduction to the general field of reinforcement
+learning, then progress to the main streams of value-based and policy-based
+methods. Our survey will cover central algorithms in deep reinforcement
+learning, including the deep $Q$-network, trust region policy optimisation, and
+asynchronous advantage actor-critic. In parallel, we highlight the unique
+advantages of deep neural networks, focusing on visual understanding via
+reinforcement learning. To conclude, we describe several current areas of
+research within the field.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (stat.ML)
+Variance Reduction in Actor Critic Methods (ACM),"  After presenting Actor Critic Methods (ACM), we show ACM are control variate
+estimators. Using the projection theorem, we prove that the Q and Advantage
+Actor Critic (A2C) methods are optimal in the sense of the $L^2$ norm for the
+control variate estimators spanned by functions conditioned by the current
+state and action. This straightforward application of Pythagoras theorem
+provides a theoretical justification of the strong performance of QAC and AAC
+most often referred to as A2C methods in deep policy gradient methods. This
+enables us to derive a new formulation for Advantage Actor Critic methods that
+has lower variance and improves the traditional A2C method.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Policy Regularization via Noisy Advantage Values for Cooperative Multi-agent Actor-Critic methods,"  Recent works have applied the Proximal Policy Optimization (PPO) to the
+multi-agent cooperative tasks, such as Independent PPO (IPPO); and vanilla
+Multi-agent PPO (MAPPO) which has a centralized value function. However,
+previous literature shows that MAPPO may not perform as well as Independent PPO
+(IPPO) and the Fine-tuned QMIX on Starcraft Multi-Agent Challenge (SMAC).
+MAPPO-Feature-Pruned (MAPPO-FP) improves the performance of MAPPO by the
+carefully designed agent-specific features, which may be not friendly to
+algorithmic utility. By contrast, we find that MAPPO may face the problem of
+\textit{The Policies Overfitting in Multi-agent Cooperation(POMAC)}, as they
+learn policies by the sampled advantage values. Then POMAC may lead to updating
+the multi-agent policies in a suboptimal direction and prevent the agents from
+exploring better trajectories. In this paper, to mitigate the multi-agent
+policies overfitting, we propose a novel policy regularization method, which
+disturbs the advantage values via random Gaussian noise. The experimental
+results show that our method outperforms the Fine-tuned QMIX, MAPPO-FP, and
+achieves SOTA on SMAC without agent-specific features. We open-source the code
+at \url{",Multiagent Systems (cs.MA),
+Soft Actor-Critic Algorithms and Applications,"  Model-free deep reinforcement learning (RL) algorithms have been successfully
+applied to a range of challenging sequential decision making and control tasks.
+However, these methods typically suffer from two major challenges: high sample
+complexity and brittleness to hyperparameters. Both of these challenges limit
+the applicability of such methods to real-world domains. In this paper, we
+describe Soft Actor-Critic (SAC), our recently introduced off-policy
+actor-critic algorithm based on the maximum entropy RL framework. In this
+framework, the actor aims to simultaneously maximize expected return and
+entropy. That is, to succeed at the task while acting as randomly as possible.
+We extend SAC to incorporate a number of modifications that accelerate training
+and improve stability with respect to the hyperparameters, including a
+constrained formulation that automatically tunes the temperature
+hyperparameter. We systematically evaluate SAC on a range of benchmark tasks,
+as well as real-world challenging tasks such as locomotion for a quadrupedal
+robot and robotic manipulation with a dexterous hand. With these improvements,
+SAC achieves state-of-the-art performance, outperforming prior on-policy and
+off-policy methods in sample-efficiency and asymptotic performance.
+Furthermore, we demonstrate that, in contrast to other off-policy algorithms,
+our approach is very stable, achieving similar performance across different
+random seeds. These results suggest that SAC is a promising candidate for
+learning in real-world robotics tasks.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Robotics (cs.RO); Machine Learning (stat.ML)
+Deep Reinforcement learning for real autonomous mobile robot navigation in indoor environments,"  Deep Reinforcement Learning has been successfully applied in various computer
+games [8]. However, it is still rarely used in real-world applications,
+especially for the navigation and continuous control of real mobile robots
+[13]. Previous approaches lack safety and robustness and/or need a structured
+environment. In this paper we present our proof of concept for autonomous
+self-learning robot navigation in an unknown environment for a real robot
+without a map or planner. The input for the robot is only the fused data from a
+2D laser scanner and a RGB-D camera as well as the orientation to the goal. The
+map of the environment is unknown. The output actions of an Asynchronous
+Advantage Actor-Critic network (GA3C) are the linear and angular velocities for
+the robot. The navigator/controller network is pretrained in a high-speed,
+parallel, and self-implemented simulation environment to speed up the learning
+process and then deployed to the real robot. To avoid overfitting, we train
+relatively small networks, and we add random Gaussian noise to the input laser
+data. The sensor data fusion with the RGB-D camera allows the robot to navigate
+in real environments with real 3D obstacle avoidance and without the need to
+fit the environment to the sensory capabilities of the robot. To further
+increase the robustness, we train on environments of varying difficulties and
+run 32 training instances simultaneously. Video: supplementary File / YouTube,
+Code: GitHub
+
+    ",Robotics (cs.RO),; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+Unbiased Asymmetric Reinforcement Learning under Partial Observability,"  In partially observable reinforcement learning, offline training gives access
+to latent information which is not available during online training and/or
+execution, such as the system state. Asymmetric actor-critic methods exploit
+such information by training a history-based policy via a state-based critic.
+However, many asymmetric methods lack theoretical foundation, and are only
+evaluated on limited domains. We examine the theory of asymmetric actor-critic
+methods which use state-based critics, and expose fundamental issues which
+undermine the validity of a common variant, and limit its ability to address
+partial observability. We propose an unbiased asymmetric actor-critic variant
+which is able to exploit state information while remaining theoretically sound,
+maintaining the validity of the policy gradient theorem, and introducing no
+bias and relatively low variance into the training process. An empirical
+evaluation performed on domains which exhibit significant partial observability
+confirms our analysis, demonstrating that unbiased asymmetric actor-critic
+converges to better policies and/or faster than symmetric and biased asymmetric
+baselines.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI)
+Deep Primal-Dual Reinforcement Learning: Accelerating Actor-Critic using Bellman Duality,"  We develop a parameterized Primal-Dual $\pi$ Learning method based on deep
+neural networks for Markov decision process with large state space and
+off-policy reinforcement learning. In contrast to the popular Q-learning and
+actor-critic methods that are based on successive approximations to the
+nonlinear Bellman equation, our method makes primal-dual updates to the policy
+and value functions utilizing the fundamental linear Bellman duality. Naive
+parametrization of the primal-dual $\pi$ learning method using deep neural
+networks would encounter two major challenges: (1) each update requires
+computing a probability distribution over the state space and is intractable;
+(2) the iterates are unstable since the parameterized Lagrangian function is no
+longer linear. We address these challenges by proposing a relaxed Lagrangian
+formulation with a regularization penalty using the advantage function. We show
+that the dual policy update step in our method is equivalent to the policy
+gradient update in the actor-critic method in some special case, while the
+value updates differ substantially. The main advantage of the primal-dual $\pi$
+learning method lies in that the value and policy updates are closely coupled
+together using the Bellman duality and therefore more informative. Experiments
+on a simple cart-pole problem show that the algorithm significantly outperforms
+the one-step temporal-difference actor-critic method, which is the most
+relevant benchmark method to compare with. We believe that the primal-dual
+updates to the value and policy functions would expedite the learning process.
+The proposed methods might open a door to more efficient algorithms and sharper
+theoretical analysis.
+
+    ",Machine Learning (cs.LG),
+An Adaptive Threshold for the Canny Edge Detection with Actor-Critic Algorithm,"  Visual surveillance aims to perform robust foreground object detection
+regardless of the time and place. Object detection shows good results using
+only spatial information, but foreground object detection in visual
+surveillance requires proper temporal and spatial information processing. In
+deep learning-based foreground object detection algorithms, the detection
+ability is superior to classical background subtraction (BGS) algorithms in an
+environment similar to training. However, the performance is lower than that of
+the classical BGS algorithm in the environment different from training. This
+paper proposes a spatio-temporal fusion network (STFN) that could extract
+temporal and spatial information using a temporal network and a spatial
+network. We suggest a method using a semi-foreground map for stable training of
+the proposed STFN. The proposed algorithm shows excellent performance in an
+environment different from training, and we show it through experiments with
+various public datasets. Also, STFN can generate a compliant background image
+in a semi-supervised method, and it can operate in real-time on a desktop with
+GPU. The proposed method shows 11.28% and 18.33% higher FM than the latest deep
+learning method in the LASIESTA and SBI dataset, respectively.
+
+    ",Computer Vision and Pattern Recognition (cs.CV),
+Adversarially Guided Actor-Critic,"  Despite definite success in deep reinforcement learning problems,
+actor-critic algorithms are still confronted with sample inefficiency in
+complex environments, particularly in tasks where efficient exploration is a
+bottleneck. These methods consider a policy (the actor) and a value function
+(the critic) whose respective losses are built using different motivations and
+approaches. This paper introduces a third protagonist: the adversary. While the
+adversary mimics the actor by minimizing the KL-divergence between their
+respective action distributions, the actor, in addition to learning to solve
+the task, tries to differentiate itself from the adversary predictions. This
+novel objective stimulates the actor to follow strategies that could not have
+been correctly predicted from previous trajectories, making its behavior
+innovative in tasks where the reward is extremely rare. Our experimental
+analysis shows that the resulting Adversarially Guided Actor-Critic (AGAC)
+algorithm leads to more exhaustive exploration. Notably, AGAC outperforms
+current state-of-the-art methods on a set of various hard-exploration and
+procedurally-generated tasks.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Machine Learning (stat.ML)
+Reinforcement learning for automatic quadrilateral mesh generation: a soft actor-critic approach,"  This paper proposes, implements, and evaluates a reinforcement learning
+(RL)-based computational framework for automatic mesh generation. Mesh
+generation plays a fundamental role in numerical simulations in the area of
+computer aided design and engineering (CAD/E). It is identified as one of the
+critical issues in the NASA CFD Vision 2030 Study. Existing mesh generation
+methods suffer from high computational complexity, low mesh quality in complex
+geometries, and speed limitations. These methods and tools, including
+commercial software packages, are typically semiautomatic and they need inputs
+or help from human experts. By formulating the mesh generation as a Markov
+decision process (MDP) problem, we are able to use a state-of-the-art
+reinforcement learning (RL) algorithm called ""soft actor-critic"" to
+automatically learn from trials the policy of actions for mesh generation. The
+implementation of this RL algorithm for mesh generation allows us to build a
+fully automatic mesh generation system without human intervention and any extra
+clean-up operations, which fills the gap in the existing mesh generation tools.
+In the experiments to compare with two representative commercial software
+packages, our system demonstrates promising performance with respect to
+scalability, generalizability, and effectiveness.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Computational Geometry (cs.CG)
+Parameter Sharing Deep Deterministic Policy Gradient for Cooperative Multi-agent Reinforcement Learning,"  Deep reinforcement learning for multi-agent cooperation and competition has
+been a hot topic recently. This paper focuses on cooperative multi-agent
+problem based on actor-critic methods under local observations settings. Multi
+agent deep deterministic policy gradient obtained state of art results for some
+multi-agent games, whereas, it cannot scale well with growing amount of agents.
+In order to boost scalability, we propose a parameter sharing deterministic
+policy gradient method with three variants based on neural networks, including
+actor-critic sharing, actor sharing and actor sharing with partially shared
+critic. Benchmarks from rllab show that the proposed method has advantages in
+learning speed and memory efficiency, well scales with growing amount of
+agents, and moreover, it can make full use of reward sharing and
+exchangeability if possible.
+
+    ",Artificial Intelligence (cs.AI),
+Federated Reinforcement Distillation with Proxy Experience Memory,"  In distributed reinforcement learning, it is common to exchange the
+experience memory of each agent and thereby collectively train their local
+models. The experience memory, however, contains all the preceding state
+observations and their corresponding policies of the host agent, which may
+violate the privacy of the agent. To avoid this problem, in this work, we
+propose a privacy-preserving distributed reinforcement learning (RL) framework,
+termed federated reinforcement distillation (FRD). The key idea is to exchange
+a proxy experience memory comprising a pre-arranged set of states and
+time-averaged policies, thereby preserving the privacy of actual experiences.
+Based on an advantage actor-critic RL architecture, we numerically evaluate the
+effectiveness of FRD and investigate how the performance of FRD is affected by
+the proxy memory structure and different memory exchanging rules.
+
+    ",Machine Learning (cs.LG),; Multiagent Systems (cs.MA); Networking and Internet Architecture (cs.NI); Machine Learning (stat.ML)
+Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback,"  Machine translation is a natural candidate problem for reinforcement learning
+from human feedback: users provide quick, dirty ratings on candidate
+translations to guide a system to improve. Yet, current neural machine
+translation training focuses on expensive human-generated reference
+translations. We describe a reinforcement learning algorithm that improves
+neural machine translation systems from simulated human feedback. Our algorithm
+combines the advantage actor-critic algorithm (Mnih et al., 2016) with the
+attention-based neural encoder-decoder architecture (Luong et al., 2015). This
+algorithm (a) is well-designed for problems with a large action space and
+delayed rewards, (b) effectively optimizes traditional corpus-level machine
+translation metrics, and (c) is robust to skewed, high-variance, granular
+feedback modeled after actual human behaviors.
+
+    ",Computation and Language (cs.CL),; Artificial Intelligence (cs.AI); Human-Computer Interaction (cs.HC); Machine Learning (cs.LG)
+"Learning to Listen, Read, and Follow: Score Following as a Reinforcement Learning Game","  Score following is the process of tracking a musical performance (audio) with
+respect to a known symbolic representation (a score). We start this paper by
+formulating score following as a multimodal Markov Decision Process, the
+mathematical foundation for sequential decision making. Given this formal
+definition, we address the score following task with state-of-the-art deep
+reinforcement learning (RL) algorithms such as synchronous advantage actor
+critic (A2C). In particular, we design multimodal RL agents that simultaneously
+learn to listen to music, read the scores from images of sheet music, and
+follow the audio along in the sheet, in an end-to-end fashion. All this
+behavior is learned entirely from scratch, based on a weak and potentially
+delayed reward signal that indicates to the agent how close it is to the
+correct position in the score. Besides discussing the theoretical advantages of
+this learning paradigm, we show in experiments that it is in fact superior
+compared to previously proposed methods for score following in raw sheet music
+images.
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG); Sound (cs.SD); Audio and Speech Processing (eess.AS)
+Backpropagation through the Void: Optimizing control variates for black-box gradient estimation,"  Gradient-based optimization is the foundation of deep learning and
+reinforcement learning. Even when the mechanism being optimized is unknown or
+not differentiable, optimization using high-variance or biased gradient
+estimates is still often the best strategy. We introduce a general framework
+for learning low-variance, unbiased gradient estimators for black-box functions
+of random variables. Our method uses gradients of a neural network trained
+jointly with model parameters or policies, and is applicable in both discrete
+and continuous settings. We demonstrate this framework for training discrete
+latent-variable models. We also give an unbiased, action-conditional extension
+of the advantage actor-critic reinforcement learning algorithm.
+
+    ",Machine Learning (cs.LG),
