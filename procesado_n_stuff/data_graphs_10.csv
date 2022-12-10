@@ -1,0 +1,666 @@
+titulo,abstract,clase_pri,clase_otr
+The Anatomy of the Facebook Social Graph,"  We study the structure of the social graph of active Facebook users, the
+largest social network ever analyzed. We compute numerous features of the graph
+including the number of users and friendships, the degree distribution, path
+lengths, clustering, and mixing patterns. Our results center around three main
+observations. First, we characterize the global structure of the graph,
+determining that the social network is nearly fully connected, with 99.91% of
+individuals belonging to a single large connected component, and we confirm the
+""six degrees of separation"" phenomenon on a global scale. Second, by studying
+the average local clustering coefficient and degeneracy of graph neighborhoods,
+we show that while the Facebook graph as a whole is clearly sparse, the graph
+neighborhoods of users contain surprisingly dense structure. Third, we
+characterize the assortativity patterns present in the graph by studying the
+basic demographic and network properties of users. We observe clear degree
+assortativity and characterize the extent to which ""your friends have more
+friends than you"". Furthermore, we observe a strong effect of age on friendship
+preferences as well as a globally modular community structure driven by
+nationality, but we do not find any strong gender homophily. We compare our
+results with those from smaller social networks and find mostly, but not
+entirely, agreement on common structural network characteristics.
+
+    ",Social and Information Networks (cs.SI),; Physics and Society (physics.soc-ph)
+RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space,"  We study the problem of learning representations of entities and relations in
+knowledge graphs for predicting missing links. The success of such a task
+heavily relies on the ability of modeling and inferring the patterns of (or
+between) the relations. In this paper, we present a new approach for knowledge
+graph embedding called RotatE, which is able to model and infer various
+relation patterns including: symmetry/antisymmetry, inversion, and composition.
+Specifically, the RotatE model defines each relation as a rotation from the
+source entity to the target entity in the complex vector space. In addition, we
+propose a novel self-adversarial negative sampling technique for efficiently
+and effectively training the RotatE model. Experimental results on multiple
+benchmark knowledge graphs show that the proposed RotatE model is not only
+scalable, but also able to infer and model various relation patterns and
+significantly outperform existing state-of-the-art models for link prediction.
+
+    ",Machine Learning (cs.LG),; Computation and Language (cs.CL); Machine Learning (stat.ML)
+Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting,"  Timely accurate traffic forecast is crucial for urban traffic control and
+guidance. Due to the high nonlinearity and complexity of traffic flow,
+traditional methods cannot satisfy the requirements of mid-and-long term
+prediction tasks and often neglect spatial and temporal dependencies. In this
+paper, we propose a novel deep learning framework, Spatio-Temporal Graph
+Convolutional Networks (STGCN), to tackle the time series prediction problem in
+traffic domain. Instead of applying regular convolutional and recurrent units,
+we formulate the problem on graphs and build the model with complete
+convolutional structures, which enable much faster training speed with fewer
+parameters. Experiments show that our model STGCN effectively captures
+comprehensive spatio-temporal correlations through modeling multi-scale traffic
+networks and consistently outperforms state-of-the-art baselines on various
+real-world traffic datasets.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Deep Convolutional Networks on Graph-Structured Data,"  Deep Learning's recent successes have mostly relied on Convolutional
+Networks, which exploit fundamental statistical properties of images, sounds
+and video data: the local stationarity and multi-scale compositional structure,
+that allows expressing long range interactions in terms of shorter, localized
+interactions. However, there exist other important examples, such as text
+documents or bioinformatic data, that may lack some or all of these strong
+statistical regularities.
+",Machine Learning (cs.LG),; Computer Vision and Pattern Recognition (cs.CV); Neural and Evolutionary Computing (cs.NE)
+Benchmarking Graph Neural Networks,"  In the last few years, graph neural networks (GNNs) have become the standard
+toolkit for analyzing and learning from data on graphs. This emerging field has
+witnessed an extensive growth of promising techniques that have been applied
+with success to computer science, mathematics, biology, physics and chemistry.
+But for any successful field to become mainstream and reliable, benchmarks must
+be developed to quantify progress. This led us in March 2020 to release a
+benchmark framework that i) comprises of a diverse collection of mathematical
+and real-world graphs, ii) enables fair model comparison with the same
+parameter budget to identify key architectures, iii) has an open-source,
+easy-to-use and reproducible code infrastructure, and iv) is flexible for
+researchers to experiment with new theoretical ideas. As of May 2022, the
+GitHub repository has reached 1,800 stars and 339 forks, which demonstrates the
+utility of the proposed open-source framework through the wide usage by the GNN
+community. In this paper, we present an updated version of our benchmark with a
+concise presentation of the aforementioned framework characteristics, an
+additional medium-sized molecular dataset AQSOL, similar to the popular ZINC,
+but with a real-world measured chemical target, and discuss how this framework
+can be leveraged to explore new GNN designs and insights. As a proof of value
+of our benchmark, we study the case of graph positional encoding (PE) in GNNs,
+which was introduced with this benchmark and has since spurred interest of
+exploring more powerful PE for Transformers and GNNs in a robust experimental
+setting.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Graph WaveNet for Deep Spatial-Temporal Graph Modeling,"  Spatial-temporal graph modeling is an important task to analyze the spatial
+relations and temporal trends of components in a system. Existing approaches
+mostly capture the spatial dependency on a fixed graph structure, assuming that
+the underlying relation between entities is pre-determined. However, the
+explicit graph structure (relation) does not necessarily reflect the true
+dependency and genuine relation may be missing due to the incomplete
+connections in the data. Furthermore, existing methods are ineffective to
+capture the temporal trends as the RNNs or CNNs employed in these methods
+cannot capture long-range temporal sequences. To overcome these limitations, we
+propose in this paper a novel graph neural network architecture, Graph WaveNet,
+for spatial-temporal graph modeling. By developing a novel adaptive dependency
+matrix and learn it through node embedding, our model can precisely capture the
+hidden spatial dependency in the data. With a stacked dilated 1D convolution
+component whose receptive field grows exponentially as the number of layers
+increases, Graph WaveNet is able to handle very long sequences. These two
+components are integrated seamlessly in a unified framework and the whole
+framework is learned in an end-to-end manner. Experimental results on two
+public traffic network datasets, METR-LA and PEMS-BAY, demonstrate the superior
+performance of our algorithm.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+"Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks","  Advancing research in the emerging field of deep graph learning requires new
+tools to support tensor computation over graphs. In this paper, we present the
+design principles and implementation of Deep Graph Library (DGL). DGL distills
+the computational patterns of GNNs into a few generalized sparse tensor
+operations suitable for extensive parallelization. By advocating graph as the
+central programming abstraction, DGL can perform optimizations transparently.
+By cautiously adopting a framework-neutral design, DGL allows users to easily
+port and leverage the existing components across multiple deep learning
+frameworks. Our evaluation shows that DGL significantly outperforms other
+popular GNN-oriented frameworks in both speed and memory consumption over a
+variety of benchmarks and has little overhead for small scale workloads.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+DropEdge: Towards Deep Graph Convolutional Networks on Node Classification,"  \emph{Over-fitting} and \emph{over-smoothing} are two main obstacles of
+developing deep Graph Convolutional Networks (GCNs) for node classification. In
+particular, over-fitting weakens the generalization ability on small dataset,
+while over-smoothing impedes model training by isolating output representations
+from the input features with the increase in network depth. This paper proposes
+DropEdge, a novel and flexible technique to alleviate both issues. At its core,
+DropEdge randomly removes a certain number of edges from the input graph at
+each training epoch, acting like a data augmenter and also a message passing
+reducer. Furthermore, we theoretically demonstrate that DropEdge either reduces
+the convergence speed of over-smoothing or relieves the information loss caused
+by it. More importantly, our DropEdge is a general skill that can be equipped
+with many other backbone models (e.g. GCN, ResGCN, GraphSAGE, and JKNet) for
+enhanced performance. Extensive experiments on several benchmarks verify that
+DropEdge consistently improves the performance on a variety of both shallow and
+deep GCNs. The effect of DropEdge on preventing over-smoothing is empirically
+visualized and validated as well. Codes are released
+on~\url{",Machine Learning (cs.LG),; Networking and Internet Architecture (cs.NI); Machine Learning (stat.ML)
+FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling,"  The graph convolutional networks (GCN) recently proposed by Kipf and Welling
+are an effective graph model for semi-supervised learning. This model, however,
+was originally designed to be learned with the presence of both training and
+test data. Moreover, the recursive neighborhood expansion across layers poses
+time and memory challenges for training with large, dense graphs. To relax the
+requirement of simultaneous availability of test data, we interpret graph
+convolutions as integral transforms of embedding functions under probability
+measures. Such an interpretation allows for the use of Monte Carlo approaches
+to consistently estimate the integrals, which in turn leads to a batched
+training scheme as we propose in this work---FastGCN. Enhanced with importance
+sampling, FastGCN not only is efficient for training but also generalizes well
+for inference. We show a comprehensive set of experiments to demonstrate its
+effectiveness compared with GCN and related models. In particular, training is
+orders of magnitude more efficient while predictions remain comparably
+accurate.
+
+    ",Machine Learning (cs.LG),
+Graph Convolutional Matrix Completion,"  We consider matrix completion for recommender systems from the point of view
+of link prediction on graphs. Interaction data such as movie ratings can be
+represented by a bipartite user-item graph with labeled edges denoting observed
+ratings. Building on recent progress in deep learning on graph-structured data,
+we propose a graph auto-encoder framework based on differentiable message
+passing on the bipartite interaction graph. Our model shows competitive
+performance on standard collaborative filtering benchmarks. In settings where
+complimentary feature information or structured data such as a social network
+is available, our framework outperforms recent state-of-the-art methods.
+
+    ",Machine Learning (stat.ML),; Databases (cs.DB); Information Retrieval (cs.IR); Machine Learning (cs.LG)
+Few-Shot Learning with Graph Neural Networks,"  We propose to study the problem of few-shot learning with the prism of
+inference on a partially observed graphical model, constructed from a
+collection of input images whose label can be either observed or not. By
+assimilating generic message-passing inference algorithms with their
+neural-network counterparts, we define a graph neural network architecture that
+generalizes several of the recently proposed few-shot learning models. Besides
+providing improved numerical performance, our framework is easily extended to
+variants of few-shot learning, such as semi-supervised or active learning,
+demonstrating the ability of graph-based models to operate well on 'relational'
+tasks.
+
+    ",Machine Learning (stat.ML),; Machine Learning (cs.LG)
+Geom-GCN: Geometric Graph Convolutional Networks,"  Message-passing neural networks (MPNNs) have been successfully applied to
+representation learning on graphs in a variety of real-world applications.
+However, two fundamental weaknesses of MPNNs' aggregators limit their ability
+to represent graph-structured data: losing the structural information of nodes
+in neighborhoods and lacking the ability to capture long-range dependencies in
+disassortative graphs. Few studies have noticed the weaknesses from different
+perspectives. From the observations on classical neural network and network
+geometry, we propose a novel geometric aggregation scheme for graph neural
+networks to overcome the two weaknesses. The behind basic idea is the
+aggregation on a graph can benefit from a continuous space underlying the
+graph. The proposed aggregation scheme is permutation-invariant and consists of
+three modules, node embedding, structural neighborhood, and bi-level
+aggregation. We also present an implementation of the scheme in graph
+convolutional networks, termed Geom-GCN (Geometric Graph Convolutional
+Networks), to perform transductive learning on graphs. Experimental results
+show the proposed Geom-GCN achieved state-of-the-art performance on a wide
+range of open datasets of graphs. Code is available at
+",Machine Learning (cs.LG),; Computer Vision and Pattern Recognition (cs.CV); Machine Learning (stat.ML)
+Predict then Propagate: Graph Neural Networks meet Personalized PageRank,"  Neural message passing algorithms for semi-supervised classification on
+graphs have recently achieved great success. However, for classifying a node
+these methods only consider nodes that are a few propagation steps away and the
+size of this utilized neighborhood is hard to extend. In this paper, we use the
+relationship between graph convolutional networks (GCN) and PageRank to derive
+an improved propagation scheme based on personalized PageRank. We utilize this
+propagation procedure to construct a simple model, personalized propagation of
+neural predictions (PPNP), and its fast approximation, APPNP. Our model's
+training time is on par or faster and its number of parameters on par or lower
+than previous models. It leverages a large, adjustable neighborhood for
+classification and can be easily combined with any neural network. We show that
+this model outperforms several recently proposed methods for semi-supervised
+classification in the most thorough study done so far for GCN-like models. Our
+implementation is available online.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+GraphSAINT: Graph Sampling Based Inductive Learning Method,"  Graph Convolutional Networks (GCNs) are powerful models for learning
+representations of attributed graphs. To scale GCNs to large graphs,
+state-of-the-art methods use various layer sampling techniques to alleviate the
+""neighbor explosion"" problem during minibatch training. We propose GraphSAINT,
+a graph sampling based inductive learning method that improves training
+efficiency and accuracy in a fundamentally different way. By changing
+perspective, GraphSAINT constructs minibatches by sampling the training graph,
+rather than the nodes or edges across GCN layers. Each iteration, a complete
+GCN is built from the properly sampled subgraph. Thus, we ensure fixed number
+of well-connected nodes in all layers. We further propose normalization
+technique to eliminate bias, and sampling algorithms for variance reduction.
+Importantly, we can decouple the sampling from the forward and backward
+propagation, and extend GraphSAINT with many architecture variants (e.g., graph
+attention, jumping connection). GraphSAINT demonstrates superior performance in
+both accuracy and training time on five large graphs, and achieves new
+state-of-the-art F1 scores for PPI (0.995) and Reddit (0.970).
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Adversarially Regularized Graph Autoencoder for Graph Embedding,"  Graph embedding is an effective method to represent graph data in a low
+dimensional space for graph analytics. Most existing embedding algorithms
+typically focus on preserving the topological structure or minimizing the
+reconstruction errors of graph data, but they have mostly ignored the data
+distribution of the latent codes from the graphs, which often results in
+inferior embedding in real-world graph data. In this paper, we propose a novel
+adversarial graph embedding framework for graph data. The framework encodes the
+topological structure and node content in a graph to a compact representation,
+on which a decoder is trained to reconstruct the graph structure. Furthermore,
+the latent representation is enforced to match a prior distribution via an
+adversarial training scheme. To learn a robust embedding, two variants of
+adversarial approaches, adversarially regularized graph autoencoder (ARGA) and
+adversarially regularized variational graph autoencoder (ARVGA), are developed.
+Experimental studies on real-world graphs validate our design and demonstrate
+that our algorithms outperform baselines by a wide margin in link prediction,
+graph clustering, and graph visualization tasks.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Pitfalls of Graph Neural Network Evaluation,"  Semi-supervised node classification in graphs is a fundamental problem in
+graph mining, and the recently proposed graph neural networks (GNNs) have
+achieved unparalleled results on this task. Due to their massive success, GNNs
+have attracted a lot of attention, and many novel architectures have been put
+forward. In this paper we show that existing evaluation strategies for GNN
+models have serious shortcomings. We show that using the same
+train/validation/test splits of the same datasets, as well as making
+significant changes to the training procedure (e.g. early stopping criteria)
+precludes a fair comparison of different architectures. We perform a thorough
+empirical evaluation of four prominent GNN models and show that considering
+different splits of the data leads to dramatically different rankings of
+models. Even more importantly, our findings suggest that simpler GNN
+architectures are able to outperform the more sophisticated ones if the
+hyperparameters and the training procedure are tuned fairly for all models.
+
+    ",Machine Learning (cs.LG),; Social and Information Networks (cs.SI); Machine Learning (stat.ML)
+Composition-based Multi-Relational Graph Convolutional Networks,"  Graph Convolutional Networks (GCNs) have recently been shown to be quite
+successful in modeling graph-structured data. However, the primary focus has
+been on handling simple undirected graphs. Multi-relational graphs are a more
+general and prevalent form of graphs where each edge has a label and direction
+associated with it. Most of the existing approaches to handle such graphs
+suffer from over-parameterization and are restricted to learning
+representations of nodes only. In this paper, we propose CompGCN, a novel Graph
+Convolutional framework which jointly embeds both nodes and relations in a
+relational graph. CompGCN leverages a variety of entity-relation composition
+operations from Knowledge Graph Embedding techniques and scales with the number
+of relations. It also generalizes several of the existing multi-relational GCN
+methods. We evaluate our proposed method on multiple tasks such as node
+classification, link prediction, and graph classification, and achieve
+demonstrably superior results. We make the source code of CompGCN available to
+foster reproducible research.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Strategies for Pre-training Graph Neural Networks,"  Many applications of machine learning require a model to make accurate
+pre-dictions on test examples that are distributionally different from training
+ones, while task-specific labels are scarce during training. An effective
+approach to this challenge is to pre-train a model on related tasks where data
+is abundant, and then fine-tune it on a downstream task of interest. While
+pre-training has been effective in many language and vision domains, it remains
+an open question how to effectively use pre-training on graph datasets. In this
+paper, we develop a new strategy and self-supervised methods for pre-training
+Graph Neural Networks (GNNs). The key to the success of our strategy is to
+pre-train an expressive GNN at the level of individual nodes as well as entire
+graphs so that the GNN can learn useful local and global representations
+simultaneously. We systematically study pre-training on multiple graph
+classification datasets. We find that naive strategies, which pre-train GNNs at
+the level of either entire graphs or individual nodes, give limited improvement
+and can even lead to negative transfer on many downstream tasks. In contrast,
+our strategy avoids negative transfer and improves generalization significantly
+across downstream tasks, leading up to 9.4% absolute improvements in ROC-AUC
+over non-pre-trained models and achieving state-of-the-art performance for
+molecular property prediction and protein function prediction.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization,"  This paper studies learning the representations of whole graphs in both
+unsupervised and semi-supervised scenarios. Graph-level representations are
+critical in a variety of real-world applications such as predicting the
+properties of molecules and community analysis in social networks. Traditional
+graph kernel based methods are simple, yet effective for obtaining fixed-length
+representations for graphs but they suffer from poor generalization due to
+hand-crafted designs. There are also some recent methods based on language
+models (e.g. graph2vec) but they tend to only consider certain substructures
+(e.g. subtrees) as graph representatives. Inspired by recent progress of
+unsupervised representation learning, in this paper we proposed a novel method
+called InfoGraph for learning graph-level representations. We maximize the
+mutual information between the graph-level representation and the
+representations of substructures of different scales (e.g., nodes, edges,
+triangles). By doing so, the graph-level representations encode aspects of the
+data that are shared across different scales of substructures. Furthermore, we
+further propose InfoGraph*, an extension of InfoGraph for semi-supervised
+scenarios. InfoGraph* maximizes the mutual information between unsupervised
+graph representations learned by InfoGraph and the representations learned by
+existing supervised methods. As a result, the supervised encoder learns from
+unlabeled data while preserving the latent semantic space favored by the
+current supervised task. Experimental results on the tasks of graph
+classification and molecular property prediction show that InfoGraph is
+superior to state-of-the-art baselines and InfoGraph* can achieve performance
+competitive with state-of-the-art semi-supervised models.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Machine Learning (stat.ML)
+Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling,"  Semantic role labeling (SRL) is the task of identifying the
+predicate-argument structure of a sentence. It is typically regarded as an
+important step in the standard NLP pipeline. As the semantic representations
+are closely related to syntactic ones, we exploit syntactic information in our
+model. We propose a version of graph convolutional networks (GCNs), a recent
+class of neural networks operating on graphs, suited to model syntactic
+dependency graphs. GCNs over syntactic dependency trees are used as sentence
+encoders, producing latent feature representations of words in a sentence. We
+observe that GCN layers are complementary to LSTM ones: when we stack both GCN
+and LSTM layers, we obtain a substantial improvement over an already
+state-of-the-art LSTM SRL model, resulting in the best reported scores on the
+standard benchmark (CoNLL-2009) both for Chinese and English.
+
+    ",Computation and Language (cs.CL),; Machine Learning (cs.LG)
+MolGAN: An implicit generative model for small molecular graphs,"  Deep generative models for graph-structured data offer a new angle on the
+problem of chemical synthesis: by optimizing differentiable models that
+directly generate molecular graphs, it is possible to side-step expensive
+search procedures in the discrete and vast space of chemical structures. We
+introduce MolGAN, an implicit, likelihood-free generative model for small
+molecular graphs that circumvents the need for expensive graph matching
+procedures or node ordering heuristics of previous likelihood-based methods.
+Our method adapts generative adversarial networks (GANs) to operate directly on
+graph-structured data. We combine our approach with a reinforcement learning
+objective to encourage the generation of molecules with specific desired
+chemical properties. In experiments on the QM9 chemical database, we
+demonstrate that our model is capable of generating close to 100% valid
+compounds. MolGAN compares favorably both to recent proposals that use
+string-based (SMILES) representations of molecules and to a likelihood-based
+method that directly generates graphs, albeit being susceptible to mode
+collapse. Code at ",Machine Learning (stat.ML),; Machine Learning (cs.LG)
+Diffusion Improves Graph Learning,"  Graph convolution is the core of most Graph Neural Networks (GNNs) and
+usually approximated by message passing between direct (one-hop) neighbors. In
+this work, we remove the restriction of using only the direct neighbors by
+introducing a powerful, yet spatially localized graph convolution: Graph
+diffusion convolution (GDC). GDC leverages generalized graph diffusion,
+examples of which are the heat kernel and personalized PageRank. It alleviates
+the problem of noisy and often arbitrarily defined edges in real graphs. We
+show that GDC is closely related to spectral-based models and thus combines the
+strengths of both spatial (message passing) and spectral methods. We
+demonstrate that replacing message passing with graph diffusion convolution
+consistently leads to significant performance improvements across a wide range
+of models on both supervised and unsupervised tasks and a variety of datasets.
+Furthermore, GDC is not limited to GNNs but can trivially be combined with any
+graph-based model or algorithm (e.g. spectral clustering) without requiring any
+changes to the latter or affecting its computational complexity. Our
+implementation is available online.
+
+    ",Social and Information Networks (cs.SI),; Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Machine Learning (stat.ML)
+COMET: Commonsense Transformers for Automatic Knowledge Graph Construction,"  We present the first comprehensive study on automatic knowledge base
+construction for two prevalent commonsense knowledge graphs: ATOMIC (Sap et
+al., 2019) and ConceptNet (Speer et al., 2017). Contrary to many conventional
+KBs that store knowledge with canonical templates, commonsense KBs only store
+loosely structured open-text descriptions of knowledge. We posit that an
+important step toward automatic commonsense completion is the development of
+generative models of commonsense knowledge, and propose COMmonsEnse
+Transformers (COMET) that learn to generate rich and diverse commonsense
+descriptions in natural language. Despite the challenges of commonsense
+modeling, our investigation reveals promising results when implicit knowledge
+from deep pre-trained language models is transferred to generate explicit
+knowledge in commonsense knowledge graphs. Empirical results demonstrate that
+COMET is able to generate novel knowledge that humans rate as high quality,
+with up to 77.5% (ATOMIC) and 91.7% (ConceptNet) precision at top 1, which
+approaches human performance for these resources. Our findings suggest that
+using generative commonsense models for automatic commonsense KB completion
+could soon be a plausible alternative to extractive methods.
+
+    ",Computation and Language (cs.CL),; Artificial Intelligence (cs.AI)
+graph2vec: Learning Distributed Representations of Graphs,"  Recent works on representation learning for graph structured data
+predominantly focus on learning distributed representations of graph
+substructures such as nodes and subgraphs. However, many graph analytics tasks
+such as graph classification and clustering require representing entire graphs
+as fixed length feature vectors. While the aforementioned approaches are
+naturally unequipped to learn such representations, graph kernels remain as the
+most effective way of obtaining them. However, these graph kernels use
+handcrafted features (e.g., shortest paths, graphlets, etc.) and hence are
+hampered by problems such as poor generalization. To address this limitation,
+in this work, we propose a neural embedding framework named graph2vec to learn
+data-driven distributed representations of arbitrary sized graphs. graph2vec's
+embeddings are learnt in an unsupervised manner and are task agnostic. Hence,
+they could be used for any downstream task such as graph classification,
+clustering and even seeding supervised representation learning approaches. Our
+experiments on several benchmark and large real-world datasets show that
+graph2vec achieves significant improvements in classification and clustering
+accuracies over substructure representation learning approaches and are
+competitive with state-of-the-art graph kernels.
+
+    ",Artificial Intelligence (cs.AI),; Computation and Language (cs.CL); Cryptography and Security (cs.CR); Neural and Evolutionary Computing (cs.NE); Software Engineering (cs.SE)
+Learning Deep Generative Models of Graphs,"  Graphs are fundamental data structures which concisely capture the relational
+structure in many important real-world domains, such as knowledge graphs,
+physical and social interactions, language, and chemistry. Here we introduce a
+powerful new approach for learning generative models over graphs, which can
+capture both their structure and attributes. Our approach uses graph neural
+networks to express probabilistic dependencies among a graph's nodes and edges,
+and can, in principle, learn distributions over any arbitrary graph. In a
+series of experiments our results show that once trained, our models can
+generate good quality samples of both synthetic graphs as well as real
+molecular graphs, both unconditionally and conditioned on data. Compared to
+baselines that do not use graph-structured representations, our models often
+perform far better. We also explore key challenges of learning generative
+models of graphs, such as how to handle symmetries and ordering of elements
+during the graph generation process, and offer possible solutions. Our work is
+the first and most general approach for learning generative models over
+arbitrary graphs, and opens new directions for moving away from restrictions of
+vector- and sequence-like knowledge representations, toward more expressive and
+flexible relational data structures.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Learning to Represent Programs with Graphs,"  Learning tasks on source code (i.e., formal languages) have been considered
+recently, but most work has tried to transfer natural language methods and does
+not capitalize on the unique opportunities offered by code's known syntax. For
+example, long-range dependencies induced by using the same variable or function
+in distant locations are often not considered. We propose to use graphs to
+represent both the syntactic and semantic structure of code and use graph-based
+deep learning methods to learn to reason over program structures.
+",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Programming Languages (cs.PL); Software Engineering (cs.SE)
+KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning,"  Commonsense reasoning aims to empower machines with the human ability to make
+presumptions about ordinary situations in our daily life. In this paper, we
+propose a textual inference framework for answering commonsense questions,
+which effectively utilizes external, structured commonsense knowledge graphs to
+perform explainable inferences. The framework first grounds a question-answer
+pair from the semantic space to the knowledge-based symbolic space as a schema
+graph, a related sub-graph of external knowledge graphs. It represents schema
+graphs with a novel knowledge-aware graph network module named KagNet, and
+finally scores answers with graph representations. Our model is based on graph
+convolutional networks and LSTMs, with a hierarchical path-based attention
+mechanism. The intermediate attention scores make it transparent and
+interpretable, which thus produce trustworthy inferences. Using ConceptNet as
+the only external resource for Bert-based models, we achieved state-of-the-art
+performance on the CommonsenseQA, a large-scale dataset for commonsense
+reasoning.
+
+    ",Computation and Language (cs.CL),; Artificial Intelligence (cs.AI)
+TuckER: Tensor Factorization for Knowledge Graph Completion,"  Knowledge graphs are structured representations of real world facts. However,
+they typically contain only a small subset of all possible facts. Link
+prediction is a task of inferring missing facts based on existing ones. We
+propose TuckER, a relatively straightforward but powerful linear model based on
+Tucker decomposition of the binary tensor representation of knowledge graph
+triples. TuckER outperforms previous state-of-the-art models across standard
+link prediction datasets, acting as a strong baseline for more elaborate
+models. We show that TuckER is a fully expressive model, derive sufficient
+bounds on its embedding dimensionalities and demonstrate that several
+previously introduced linear models can be viewed as special cases of TuckER.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Efficient Subgraph Matching on Billion Node Graphs,"  The ability to handle large scale graph data is crucial to an increasing
+number of applications. Much work has been dedicated to supporting basic graph
+operations such as subgraph matching, reachability, regular expression
+matching, etc. In many cases, graph indices are employed to speed up query
+processing. Typically, most indices require either super-linear indexing time
+or super-linear indexing space. Unfortunately, for very large graphs,
+super-linear approaches are almost always infeasible. In this paper, we study
+the problem of subgraph matching on billion-node graphs. We present a novel
+algorithm that supports efficient subgraph matching for graphs deployed on a
+distributed memory store. Instead of relying on super-linear indices, we use
+efficient graph exploration and massive parallel computing for query
+processing. Our experimental results demonstrate the feasibility of performing
+subgraph matching on web-scale graph data.
+
+    ",Databases (cs.DB),
+Directional Message Passing for Molecular Graphs,"  Graph neural networks have recently achieved great successes in predicting
+quantum mechanical properties of molecules. These models represent a molecule
+as a graph using only the distance between atoms (nodes). They do not, however,
+consider the spatial direction from one atom to another, despite directional
+information playing a central role in empirical potentials for molecules, e.g.
+in angular potentials. To alleviate this limitation we propose directional
+message passing, in which we embed the messages passed between atoms instead of
+the atoms themselves. Each message is associated with a direction in coordinate
+space. These directional message embeddings are rotationally equivariant since
+the associated directions rotate with the molecule. We propose a message
+passing scheme analogous to belief propagation, which uses the directional
+information by transforming messages based on the angle between them.
+Additionally, we use spherical Bessel functions and spherical harmonics to
+construct theoretically well-founded, orthogonal representations that achieve
+better performance than the currently prevalent Gaussian radial basis
+representations while using fewer than 1/4 of the parameters. We leverage these
+innovations to construct the directional message passing neural network
+(DimeNet). DimeNet outperforms previous GNNs on average by 76% on MD17 and by
+31% on QM9. Our implementation is available online.
+
+    ",Machine Learning (cs.LG),; Computational Physics (physics.comp-ph); Machine Learning (stat.ML)
+Attention Guided Graph Convolutional Networks for Relation Extraction,"  Dependency trees convey rich structural information that is proven useful for
+extracting relations among entities in text. However, how to effectively make
+use of relevant information while ignoring irrelevant information from the
+dependency trees remains a challenging research question. Existing approaches
+employing rule based hard-pruning strategies for selecting relevant partial
+dependency structures may not always yield optimal results. In this work, we
+propose Attention Guided Graph Convolutional Networks (AGGCNs), a novel model
+which directly takes full dependency trees as inputs. Our model can be
+understood as a soft-pruning approach that automatically learns how to
+selectively attend to the relevant sub-structures useful for the relation
+extraction task. Extensive results on various tasks including cross-sentence
+n-ary relation extraction and large-scale sentence-level relation extraction
+show that our model is able to better leverage the structural information of
+the full dependency trees, giving significantly better results than previous
+approaches.
+
+    ",Computation and Language (cs.CL),; Machine Learning (cs.LG)
+Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks,"  Due to their inherent capability in semantic alignment of aspects and their
+context words, attention mechanism and Convolutional Neural Networks (CNNs) are
+widely applied for aspect-based sentiment classification. However, these models
+lack a mechanism to account for relevant syntactical constraints and long-range
+word dependencies, and hence may mistakenly recognize syntactically irrelevant
+contextual words as clues for judging aspect sentiment. To tackle this problem,
+we propose to build a Graph Convolutional Network (GCN) over the dependency
+tree of a sentence to exploit syntactical information and word dependencies.
+Based on it, a novel aspect-specific sentiment classification framework is
+raised. Experiments on three benchmarking collections illustrate that our
+proposed model has comparable effectiveness to a range of state-of-the-art
+models, and further demonstrate that both syntactical information and
+long-range word dependencies are properly captured by the graph convolution
+structure.
+
+    ",Computation and Language (cs.CL),
+Adversarial Attacks on Graph Neural Networks via Meta Learning,"  Deep learning models for graphs have advanced the state of the art on many
+tasks. Despite their recent success, little is known about their robustness. We
+investigate training time attacks on graph neural networks for node
+classification that perturb the discrete graph structure. Our core principle is
+to use meta-gradients to solve the bilevel problem underlying training-time
+attacks, essentially treating the graph as a hyperparameter to optimize. Our
+experiments show that small graph perturbations consistently lead to a strong
+decrease in performance for graph convolutional networks, and even transfer to
+unsupervised embeddings. Remarkably, the perturbations created by our algorithm
+can misguide the graph neural networks such that they perform worse than a
+simple baseline that ignores all relational information. Our attacks do not
+assume any knowledge about or access to the target classifiers.
+
+    ",Machine Learning (cs.LG),; Cryptography and Security (cs.CR); Machine Learning (stat.ML)
+Graph Convolution over Pruned Dependency Trees Improves Relation Extraction,"  Dependency trees help relation extraction models capture long-range relations
+between words. However, existing dependency-based models either neglect crucial
+information (e.g., negation) by pruning the dependency trees too aggressively,
+or are computationally inefficient because it is difficult to parallelize over
+different tree structures. We propose an extension of graph convolutional
+networks that is tailored for relation extraction, which pools information over
+arbitrary dependency structures efficiently in parallel. To incorporate
+relevant information while maximally removing irrelevant content, we further
+apply a novel pruning strategy to the input trees by keeping words immediately
+around the shortest path between the two entities among which a relation might
+hold. The resulting model achieves state-of-the-art performance on the
+large-scale TACRED dataset, outperforming existing sequence and
+dependency-based neural models. We also show through detailed analysis that
+this model has complementary strengths to sequence models, and combining them
+further improves the state of the art.
+
+    ",Computation and Language (cs.CL),
+Graph Neural Networks Exponentially Lose Expressive Power for Node Classification,"  Graph Neural Networks (graph NNs) are a promising deep learning approach for
+analyzing graph-structured data. However, it is known that they do not improve
+(or sometimes worsen) their predictive performance as we pile up many layers
+and add non-lineality. To tackle this problem, we investigate the expressive
+power of graph NNs via their asymptotic behaviors as the layer size tends to
+infinity. Our strategy is to generalize the forward propagation of a Graph
+Convolutional Network (GCN), which is a popular graph NN variant, as a specific
+dynamical system. In the case of a GCN, we show that when its weights satisfy
+the conditions determined by the spectra of the (augmented) normalized
+Laplacian, its output exponentially approaches the set of signals that carry
+information of the connected components and node degrees only for
+distinguishing nodes. Our theory enables us to relate the expressive power of
+GCNs with the topological information of the underlying graphs inherent in the
+graph spectra. To demonstrate this, we characterize the asymptotic behavior of
+GCNs on the Erdős -- Rényi graph. We show that when the Erdős --
+Rényi graph is sufficiently dense and large, a broad range of GCNs on it
+suffers from the ""information loss"" in the limit of infinite layers with high
+probability. Based on the theory, we provide a principled guideline for weight
+normalization of graph NNs. We experimentally confirm that the proposed weight
+scaling enhances the predictive performance of GCNs in real data. Code is
+available at ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs,"  The recent proliferation of knowledge graphs (KGs) coupled with incomplete or
+partial information, in the form of missing relations (links) between entities,
+has fueled a lot of research on knowledge base completion (also known as
+relation prediction). Several recent works suggest that convolutional neural
+network (CNN) based models generate richer and more expressive feature
+embeddings and hence also perform well on relation prediction. However, we
+observe that these KG embeddings treat triples independently and thus fail to
+cover the complex and hidden information that is inherently implicit in the
+local neighborhood surrounding a triple. To this effect, our paper proposes a
+novel attention based feature embedding that captures both entity and relation
+features in any given entity's neighborhood. Additionally, we also encapsulate
+relation clusters and multihop relations in our model. Our empirical study
+offers insights into the efficacy of our attention based model and we show
+marked performance gains in comparison to state of the art methods on all
+datasets.
+
+    ",Machine Learning (cs.LG),; Computation and Language (cs.CL); Machine Learning (stat.ML)
+Deep Graph Contrastive Representation Learning,"  Graph representation learning nowadays becomes fundamental in analyzing
+graph-structured data. Inspired by recent success of contrastive methods, in
+this paper, we propose a novel framework for unsupervised graph representation
+learning by leveraging a contrastive objective at the node level. Specifically,
+we generate two graph views by corruption and learn node representations by
+maximizing the agreement of node representations in these two views. To provide
+diverse node contexts for the contrastive objective, we propose a hybrid scheme
+for generating graph views on both structure and attribute levels. Besides, we
+provide theoretical justification behind our motivation from two perspectives,
+mutual information and the classical triplet loss. We perform empirical
+experiments on both transductive and inductive learning tasks using a variety
+of real-world datasets. Experimental experiments demonstrate that despite its
+simplicity, our proposed method consistently outperforms existing
+state-of-the-art methods by large margins. Moreover, our unsupervised method
+even surpasses its supervised counterparts on transductive tasks, demonstrating
+its great potential in real-world applications.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+A Fair Comparison of Graph Neural Networks for Graph Classification,"  Experimental reproducibility and replicability are critical topics in machine
+learning. Authors have often raised concerns about their lack in scientific
+publications to improve the quality of the field. Recently, the graph
+representation learning field has attracted the attention of a wide research
+community, which resulted in a large stream of works. As such, several Graph
+Neural Network models have been developed to effectively tackle graph
+classification. However, experimental procedures often lack rigorousness and
+are hardly reproducible. Motivated by this, we provide an overview of common
+practices that should be avoided to fairly compare with the state of the art.
+To counter this troubling trend, we ran more than 47000 experiments in a
+controlled and uniform framework to re-evaluate five popular models across nine
+common benchmarks. Moreover, by comparing GNNs with structure-agnostic
+baselines we provide convincing evidence that, on some datasets, structural
+information has not been exploited yet. We believe that this work can
+contribute to the development of the graph learning field, by providing a much
+needed grounding for rigorous evaluations of graph classification models.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+"Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges","  The last decade has witnessed an experimental revolution in data science and
+machine learning, epitomised by deep learning methods. Indeed, many
+high-dimensional learning tasks previously thought to be beyond reach -- such
+as computer vision, playing Go, or protein folding -- are in fact feasible with
+appropriate computational scale. Remarkably, the essence of deep learning is
+built from two simple algorithmic principles: first, the notion of
+representation or feature learning, whereby adapted, often hierarchical,
+features capture the appropriate notion of regularity for each task, and
+second, learning by local gradient-descent type methods, typically implemented
+as backpropagation.
+",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Computational Geometry (cs.CG); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (stat.ML)
+"Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction","  We introduce a multi-task setup of identifying and classifying entities,
+relations, and coreference clusters in scientific articles. We create SciERC, a
+dataset that includes annotations for all three tasks and develop a unified
+framework called Scientific Information Extractor (SciIE) for with shared span
+representations. The multi-task setup reduces cascading errors between tasks
+and leverages cross-sentence relations through coreference links. Experiments
+show that our multi-task model outperforms previous models in scientific
+information extraction without using any domain-specific features. We further
+show that the framework supports construction of a scientific knowledge graph,
+which we use to analyze information in scientific literature.
+
+    ",Computation and Language (cs.CL),

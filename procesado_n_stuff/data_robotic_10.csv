@@ -1,0 +1,648 @@
+titulo,abstract,clase_pri,clase_otr
+Reducing the Barrier to Entry of Complex Robotic Software: a MoveIt! Case Study,"  Developing robot agnostic software frameworks involves synthesizing the
+disparate fields of robotic theory and software engineering while
+simultaneously accounting for a large variability in hardware designs and
+control paradigms. As the capabilities of robotic software frameworks increase,
+the setup difficulty and learning curve for new users also increase. If the
+entry barriers for configuring and using the software on robots is too high,
+even the most powerful of frameworks are useless. A growing need exists in
+robotic software engineering to aid users in getting started with, and
+customizing, the software framework as necessary for particular robotic
+applications. In this paper a case study is presented for the best practices
+found for lowering the barrier of entry in the MoveIt! framework, an
+open-source tool for mobile manipulation in ROS, that allows users to 1)
+quickly get basic motion planning functionality with minimal initial setup, 2)
+automate its configuration and optimization, and 3) easily customize its
+components. A graphical interface that assists the user in configuring MoveIt!
+is the cornerstone of our approach, coupled with the use of an existing
+standardized robot model for input, automatically generated robot-specific
+configuration files, and a plugin-based architecture for extensibility. These
+best practices are summarized into a set of barrier to entry design principles
+applicable to other robotic software. The approaches for lowering the entry
+barrier are evaluated by usage statistics, a user survey, and compared against
+our design objectives for their effectiveness to users.
+
+    ",Robotics (cs.RO),
+The Ingredients of Real-World Robotic Reinforcement Learning,"  The success of reinforcement learning for real world robotics has been, in
+many cases limited to instrumented laboratory scenarios, often requiring
+arduous human effort and oversight to enable continuous learning. In this work,
+we discuss the elements that are needed for a robotic learning system that can
+continually and autonomously improve with data collected in the real world. We
+propose a particular instantiation of such a system, using dexterous
+manipulation as our case study. Subsequently, we investigate a number of
+challenges that come up when learning without instrumentation. In such
+settings, learning must be feasible without manually designed resets, using
+only on-board perception, and without hand-engineered reward functions. We
+propose simple and scalable solutions to these challenges, and then demonstrate
+the efficacy of our proposed system on a set of dexterous robotic manipulation
+tasks, providing an in-depth analysis of the challenges associated with this
+learning paradigm. We demonstrate that our complete system can learn without
+any human intervention, acquiring a variety of vision-based skills with a
+real-world three-fingered hand. Results and videos can be found at
+",Machine Learning (cs.LG),; Robotics (cs.RO); Machine Learning (stat.ML)
+Extending the OpenAI Gym for robotics: a toolkit for reinforcement learning using ROS and Gazebo,"  This paper presents an extension of the OpenAI Gym for robotics using the
+Robot Operating System (ROS) and the Gazebo simulator. The content discusses
+the software architecture proposed and the results obtained by using two
+Reinforcement Learning techniques: Q-Learning and Sarsa. Ultimately, the output
+of this work presents a benchmarking system for robotics that allows different
+techniques and algorithms to be compared using the same virtual conditions.
+
+    ",Robotics (cs.RO),
+PyRobot: An Open-source Robotics Framework for Research and Benchmarking,"  This paper introduces PyRobot, an open-source robotics framework for research
+and benchmarking. PyRobot is a light-weight, high-level interface on top of ROS
+that provides a consistent set of hardware independent mid-level APIs to
+control different robots. PyRobot abstracts away details about low-level
+controllers and inter-process communication, and allows non-robotics
+researchers (ML, CV researchers) to focus on building high-level AI
+applications. PyRobot aims to provide a research ecosystem with convenient
+access to robotics datasets, algorithm implementations and models that can be
+used to quickly create a state-of-the-art baseline. We believe PyRobot, when
+paired up with low-cost robot platforms such as LoCoBot, will reduce the entry
+barrier into robotics, and democratize robotics. PyRobot is open-source, and
+can be accessed via ",Robotics (cs.RO),; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)
+BayesSim: adaptive domain randomization via probabilistic inference for robotics simulators,"  We introduce BayesSim, a framework for robotics simulations allowing a full
+Bayesian treatment for the parameters of the simulator. As simulators become
+more sophisticated and able to represent the dynamics more accurately,
+fundamental problems in robotics such as motion planning and perception can be
+solved in simulation and solutions transferred to the physical robot. However,
+even the most complex simulator might still not be able to represent reality in
+all its details either due to inaccurate parametrization or simplistic
+assumptions in the dynamic models. BayesSim provides a principled framework to
+reason about the uncertainty of simulation parameters. Given a black box
+simulator (or generative model) that outputs trajectories of state and action
+pairs from unknown simulation parameters, followed by trajectories obtained
+with a physical robot, we develop a likelihood-free inference method that
+computes the posterior distribution of simulation parameters. This posterior
+can then be used in problems where Sim2Real is critical, for example in policy
+search. We compare the performance of BayesSim in obtaining accurate posteriors
+in a number of classical control and robotics problems. Results show that the
+posterior computed from BayesSim can be used for domain randomization
+outperforming alternative methods that randomize based on uniform priors.
+
+    ",Robotics (cs.RO),; Machine Learning (cs.LG)
+CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning,"  Despite recent successes of reinforcement learning (RL), it remains a
+challenge for agents to transfer learned skills to related environments. To
+facilitate research addressing this problem, we propose CausalWorld, a
+benchmark for causal structure and transfer learning in a robotic manipulation
+environment. The environment is a simulation of an open-source robotic
+platform, hence offering the possibility of sim-to-real transfer. Tasks consist
+of constructing 3D shapes from a given set of blocks - inspired by how children
+learn to build complex structures. The key strength of CausalWorld is that it
+provides a combinatorial family of such tasks with common causal structure and
+underlying factors (including, e.g., robot and object masses, colors, sizes).
+The user (or the agent) may intervene on all causal variables, which allows for
+fine-grained control over how similar different tasks (or task distributions)
+are. One can thus easily define training and evaluation distributions of a
+desired difficulty level, targeting a specific form of generalization (e.g.,
+only changes in appearance or object mass). Further, this common
+parametrization facilitates defining curricula by interpolating between an
+initial and a target task. While users may define their own task distributions,
+we present eight meaningful distributions as concrete benchmarks, ranging from
+simple to very challenging, all of which require long-horizon planning as well
+as precise low-level motor control. Finally, we provide baseline results for a
+subset of these tasks on distinct training curricula and corresponding
+evaluation protocols, verifying the feasibility of the tasks in this benchmark.
+
+    ",Robotics (cs.RO),; Machine Learning (cs.LG); Machine Learning (stat.ML)
+2017 Robotic Instrument Segmentation Challenge,"  In mainstream computer vision and machine learning, public datasets such as
+ImageNet, COCO and KITTI have helped drive enormous improvements by enabling
+researchers to understand the strengths and limitations of different algorithms
+via performance comparison. However, this type of approach has had limited
+translation to problems in robotic assisted surgery as this field has never
+established the same level of common datasets and benchmarking methods. In 2015
+a sub-challenge was introduced at the EndoVis workshop where a set of robotic
+images were provided with automatically generated annotations from robot
+forward kinematics. However, there were issues with this dataset due to the
+limited background variation, lack of complex motion and inaccuracies in the
+annotation. In this work we present the results of the 2017 challenge on
+robotic instrument segmentation which involved 10 teams participating in
+binary, parts and type based segmentation of articulated da Vinci robotic
+instruments.
+
+    ",Computer Vision and Pattern Recognition (cs.CV),
+Actionable Models: Unsupervised Offline Reinforcement Learning of Robotic Skills,"  We consider the problem of learning useful robotic skills from previously
+collected offline data without access to manually specified rewards or
+additional online exploration, a setting that is becoming increasingly
+important for scaling robot learning by reusing past robotic data. In
+particular, we propose the objective of learning a functional understanding of
+the environment by learning to reach any goal state in a given dataset. We
+employ goal-conditioned Q-learning with hindsight relabeling and develop
+several techniques that enable training in a particularly challenging offline
+setting. We find that our method can operate on high-dimensional camera images
+and learn a variety of skills on real robots that generalize to previously
+unseen scenes and objects. We also show that our method can learn to reach
+long-horizon goals across multiple episodes through goal chaining, and learn
+rich representations that can help with downstream tasks through pre-training
+or auxiliary objectives. The videos of our experiments can be found at
+",Robotics (cs.RO),; Machine Learning (cs.LG)
+Scaling data-driven robotics with reward sketching and batch reinforcement learning,"  We present a framework for data-driven robotics that makes use of a large
+dataset of recorded robot experience and scales to several tasks using learned
+reward functions. We show how to apply this framework to accomplish three
+different object manipulation tasks on a real robot platform. Given
+demonstrations of a task together with task-agnostic recorded experience, we
+use a special form of human annotation as supervision to learn a reward
+function, which enables us to deal with real-world tasks where the reward
+signal cannot be acquired directly. Learned rewards are used in combination
+with a large dataset of experience from different tasks to learn a robot policy
+offline using batch RL. We show that using our approach it is possible to train
+agents to perform a variety of challenging manipulation tasks including
+stacking rigid objects and handling cloth.
+
+    ",Robotics (cs.RO),; Machine Learning (cs.LG)
+Open-Sourced Reinforcement Learning Environments for Surgical Robotics,"  Reinforcement Learning (RL) is a machine learning framework for artificially
+intelligent systems to solve a variety of complex problems. Recent years has
+seen a surge of successes solving challenging games and smaller domain
+problems, including simple though non-specific robotic manipulation and
+grasping tasks. Rapid successes in RL have come in part due to the strong
+collaborative effort by the RL community to work on common, open-sourced
+environment simulators such as OpenAI's Gym that allow for expedited
+development and valid comparisons between different, state-of-art strategies.
+In this paper, we aim to start the bridge between the RL and the surgical
+robotics communities by presenting the first open-sourced reinforcement
+learning environments for surgical robots, called dVRL[3]{dVRL available at
+",Robotics (cs.RO),
+PythonRobotics: a Python code collection of robotics algorithms,"  This paper describes an Open Source Software (OSS) project: PythonRobotics.
+This is a collection of robotics algorithms implemented in the Python
+programming language. The focus of the project is on autonomous navigation, and
+the goal is for beginners in robotics to understand the basic ideas behind each
+algorithm. In this project, the algorithms which are practical and widely used
+in both academia and industry are selected. Each sample code is written in
+Python3 and only depends on some standard modules for readability and ease of
+use. It includes intuitive animations to understand the behavior of the
+simulation.
+
+    ",Robotics (cs.RO),
+A micro Lie theory for state estimation in robotics,"  A Lie group is an old mathematical abstract object dating back to the XIX
+century, when mathematician Sophus Lie laid the foundations of the theory of
+continuous transformation groups. As it often happens, its usage has spread
+over diverse areas of science and technology many years later. In robotics, we
+are recently experiencing an important trend in its usage, at least in the
+fields of estimation, and particularly in motion estimation for navigation. Yet
+for a vast majority of roboticians, Lie groups are highly abstract
+constructions and therefore difficult to understand and to use. This may be due
+to the fact that most of the literature on Lie theory is written by and for
+mathematicians and physicists, who might be more used than us to the deep
+abstractions this theory deals with.
+",Robotics (cs.RO),
+Learning Robotic Manipulation through Visual Planning and Acting,"  Planning for robotic manipulation requires reasoning about the changes a
+robot can affect on objects. When such interactions can be modelled
+analytically, as in domains with rigid objects, efficient planning algorithms
+exist. However, in both domestic and industrial domains, the objects of
+interest can be soft, or deformable, and hard to model analytically. For such
+cases, we posit that a data-driven modelling approach is more suitable. In
+recent years, progress in deep generative models has produced methods that
+learn to `imagine' plausible images from data. Building on the recent Causal
+InfoGAN generative model, in this work we learn to imagine goal-directed object
+manipulation directly from raw image data of self-supervised interaction of the
+robot with the object. After learning, given a goal observation of the system,
+our model can generate an imagined plan -- a sequence of images that transition
+the object into the desired goal. To execute the plan, we use it as a reference
+trajectory to track with a visual servoing controller, which we also learn from
+the data as an inverse dynamics model. In a simulated manipulation task, we
+show that separating the problem into visual planning and visual tracking
+control is more sample efficient and more interpretable than alternative
+data-driven approaches. We further demonstrate our approach on learning to
+imagine and execute in 3 environments, the final of which is deformable rope
+manipulation on a PR2 robot.
+
+    ",Robotics (cs.RO),; Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)
+MT-Opt: Continuous Multi-Task Robotic Reinforcement Learning at Scale,"  General-purpose robotic systems must master a large repertoire of diverse
+skills to be useful in a range of daily tasks. While reinforcement learning
+provides a powerful framework for acquiring individual behaviors, the time
+needed to acquire each skill makes the prospect of a generalist robot trained
+with RL daunting. In this paper, we study how a large-scale collective robotic
+learning system can acquire a repertoire of behaviors simultaneously, sharing
+exploration, experience, and representations across tasks. In this framework
+new tasks can be continuously instantiated from previously learned tasks
+improving overall performance and capabilities of the system. To instantiate
+this system, we develop a scalable and intuitive framework for specifying new
+tasks through user-provided examples of desired outcomes, devise a multi-robot
+collective learning system for data collection that simultaneously collects
+experience for multiple tasks, and develop a scalable and generalizable
+multi-task deep reinforcement learning method, which we call MT-Opt. We
+demonstrate how MT-Opt can learn a wide range of skills, including semantic
+picking (i.e., picking an object from a particular category), placing into
+various fixtures (e.g., placing a food item onto a plate), covering, aligning,
+and rearranging. We train and evaluate our system on a set of 12 real-world
+tasks with data collected from 7 robots, and demonstrate the performance of our
+system both in terms of its ability to generalize to structurally similar new
+tasks, and acquire distinct new tasks more quickly by leveraging past
+experience. We recommend viewing the videos at
+",Robotics (cs.RO),; Machine Learning (cs.LG)
+Towards 5G Enabled Tactile Robotic Telesurgery,"  Robotic telesurgery has a potential to provide extreme and urgent health care
+services and bring unprecedented opportunities to deliver highly specialized
+skills globally. It has a significant societal impact and is regarded as one of
+the appealing use cases of Tactile Internet and 5G applications. However, the
+performance of robotic telesurgery largely depends on the network performance
+in terms of latency, jitter and packet loss, especially when telesurgical
+system is equipped with haptic feedback. This imposes significant challenges to
+design a reliable and secure but cost-effective communication solution. This
+article aims to give a better understanding of the characteristics of robotic
+telesurgical system, and the limiting factors, the possible telesurgery
+services and the communication quality of service (QoS) requirements of the
+multi-modal sensory data. Based on this, a viable network architecture enabled
+by the converged edge and core cloud is presented and the relevant research
+challenges, open issues and enabling technologies in the 5G communication
+system are discussed.
+
+    ",Networking and Internet Architecture (cs.NI),
+NeBula: Quest for Robotic Autonomy in Challenging Environments; TEAM CoSTAR at the DARPA Subterranean Challenge,"  This paper presents and discusses algorithms, hardware, and software
+architecture developed by the TEAM CoSTAR (Collaborative SubTerranean
+Autonomous Robots), competing in the DARPA Subterranean Challenge.
+Specifically, it presents the techniques utilized within the Tunnel (2019) and
+Urban (2020) competitions, where CoSTAR achieved 2nd and 1st place,
+respectively. We also discuss CoSTAR's demonstrations in Martian-analog surface
+and subsurface (lava tubes) exploration. The paper introduces our autonomy
+solution, referred to as NeBula (Networked Belief-aware Perceptual Autonomy).
+NeBula is an uncertainty-aware framework that aims at enabling resilient and
+modular autonomy solutions by performing reasoning and decision making in the
+belief space (space of probability distributions over the robot and world
+states). We discuss various components of the NeBula framework, including: (i)
+geometric and semantic environment mapping; (ii) a multi-modal positioning
+system; (iii) traversability analysis and local planning; (iv) global motion
+planning and exploration behavior; (i) risk-aware mission planning; (vi)
+networking and decentralized reasoning; and (vii) learning-enabled adaptation.
+We discuss the performance of NeBula on several robot types (e.g. wheeled,
+legged, flying), in various environments. We discuss the specific results and
+lessons learned from fielding this solution in the challenging courses of the
+DARPA Subterranean Challenge competition.
+
+    ",Robotics (cs.RO),; Artificial Intelligence (cs.AI)
+DiSECt: A Differentiable Simulation Engine for Autonomous Robotic Cutting,"  Robotic cutting of soft materials is critical for applications such as food
+processing, household automation, and surgical manipulation. As in other areas
+of robotics, simulators can facilitate controller verification, policy
+learning, and dataset generation. Moreover, differentiable simulators can
+enable gradient-based optimization, which is invaluable for calibrating
+simulation parameters and optimizing controllers. In this work, we present
+DiSECt: the first differentiable simulator for cutting soft materials. The
+simulator augments the finite element method (FEM) with a continuous contact
+model based on signed distance fields (SDF), as well as a continuous damage
+model that inserts springs on opposite sides of the cutting plane and allows
+them to weaken until zero stiffness, enabling crack formation. Through various
+experiments, we evaluate the performance of the simulator. We first show that
+the simulator can be calibrated to match resultant forces and deformation
+fields from a state-of-the-art commercial solver and real-world cutting
+datasets, with generality across cutting velocities and object instances. We
+then show that Bayesian inference can be performed efficiently by leveraging
+the differentiability of the simulator, estimating posteriors over hundreds of
+parameters in a fraction of the time of derivative-free methods. Finally, we
+illustrate that control parameters in the simulation can be optimized to
+minimize cutting forces via lateral slicing motions.
+",Robotics (cs.RO),
+Compare Contact Model-based Control and Contact Model-free Learning: A Survey of Robotic Peg-in-hole Assembly Strategies,"  In this paper, we present an overview of robotic peg-in-hole assembly and
+analyze two main strategies: contact model-based and contact model-free
+strategies. More specifically, we first introduce the contact model control
+approaches, including contact state recognition and compliant control two
+steps. Additionally, we focus on a comprehensive analysis of the whole robotic
+assembly system. Second, without the contact state recognition process, we
+decompose the contact model-free learning algorithms into two main subfields:
+learning from demonstrations and learning from environments (mainly based on
+reinforcement learning). For each subfield, we survey the landmark studies and
+ongoing research to compare the different categories. We hope to strengthen the
+relation between these two research communities by revealing the underlying
+links. Ultimately, the remaining challenges and open questions in the field of
+robotic peg-in-hole assembly community is discussed. The promising directions
+and potential future work are also considered.
+
+    ",Robotics (cs.RO),
+Self-Supervised Siamese Learning on Stereo Image Pairs for Depth Estimation in Robotic Surgery,"  Robotic surgery has become a powerful tool for performing minimally invasive
+procedures, providing advantages in dexterity, precision, and 3D vision, over
+traditional surgery. One popular robotic system is the da Vinci surgical
+platform, which allows preoperative information to be incorporated into live
+procedures using Augmented Reality (AR). Scene depth estimation is a
+prerequisite for AR, as accurate registration requires 3D correspondences
+between preoperative and intraoperative organ models. In the past decade, there
+has been much progress on depth estimation for surgical scenes, such as using
+monocular or binocular laparoscopes [1,2]. More recently, advances in deep
+learning have enabled depth estimation via Convolutional Neural Networks (CNNs)
+[3], but training requires a large image dataset with ground truth depths.
+Inspired by [4], we propose a deep learning framework for surgical scene depth
+estimation using self-supervision for scalable data acquisition. Our framework
+consists of an autoencoder for depth prediction, and a differentiable spatial
+transformer for training the autoencoder on stereo image pairs without ground
+truth depths. Validation was conducted on stereo videos collected in robotic
+partial nephrectomy.
+
+    ",Computer Vision and Pattern Recognition (cs.CV),; Robotics (cs.RO)
+A Survey of Deep Network Solutions for Learning Control in Robotics: From Reinforcement to Imitation,"  Deep learning techniques have been widely applied, achieving state-of-the-art
+results in various fields of study. This survey focuses on deep learning
+solutions that target learning control policies for robotics applications. We
+carry out our discussions on the two main paradigms for learning control with
+deep networks: deep reinforcement learning and imitation learning. For deep
+reinforcement learning (DRL), we begin from traditional reinforcement learning
+algorithms, showing how they are extended to the deep context and effective
+mechanisms that could be added on top of the DRL algorithms. We then introduce
+representative works that utilize DRL to solve navigation and manipulation
+tasks in robotics. We continue our discussion on methods addressing the
+challenge of the reality gap for transferring DRL policies trained in
+simulation to real-world scenarios, and summarize robotics simulation platforms
+for conducting DRL research. For imitation leaning, we go through its three
+main categories, behavior cloning, inverse reinforcement learning and
+generative adversarial imitation learning, by introducing their formulations
+and their corresponding robotics applications. Finally, we discuss the open
+challenges and research frontiers.
+
+    ",Robotics (cs.RO),; Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Systems and Control (eess.SY)
+Asymmetric self-play for automatic goal discovery in robotic manipulation,"  We train a single, goal-conditioned policy that can solve many robotic
+manipulation tasks, including tasks with previously unseen goals and objects.
+We rely on asymmetric self-play for goal discovery, where two agents, Alice and
+Bob, play a game. Alice is asked to propose challenging goals and Bob aims to
+solve them. We show that this method can discover highly diverse and complex
+goals without any human priors. Bob can be trained with only sparse rewards,
+because the interaction between Alice and Bob results in a natural curriculum
+and Bob can learn from Alice's trajectory when relabeled as a goal-conditioned
+demonstration. Finally, our method scales, resulting in a single policy that
+can generalize to many unseen tasks such as setting a table, stacking blocks,
+and solving simple puzzles. Videos of a learned policy is available at
+",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Robotics (cs.RO)
+"MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research","  We present MuSHR, the Multi-agent System for non-Holonomic Racing. MuSHR is a
+low-cost, open-source robotic racecar platform for education and research,
+developed by the Personal Robotics Lab in the Paul G. Allen School of Computer
+Science & Engineering at the University of Washington. MuSHR aspires to
+contribute towards democratizing the field of robotics as a low-cost platform
+that can be built and deployed by following detailed, open documentation and
+do-it-yourself tutorials. A set of demos and lab assignments developed for the
+Mobile Robots course at the University of Washington provide guided, hands-on
+experience with the platform, and milestones for further development. MuSHR is
+a valuable asset for academic research labs, robotics instructors, and robotics
+enthusiasts.
+
+    ",Robotics (cs.RO),
+An Overview of Blockchain Integration with Robotics and Artificial Intelligence,"  Blockchain technology is growing everyday at a fast-passed rhythm and it's
+possible to integrate it with many systems, namely Robotics with AI services.
+However, this is still a recent field and there isn't yet a clear understanding
+of what it could potentially become. In this paper, we conduct an overview of
+many different methods and platforms that try to leverage the power of
+blockchain into robotic systems, to improve AI services or to solve problems
+that are present in the major blockchains, which can lead to the ability of
+creating robotic systems with increased capabilities and security. We present
+an overview, discuss the methods and conclude the paper with our view on the
+future of the integration of these technologies.
+
+    ",Artificial Intelligence (cs.AI),; Cryptography and Security (cs.CR)
+Recent Developments in Aerial Robotics: A Survey and Prototypes Overview,"  In recent years, research and development in aerial robotics (i.e., unmanned
+aerial vehicles, UAVs) has been growing at an unprecedented speed, and there is
+a need to summarize the background, latest developments, and trends of UAV
+research. Along with a general overview on the definition, types, categories,
+and topics of UAV, this work describes a systematic way to identify 1,318
+high-quality UAV papers from more than thirty thousand that have been appeared
+in the top journals and conferences. On top of that, we provide a bird's-eye
+view of UAV research since 2001 by summarizing various statistical information,
+such as the year, type, and topic distribution of the UAV papers. We make our
+survey list public and believe that the list can not only help researchers
+identify, study, and compare their work, but is also useful for understanding
+research trends in the field. From our survey results, we find there are many
+types of UAV, and to the best of our knowledge, no literature has attempted to
+summarize all types in one place. With our survey list, we explain the types
+within our survey and outline the recent progress of each. We believe this
+summary can enhance readers' understanding on the UAVs and inspire researchers
+to propose new methods and new applications.
+
+    ",Robotics (cs.RO),
+A Workflow for Offline Model-Free Robotic Reinforcement Learning,"  Offline reinforcement learning (RL) enables learning control policies by
+utilizing only prior experience, without any online interaction. This can allow
+robots to acquire generalizable skills from large and diverse datasets, without
+any costly or unsafe online data collection. Despite recent algorithmic
+advances in offline RL, applying these methods to real-world problems has
+proven challenging. Although offline RL methods can learn from prior data,
+there is no clear and well-understood process for making various design
+choices, from model architecture to algorithm hyperparameters, without actually
+evaluating the learned policies online. In this paper, our aim is to develop a
+practical workflow for using offline RL analogous to the relatively
+well-understood workflows for supervised learning problems. To this end, we
+devise a set of metrics and conditions that can be tracked over the course of
+offline training, and can inform the practitioner about how the algorithm and
+model architecture should be adjusted to improve final performance. Our
+workflow is derived from a conceptual understanding of the behavior of
+conservative offline RL algorithms and cross-validation in supervised learning.
+We demonstrate the efficacy of this workflow in producing effective policies
+without any online tuning, both in several simulated robotic learning scenarios
+and for three tasks on two distinct real robots, focusing on learning
+manipulation skills with raw image observations with sparse binary rewards.
+Explanatory video and additional results can be found at
+",Machine Learning (cs.LG),
+Decoupling feature extraction from policy learning: assessing benefits of state representation learning in goal based robotics,"  Scaling end-to-end reinforcement learning to control real robots from vision
+presents a series of challenges, in particular in terms of sample efficiency.
+Against end-to-end learning, state representation learning can help learn a
+compact, efficient and relevant representation of states that speeds up policy
+learning, reducing the number of samples needed, and that is easier to
+interpret. We evaluate several state representation learning methods on goal
+based robotics tasks and propose a new unsupervised model that stacks
+representations and combines strengths of several of these approaches. This
+method encodes all the relevant features, performs on par or better than
+end-to-end learning with better sample efficiency, and is robust to
+hyper-parameters change.
+
+    ",Machine Learning (cs.LG),; Robotics (cs.RO); Machine Learning (stat.ML)
+Deep Reinforcement Learning for Robotic Manipulation-The state of the art,"  The focus of this work is to enumerate the various approaches and algorithms
+that center around application of reinforcement learning in robotic ma-
+]]nipulation tasks. Earlier methods utilized specialized policy representations
+and human demonstrations to constrict the policy. Such methods worked well with
+continuous state and policy space of robots but failed to come up with
+generalized policies. Subsequently, high dimensional non-linear function
+approximators like neural networks have been used to learn policies from
+scratch. Several novel and recent approaches have also embedded control policy
+with efficient perceptual representation using deep learning. This has led to
+the emergence of a new branch of dynamic robot control system called deep r
+inforcement learning(DRL). This work embodies a survey of the most recent
+algorithms, architectures and their implementations in simulations and real
+world robotic platforms. The gamut of DRL architectures are partitioned into
+two different branches namely, discrete action space algorithms(DAS) and
+continuous action space algorithms(CAS). Further, the CAS algorithms are
+divided into stochastic continuous action space(SCAS) and deterministic
+continuous action space(DCAS) algorithms. Along with elucidating an organ-
+isation of the DRL algorithms this work also manifests some of the state of the
+art applications of these approaches in robotic manipulation tasks.
+
+    ",Robotics (cs.RO),; Artificial Intelligence (cs.AI)
+Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning,"  Reinforcement learning provides a general framework for learning robotic
+skills while minimizing engineering effort. However, most reinforcement
+learning algorithms assume that a well-designed reward function is provided,
+and learn a single behavior for that single reward function. Such reward
+functions can be difficult to design in practice. Can we instead develop
+efficient reinforcement learning methods that acquire diverse skills without
+any reward function, and then repurpose these skills for downstream tasks? In
+this paper, we demonstrate that a recently proposed unsupervised skill
+discovery algorithm can be extended into an efficient off-policy method, making
+it suitable for performing unsupervised reinforcement learning in the real
+world. Firstly, we show that our proposed algorithm provides substantial
+improvement in learning efficiency, making reward-free real-world training
+feasible. Secondly, we move beyond the simulation environments and evaluate the
+algorithm on real physical hardware. On quadrupeds, we observe that locomotion
+skills with diverse gaits and different orientations emerge without any rewards
+or demonstrations. We also demonstrate that the learned skills can be composed
+using model predictive control for goal-oriented navigation, without any
+additional training.
+
+    ",Robotics (cs.RO),; Machine Learning (cs.LG)
+The implications of embodiment for behavior and cognition: animal and robotic case studies,"  In this paper, we will argue that if we want to understand the function of
+the brain (or the control in the case of robots), we must understand how the
+brain is embedded into the physical system, and how the organism interacts with
+the real world. While embodiment has often been used in its trivial meaning,
+i.e. 'intelligence requires a body', the concept has deeper and more important
+implications, concerned with the relation between physical and information
+(neural, control) processes. A number of case studies are presented to
+illustrate the concept. These involve animals and robots and are concentrated
+around locomotion, grasping, and visual perception. A theoretical scheme that
+can be used to embed the diverse case studies will be presented. Finally, we
+will establish a link between the low-level sensory-motor processes and
+cognition. We will present an embodied view on categorization, and propose the
+concepts of 'body schema' and 'forward models' as a natural extension of the
+embodied approach toward first representations.
+
+    ",Artificial Intelligence (cs.AI),
+HATP: An HTN Planner for Robotics,"  Hierarchical Task Network (HTN) planning is a popular approach that cuts down
+on the classical planning search space by relying on a given hierarchical
+library of domain control knowledge. This provides an intuitive methodology for
+specifying high-level instructions on how robots and agents should perform
+tasks, while also giving the planner enough flexibility to choose the
+lower-level steps and their ordering. In this paper we present the HATP
+(Hierarchical Agent-based Task Planner) planning framework which extends the
+traditional HTN planning domain representation and semantics by making them
+more suitable for roboticists, and treating agents as ""first class"" entities in
+the language. The former is achieved by allowing ""social rules"" to be defined
+which specify what behaviour is acceptable/unacceptable by the agents/robots in
+the domain, and interleaving planning with geometric reasoning in order to
+validate online -with respect to a detailed geometric 3D world- the human/robot
+actions currently being pursued by HATP.
+
+    ",Robotics (cs.RO),; Artificial Intelligence (cs.AI)
+The ORCA Hub: Explainable Offshore Robotics through Intelligent Interfaces,"  We present the UK Robotics and Artificial Intelligence Hub for Offshore
+Robotics for Certification of Assets (ORCA Hub), a 3.5 year EPSRC funded,
+multi-site project. The ORCA Hub vision is to use teams of robots and
+autonomous intelligent systems (AIS) to work on offshore energy platforms to
+enable cheaper, safer and more efficient working practices. The ORCA Hub will
+research, integrate, validate and deploy remote AIS solutions that can operate
+with existing and future offshore energy assets and sensors, interacting safely
+in autonomous or semi-autonomous modes in complex and cluttered environments,
+co-operating with remote operators. The goal is that through the use of such
+robotic systems offshore, the need for personnel will decrease. To enable this
+to happen, the remote operator will need a high level of situation awareness
+and key to this is the transparency of what the autonomous systems are doing
+and why. This increased transparency will facilitate a trusting relationship,
+which is particularly key in high-stakes, hazardous situations.
+
+    ",Artificial Intelligence (cs.AI),; Human-Computer Interaction (cs.HC); Robotics (cs.RO)
+Quantile QT-Opt for Risk-Aware Vision-Based Robotic Grasping,"  The distributional perspective on reinforcement learning (RL) has given rise
+to a series of successful Q-learning algorithms, resulting in state-of-the-art
+performance in arcade game environments. However, it has not yet been analyzed
+how these findings from a discrete setting translate to complex practical
+applications characterized by noisy, high dimensional and continuous
+state-action spaces. In this work, we propose Quantile QT-Opt (Q2-Opt), a
+distributional variant of the recently introduced distributed Q-learning
+algorithm for continuous domains, and examine its behaviour in a series of
+simulated and real vision-based robotic grasping tasks. The absence of an actor
+in Q2-Opt allows us to directly draw a parallel to the previous discrete
+experiments in the literature without the additional complexities induced by an
+actor-critic architecture. We demonstrate that Q2-Opt achieves a superior
+vision-based object grasping success rate, while also being more sample
+efficient. The distributional formulation also allows us to experiment with
+various risk distortion metrics that give us an indication of how robots can
+concretely manage risk in practice using a Deep RL control policy. As an
+additional contribution, we perform batch RL experiments in our virtual
+environment and compare them with the latest findings from discrete settings.
+Surprisingly, we find that the previous batch RL findings from the literature
+obtained on arcade game environments do not generalise to our setup.
+
+    ",Robotics (cs.RO),; Machine Learning (cs.LG); Machine Learning (stat.ML)
+Dynamic Movement Primitives in Robotics: A Tutorial Survey,"  Biological systems, including human beings, have the innate ability to
+perform complex tasks in versatile and agile manner. Researchers in
+sensorimotor control have tried to understand and formally define this innate
+property. The idea, supported by several experimental findings, that biological
+systems are able to combine and adapt basic units of motion into complex tasks
+finally lead to the formulation of the motor primitives theory. In this
+respect, Dynamic Movement Primitives (DMPs) represent an elegant mathematical
+formulation of the motor primitives as stable dynamical systems, and are well
+suited to generate motor commands for artificial systems like robots. In the
+last decades, DMPs have inspired researchers in different robotic fields
+including imitation and reinforcement learning, optimal control,physical
+interaction, and human-robot co-working, resulting a considerable amount of
+published papers. The goal of this tutorial survey is two-fold. On one side, we
+present the existing DMPs formulations in rigorous mathematical terms,and
+discuss advantages and limitations of each approach as well as practical
+implementation details. In the tutorial vein, we also search for existing
+implementations of presented approaches and release several others. On the
+other side, we provide a systematic and comprehensive review of existing
+literature and categorize state of the art work on DMP. The paper concludes
+with a discussion on the limitations of DMPs and an outline of possible
+research directions.
+
+    ",Robotics (cs.RO),
+"Do As I Can, Not As I Say: Grounding Language in Robotic Affordances","  Large language models can encode a wealth of semantic knowledge about the
+world. Such knowledge could be extremely useful to robots aiming to act upon
+high-level, temporally extended instructions expressed in natural language.
+However, a significant weakness of language models is that they lack real-world
+experience, which makes it difficult to leverage them for decision making
+within a given embodiment. For example, asking a language model to describe how
+to clean a spill might result in a reasonable narrative, but it may not be
+applicable to a particular agent, such as a robot, that needs to perform this
+task in a particular environment. We propose to provide real-world grounding by
+means of pretrained skills, which are used to constrain the model to propose
+natural language actions that are both feasible and contextually appropriate.
+The robot can act as the language model's ""hands and eyes,"" while the language
+model supplies high-level semantic knowledge about the task. We show how
+low-level skills can be combined with large language models so that the
+language model provides high-level knowledge about the procedures for
+performing complex and temporally-extended instructions, while value functions
+associated with these skills provide the grounding necessary to connect this
+knowledge to a particular physical environment. We evaluate our method on a
+number of real-world robotic tasks, where we show the need for real-world
+grounding and that this approach is capable of completing long-horizon,
+abstract, natural language instructions on a mobile manipulator. The project's
+website and the video can be found at ",Robotics (cs.RO),; Computation and Language (cs.CL); Machine Learning (cs.LG)
+"LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action","  Goal-conditioned policies for robotic navigation can be trained on large,
+unannotated datasets, providing for good generalization to real-world settings.
+However, particularly in vision-based settings where specifying goals requires
+an image, this makes for an unnatural interface. Language provides a more
+convenient modality for communication with robots, but contemporary methods
+typically require expensive supervision, in the form of trajectories annotated
+with language descriptions. We present a system, LM-Nav, for robotic navigation
+that enjoys the benefits of training on unannotated large datasets of
+trajectories, while still providing a high-level interface to the user. Instead
+of utilizing a labeled instruction following dataset, we show that such a
+system can be constructed entirely out of pre-trained models for navigation
+(ViNG), image-language association (CLIP), and language modeling (GPT-3),
+without requiring any fine-tuning or language-annotated robot data. We
+instantiate LM-Nav on a real-world mobile robot and demonstrate long-horizon
+navigation through complex, outdoor environments from natural language
+instructions. For videos of our experiments, code release, and an interactive
+Colab notebook that runs in your browser, please check out our project page
+",Robotics (cs.RO),; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+"Beyond STEM, How Can Women Engage Big Data, Analytics, Robotics and Artificial Intelligence? An Exploratory Analysis of Confidence and Educational Factors in the Emerging Technology Waves Influencing the Role of, and Impact Upon, Women","  In spite of the rapidly advancing global technological environment, the
+professional participation of women in technology, big data, analytics,
+artificial intelligence and information systems related domains remains
+proportionately low. Furthermore, it is of no less concern that the number of
+women in leadership in these domains are in even lower proportions. In spite of
+numerous initiatives to improve the participation of women in technological
+domains, there is an increasing need to gain additional insights into this
+phenomenon especially since it occurs in nations and geographies which have
+seen a sharp rise in overall female education, without such increase
+translating into a corresponding spurt in information systems and technological
+roles for women. The present paper presents findings from an exploratory
+analysis and outlines a framework to gain insights into educational factors in
+the emerging technology waves influencing the role of, and impact upon, women.
+We specifically identify ways for learning and self-efficacy as key factors,
+which together lead us to the Advancement of Women in Technology (AWT) insights
+framework. Based on the AWT framework, we also proposition principles that can
+be used to encourage higher professional engagement of women in emerging and
+advanced technologies. Key Words- Women's Education, Technology, Artificial
+Intelligence, Knowing, Confidence, Self-Efficacy, Learning.
+
+    ",Computers and Society (cs.CY),
+2018 Robotic Scene Segmentation Challenge,"  In 2015 we began a sub-challenge at the EndoVis workshop at MICCAI in Munich
+using endoscope images of ex-vivo tissue with automatically generated
+annotations from robot forward kinematics and instrument CAD models. However,
+the limited background variation and simple motion rendered the dataset
+uninformative in learning about which techniques would be suitable for
+segmentation in real surgery. In 2017, at the same workshop in Quebec we
+introduced the robotic instrument segmentation dataset with 10 teams
+participating in the challenge to perform binary, articulating parts and type
+segmentation of da Vinci instruments. This challenge included realistic
+instrument motion and more complex porcine tissue as background and was widely
+addressed with modifications on U-Nets and other popular CNN architectures. In
+2018 we added to the complexity by introducing a set of anatomical objects and
+medical devices to the segmented classes. To avoid over-complicating the
+challenge, we continued with porcine data which is dramatically simpler than
+human tissue due to the lack of fatty tissue occluding many organs.
+
+    ",Computer Vision and Pattern Recognition (cs.CV),; Robotics (cs.RO)

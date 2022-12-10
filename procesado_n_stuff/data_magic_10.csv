@@ -1,0 +1,681 @@
+titulo,abstract,clase_pri,clase_otr
+Floquet engineering of interlayer couplings: Tuning the magic angle of twisted bilayer graphene at the exit of a waveguide,"  We introduce a new approach that allows one complete control over the
+modulation of the effective twist angle change in few-layer van der Waals
+heterostructures by irradiating them with longitudinal waves of light at the
+end of a waveguide. As a specific application, we consider twisted bilayer
+graphene and show that one can tune the magic angles to be either larger or
+smaller, allowing in-situ experimental control of the phase diagram of this and
+other related materials. A waveguide allows one to circumvent the free-space
+constraints on the absence of longitudinal electric field components of light.
+We propose to place twisted bilayer graphene at a specific location at the exit
+of a waveguide, such that it is subjected to purely longitudinal components of
+a transverse magnetic modes (TM) wave.
+
+    ",Mesoscale and Nanoscale Physics (cond-mat.mes-hall),
+Tracing out Correlated Chern Insulators in Magic Angle Twisted Bilayer Graphene,"  Magic-angle twisted bilayer graphene (MATBG) exhibits a range of correlated
+phenomena that originate from strong electron-electron interactions. These
+interactions make the Fermi surface highly susceptible to reconstruction when $
+\pm 1, \pm 2, \pm 3$ electrons occupy each moir\' e unit cell and lead to the
+formation of correlated insulating, superconducting and ferromagnetic phases.
+While some phases have been shown to carry a non-zero Chern number, the local
+microscopic properties and topological character of many other phases remain
+elusive. Here we introduce a set of novel techniques hinging on scanning
+tunneling microscopy (STM) to map out topological phases in MATBG that emerge
+in finite magnetic field. By following the evolution of the local density of
+states (LDOS) at the Fermi level with electrostatic doping and magnetic field,
+we visualize a local Landau fan diagram that enables us to directly assign
+Chern numbers to all observed phases. We uncover the existence of six
+topological phases emanating from integer fillings in finite fields and whose
+origin relates to a cascade of symmetry-breaking transitions driven by
+correlations. The spatially resolved and electron-density-tuned LDOS maps
+further reveal that these topological phases can form only in a small range of
+twist angles around the magic-angle value. Both the microscopic origin and
+extreme sensitivity to twist angle differentiate these topological phases from
+the Landau levels observed near charge neutrality. Moreover, we observe that
+even the charge-neutrality Landau spectrum taken at low fields is considerably
+modified by interactions and exhibits an unexpected splitting between zero
+Landau levels that can be as large as ${\sim }\,3-5$ meV. Our results show how
+strong electronic interactions affect the band structure of MATBG and lead to
+the formation of correlation-enabled topological phases.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall)
+A novel LIDAR-based Atmospheric Calibration Method for Improving the Data Analysis of MAGIC,"  A new method for analyzing the returns of the custom-made 'micro'-LIDAR
+system, which is operated along with the two MAGIC telescopes, allows to apply
+atmospheric corrections in the MAGIC data analysis chain. Such corrections make
+it possible to extend the effective observation time of MAGIC under adverse
+atmospheric conditions and reduce the systematic errors of energy and flux in
+the data analysis. LIDAR provides a range-resolved atmospheric backscatter
+profile from which the extinction of Cherenkov light from air shower events can
+be estimated. Knowledge of the extinction can allow to reconstruct the true
+image parameters, including energy and flux. Our final goal is to recover the
+source-intrinsic energy spectrum also for data affected by atmospheric
+extinction from aerosol layers, such as clouds.
+
+    ",Instrumentation and Methods for Astrophysics (astro-ph.IM),
+Soft modes in magic angle twisted bilayer graphene,"  We present a systematic study of the low-energy collective modes for
+different insulating states at integer fillings in twisted bilayer graphene. In
+particular, we provide a simple counting rule for the total number of soft
+modes, and analyze their energies and symmetry quantum numbers in detail. To
+study the soft mode spectra, we employ time dependent Hartree-Fock whose
+results are reproduced analytically via an effective sigma model description.
+We find two different types of low-energy modes - (i) approximate Goldstone
+modes associated with breaking an enlarged U(4)$\times$U(4) symmetry and,
+surprisingly, a set of (ii) nematic modes with non-zero angular momentum under
+three-fold rotation. The modes of type (i) include true gapless Goldstone modes
+associated with exact symmetries in addition to gapped ""pseudo-Goldstone"" modes
+associated with approximate symmetries. While the modes of type (ii) are always
+gapped, we show that their gap decreases as the Berry curvature grows more
+concentrated. For realistic parameter values, the gapped soft modes of both
+types have comparable gaps of only a few meV, and lie completely inside the
+mean-field bandgap. The entire set of soft modes emerge as Goldstone modes of a
+different idealized model in which Berry flux is limited to a solenoid, which
+enjoys an enlarged U(8) symmetry. Furthermore, we discuss the number of
+Goldstone modes for each symmetry-broken state, distinguishing the linearly vs
+quadratically dispersing modes. Finally, we present a general symmetry analysis
+of the soft modes for all possible insulating Slater determinant states at
+integer fillings that preserve translation symmetry, independent of the
+energetic details. The resulting soft mode degeneracies and symmetry quantum
+numbers provide a fingerprint of the different insulting states enabling their
+experimental identification from a measurement of their soft modes.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall)
+Measurement of the cosmic electron plus positron spectrum with the MAGIC telescopes,"  Cosmic electrons with energies in the TeV range lose their energy rapidly
+through synchrotron radiation and inverse Compton processes, resulting in a
+relatively short lifetime (~ 10^5 years). They are only visible from
+comparatively nearby sources (<1 kpc). Unexpected features in their spectrum at
+a few hundreds GeV, as measured by several experiments (ATIC, Fermi and
+H.E.S.S. among others), might be caused by local sources such as pulsars or by
+dark matter annihilation/decay. In order to investigate these possibilities,
+new measurements in the TeV energy region are needed. Since the completion of
+the stereo system, the MAGIC Cherenkov experiment is sensitive enough to
+measure the cosmic electron flux between a few hundred GeV and few TeV. The
+electron signal has to be extracted from the overwhelming background of
+hadronic cosmic rays estimated through Monte Carlo simulations. Here we present
+the first results of the cosmic electron spectrum measured with the MAGIC
+telescopes.
+
+    ",High Energy Astrophysical Phenomena (astro-ph.HE),
+"Combined Dark Matter searches towards dwarf spheroidal galaxies with Fermi-LAT, HAWC, HESS, MAGIC and VERITAS","  The search for Dark Matter (DM) has great potential to reveal physics beyond
+the Standard Model. As such, searches for evidence of DM particles are being
+carried out using a wide range of techniques, such as direct searches for DM
+particles, searches for DM produced with colliders, and indirect searches for
+the Standard Model annihilation products of DM. Dwarf spheroidal galaxies
+(dSphs) are excellent targets for indirect Dark Matter searches due to their
+relatively high DM content and negligible expected astrophysical background. A
+collaboration was formed to maximise the sensitivity of DM searches towards
+dSphs by combining for the first time dSph data from three imaging air
+Cherenkov telescope (IACT) arrays: HESS, MAGIC, and VERITAS; the Fermi-LAT
+satellite, and the water Cherenkov detector HAWC. Due to the diverse nature of
+the instruments involved, each experiment will analyse their individual
+datasets from multiple targets and then the results will be combined at the
+likelihood level. For consistency of the likelihoods across the five
+experiments, a common approach is used to treat the astrophysical factor
+(J-Factor) for each target and an agreed set of annihilation channels are
+considered. We also agree on a common statistical approach and treatment of
+instrumental systematic uncertainties. The results are presented in terms of
+constraints on the velocity-weighted cross section for DM self-annihilation as
+a function of the DM particle mass.
+
+    ",High Energy Astrophysical Phenomena (astro-ph.HE),
+Algebraic Combinatorics of Magic Squares,"  We describe how to construct and enumerate Magic squares, Franklin squares,
+Magic cubes, and Magic graphs as lattice points inside polyhedral cones using
+techniques from Algebraic Combinatorics. The main tools of our methods are the
+Hilbert Poincare series to enumerate lattice points and the Hilbert bases to
+generate lattice points. We define polytopes of magic labelings of graphs and
+digraphs, and give a description of the faces of the Birkhoff polytope as
+polytopes of magic labelings of digraphs.
+
+    ",Combinatorics (math.CO),
+Quantum critical behavior in magic-angle twisted bilayer graphene,"  The flat bands of magic-angle twisted bilayer graphene (MATBG) host
+strongly-correlated electronic phases such as correlated insulators,
+superconductors and a strange-metal state. The latter state, believed to be key
+for understanding the electronic properties of MATBG, is obscured by various
+phase transitions and thus could not be unequivocally differentiated from a
+metal undergoing frequent electron-phonon collisions. Here, we report transport
+measurements in superconducting MATBG in which the correlated insulator states
+are suppressed by screening. The uninterrupted metallic ground state shows
+resistivity that is linear in temperature over three decades and spans a broad
+range of doping including those where a correlation-driven Fermi surface
+reconstruction occurs. This strange-metal behavior is distinguished by
+Planckian scattering rates and a linear magnetoresistivity. In contrast, near
+charge neutrality or a fully-filled flat band, as well as for devices twisted
+away from the magic angle, we observe the archetypal Fermi liquid behavior. Our
+measurements demonstrate the existence of a quantum critical phase whose
+fluctuations dominate the metallic ground state throughout a continuum of
+doping. Further, we observe a transition to the strange metal upon suppression
+of the superconducting order, suggesting a relationship between quantum
+fluctuations and superconductivity in MATBG.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),
+Magic-Angle Multilayer Graphene: A Robust Family of Moiré Superconductors,"  The discovery of correlated states and superconductivity in magic-angle
+twisted bilayer graphene (MATBG) has established moiré quantum matter as a
+new platform to explore interaction-driven and topological quantum phenomena.
+Multitudes of phases have been realized in moiré systems, but surprisingly,
+robust superconductivity has been one of the least common of all, initially
+found in MATBG and only more recently also in magic-angle twisted trilayer
+graphene (MATTG). While MATBG and MATTG share some similar characteristics,
+they also exhibit substantial differences, such as in their response to
+external electric and magnetic fields. This raises the question of whether they
+are simply two separate unique systems, or whether they form part of a broader
+family of superconducting materials. Here, we report the experimental
+realization of magic-angle twisted 4-layer and 5-layer graphene (MAT4G and
+MAT5G, respectively), which turn out to be superconductors, hence establishing
+alternating-twist magic-angle multilayer graphene as a robust family of moiré
+superconductors. The members of this family have flat bands in their electronic
+structure as a common feature, suggesting their central role in the observed
+robust superconductivity. On the other hand, there are also important
+variations across the family, such as different symmetries for members with
+even and odd number of layers. However, our measurements in parallel magnetic
+fields, in particular the investigation of Pauli limit violation and
+spontaneous rotational symmetry breaking, reveal that the most pronounced
+distinction is between the N=2 and N>2-layer structures. Our results expand the
+emergent family of moiré superconductors, providing new insight with
+potential implications for the design of novel superconducting materials
+platforms.
+
+    ",Superconductivity (cond-mat.supr-con),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Strongly Correlated Electrons (cond-mat.str-el)
+Tunable Phase Boundaries and Ultra-Strong Coupling Superconductivity in Mirror Symmetric Magic-Angle Trilayer Graphene,"  Moiré superlattices have recently emerged as a novel platform where
+correlated physics and superconductivity can be studied with unprecedented
+tunability. Although correlated effects have been observed in several other
+moiré systems, magic-angle twisted bilayer graphene (MATBG) remains the only
+one where robust superconductivity has been reproducibly measured. Here we
+realize a new moiré superconductor, mirror symmetric magic-angle twisted
+trilayer graphene (MATTG) with dramatically richer tunability in electronic
+structure and superconducting properties. Hall effect and quantum oscillations
+measurements as a function of density and electric field allow us to determine
+the system's tunable phase boundaries in the normal state. Zero magnetic field
+resistivity measurements then reveal that the existence of superconductivity is
+intimately connected to the broken symmetry phase emerging from two carriers
+per moiré unit cell. Strikingly, we find that the superconducting phase gets
+suppressed and bounded at the van Hove singularities (vHs) partially
+surrounding the broken-symmetry phase, which is difficult to reconcile with
+weak-coupling BCS theory. Moreover, the extensive in situ tunability of our
+system allows us to achieve the ultra-strong coupling regime, characterized by
+a Ginzburg-Landau coherence length reaching the average inter-particle distance
+and very large $T_\mathrm{BKT}/T_{F}$ ratios in excess of 0.1, where
+$T_\mathrm{BKT}$ and $T_F$ are the Berezinskii-Kosterlitz-Thouless transition
+and Fermi temperatures, respectively. These observations suggest that MATTG can
+be electrically tuned close to the two-dimensional BCS-BEC crossover. Our
+results establish a new generation of tunable moiré superconductors with the
+potential to revolutionize our fundamental understanding and the applications
+of strong coupling superconductivity.
+
+    ",Superconductivity (cond-mat.supr-con),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Strongly Correlated Electrons (cond-mat.str-el)
+The Parallel-Repeated Magic Square Game is Rigid,"  We show that the $n$-round parallel repetition of the Magic Square game of
+Mermin and Peres is rigid, in the sense that for any entangled strategy
+succeeding with probability $1 -\varepsilon$, the players' shared state is
+$O(\mathrm{poly}(n\varepsilon))$-close to $2n$ EPR pairs under a local
+isometry. Furthermore, we show that, under local isometry, the players'
+measurements in said entangled strategy must be
+$O(\mathrm{poly}(n\varepsilon))$ close to the ""ideal"" strategy when acting on
+the shared state.
+
+    ",Quantum Physics (quant-ph),
+Collective excitations in twisted bilayer graphene close to the magic angle,"  The electronic properties of twisted bilayer graphene (TBG) can be
+dramatically different from those of a single graphene layer, in particular
+when the two layers are rotated relative to each other by a small angle. TBG
+has recently attracted a great deal of interest, sparked by the discovery of
+correlated insulating and superconducting states, for twist angle $\theta$
+close to a so-called 'magic angle' $\approx 1.1°$. In this work, we
+unveil, via near-field optical microscopy, a collective plasmon mode in
+charge-neutral TBG near the magic angle, which is dramatically different from
+the ordinary single-layer graphene intraband plasmon. In selected regions of
+our samples, we find a gapped collective mode with linear dispersion, akin to
+the bulk magnetoplasmons of a two-dimensional (2D) electron gas. We interpret
+these as interband plasmons and associate those with the optical transitions
+between quasi-localized states originating from the moiré superlattice.
+Surprisingly, we find a higher plasmon group velocity than expected, which
+implies an enhanced strength of the corresponding optical transition. This
+points to a weaker interlayer coupling in the AA regions. These intriguing
+optical properties offer new insights, complementary to other techniques, on
+the carrier dynamics in this novel quantum electron system.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall)
+Field-tuned and zero-field fractional Chern insulators in magic angle graphene,"  In contrast to the fractional quantum Hall (FQH) effect, where electron
+density fixes the applied magnetic field, fractional Chern insulators (FCIs)
+can realize FQH states in comparatively weak or even zero magnetic fields.
+Previous theoretical work highlighted magic angle graphene as a promising FCI
+platform, satisfying the twin requirements of flat bands and
+lowest-Landau-level-like quantum geometry. Indeed, recent experiments have
+demonstrated FCIs in magic angle graphene with weak magnetic fields. Here we
+conduct a detailed theoretical study of the most prominent FCI state observed,
+and clarify the role of the magnetic field in stabilizing this state. We
+introduce two new technical tools: first, we generalize the notion of ideal
+quantum geometry to Hofstadter minibands and, second, we extend the
+Hartree-Fock theory of magic-angle graphene to finite field, to account for the
+interaction generated bandwidth. We show that magnetic field both dramatically
+reduces the effective bandwidth and improves the quantum geometry for hosting
+FCIs. Using density matrix renormalization group (DMRG) simulations of a
+microscopic model of magic angle graphene, we establish the regime of bandwidth
+and quantum geometry indicators where FCIs are stabilized. Further
+characterizing the finite-field bands by the same quantities we show how a
+zero-field charge density wave state gives way to an FCI state at a magnetic
+flux consistent with experiment. We also speculate on the other FCIs seen in
+the same experiments, including anomalous incompressible states and
+even-denominator fractions which may host non-Abelian states. Finally, when
+bandwidth is the limiting factor, we propose a range of experimental parameters
+where FCIs should appear at zero magnetic field.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),; Statistical Mechanics (cond-mat.stat-mech)
+Extending and Characterizing Quantum Magic Games,"  The Mermin-Peres magic square game is a cooperative two-player nonlocal game
+in which shared quantum entanglement allows the players to win with certainty,
+while players limited to classical operations cannot do so, a phenomenon dubbed
+""quantum pseudo-telepathy"". The game has a referee separately ask each player
+to color a subset of a 3x3 grid. The referee checks that their colorings
+satisfy certain parity constraints that can't all be simultaneously realized.
+",Quantum Physics (quant-ph),
+The Active Mirror Control of the MAGIC Telescope,"  One of the main design goals of the MAGIC telescopes is the very fast
+repositioning in case of Gamma Ray Burst (GRB) alarms, implying a low weight of
+the telescope dish. This is accomplished by using a space frame made of carbon
+fiber epoxy tubes, resulting in a strong but not very rigid support structure.
+Therefore it is necessary to readjust the individual mirror tiles to correct
+for deformations of the dish under varying gravitational load while tracking an
+object. We present the concept of the Active Mirror Control (AMC) as
+implemented in the MAGIC telescopes and the actual performance reached.
+Additionally we show that also telescopes using a stiff structure can benefit
+from using an AMC.
+
+    ",Astrophysics (astro-ph),
+Large Pauli Limit Violation and Reentrant Superconductivity in Magic-Angle Twisted Trilayer Graphene,"  Moiré quantum matter has emerged as a novel materials platform where
+correlated and topological phases can be explored with unprecedented control.
+Among them, magic-angle systems constructed from two or three layers of
+graphene have shown robust superconducting phases with unconventional
+characteristics. However, direct evidence for unconventional pairing remains to
+be experimentally demonstrated. Here, we show that magic-angle twisted trilayer
+graphene (MATTG) exhibits superconductivity up to in-plane magnetic fields in
+excess of 10 T, which represents a large ($2\sim3$ times) violation of the
+Pauli limit for conventional spin-singlet superconductors. This observation is
+surprising for a system which is not expected to have strong spin-orbit
+coupling. Furthermore, the Pauli limit violation is observed over the entire
+superconducting phase, indicating that it is not related to a possible
+pseudogap phase with large superconducting amplitude pairing. More strikingly,
+we observe reentrant superconductivity at large magnetic fields, which is
+present in a narrower range of carrier density and displacement field. These
+findings suggest that the superconductivity in MATTG is likely driven by a
+mechanism resulting in non-spin-singlet Cooper pairs, where the external
+magnetic field can cause transitions between phases with potentially different
+order parameters. Our results showcase the richness of moiré
+superconductivity and may pave a new route towards designing next-generation
+exotic quantum matter.
+
+    ",Mesoscale and Nanoscale Physics (cond-mat.mes-hall),; Strongly Correlated Electrons (cond-mat.str-el); Superconductivity (cond-mat.supr-con)
+Magnetic Josephson Junctions and Superconducting Diodes in Magic Angle Twisted Bilayer Graphene,"  The simultaneous co-existence and gate-tuneability of the superconducting
+(SC), magnetic and topological orders in magic angle twisted bilayer graphene
+(MATBG) open up entirely new possibilities for the creation of complex hybrid
+Josephson junctions (JJ). Here we report on the creation of gate-defined,
+magnetic Josephson junctions in MATBG, where the weak link is gate-tuned close
+to the correlated state at a moiré filling factor of {\nu}=-2. A highly
+unconventional Fraunhofer pattern emerges, which is phase-shifted and
+asymmetric with respect to the current and magnetic field directions, and shows
+a pronounced magnetic hysteresis. Interestingly, our theoretical calculations
+of the JJ with a valley polarized {\nu}=-2 with orbital magnetization as the
+weak link explain most of these unconventional features without fine tuning the
+parameters. While these unconventional Josephson effects persist up to the
+critical temperature Tc ~ 3.5K of the superconducting state, at temperatures
+below T < 800mK, we observed a pronounced magnetic hysteresis possibly due to
+further spin-polarization of the {\nu}=-2 state. We demonstrate how the
+combination of magnetization and its current induced magnetization switching in
+the MATBG JJ allows us to realize a programmable zero field superconducting
+diode, which represents a major building block for a new generation of
+superconducting quantum electronics.
+
+    ",Superconductivity (cond-mat.supr-con),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Strongly Correlated Electrons (cond-mat.str-el)
+"Combined dark matter searches towards dwarf spheroidal galaxies with Fermi-LAT, HAWC, H.E.S.S., MAGIC, and VERITAS","  Cosmological and astrophysical observations suggest that 85\% of the total
+matter of the Universe is made of Dark Matter (DM). However, its nature remains
+one of the most challenging and fundamental open questions of particle physics.
+Assuming particle DM, this exotic form of matter cannot consist of Standard
+Model (SM) particles. Many models have been developed to attempt unraveling the
+nature of DM such as Weakly Interacting Massive Particles (WIMPs), the most
+favored particle candidates. WIMP annihilations and decay could produce SM
+particles which in turn hadronize and decay to give SM secondaries such as high
+energy $\gamma$ rays. In the framework of indirect DM search, observations of
+promising targets are used to search for signatures of DM annihilation. Among
+these, the dwarf spheroidal galaxies (dSphs) are commonly favored owing to
+their expected high DM content and negligible astrophysical background. In this
+work, we present the very first combination of 20 dSph observations, performed
+by the Fermi-LAT, HAWC, H.E.S.S., MAGIC, and VERITAS collaborations in order to
+maximize the sensitivity of DM searches and improve the current results. We use
+a joint maximum likelihood approach combining each experiment's individual
+analysis to derive more constraining upper limits on the WIMP DM
+self-annihilation cross-section as a function of DM particle mass. We present
+new DM constraints over the widest mass range ever reported, extending from 5
+GeV to 100 TeV thanks to the combination of these five different $\gamma$-ray
+instruments.
+
+    ",High Energy Physics - Experiment (hep-ex),; High Energy Astrophysical Phenomena (astro-ph.HE)
+Twistons in a Sea of Magic,"  Magic angle twisted trilayer graphene (TTG) has recently emerged as a new
+platform to engineer strongly correlated flat bands. Here, we reveal the
+structural and electronic properties of TTG using low temperature scanning
+tunneling microscopy at twist angles for which superconductivity has been
+observed. Real trilayer samples deviate from their idealized structure due to a
+strong reconstruction of the moiré lattice, which locks layers into
+near-magic angle, mirror symmetric domains comparable in size to the
+superconducting coherence length. The price for this magic relaxation is the
+introduction of an array of localized twist angle faults, termed twistons.
+These novel, gate-tunable moiré defects offer a natural explanation for the
+superconducting dome observed in transport and provide an avenue to probe
+superconducting pairing mechanisms through disorder tuning.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),; Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Superconductivity (cond-mat.supr-con)
+Black Magic in Deep Learning: How Human Skill Impacts Network Training,"  How does a user's prior experience with deep learning impact accuracy? We
+present an initial study based on 31 participants with different levels of
+experience. Their task is to perform hyperparameter optimization for a given
+deep learning architecture. The results show a strong positive correlation
+between the participant's experience and the final performance. They
+additionally indicate that an experienced participant finds better solutions
+using fewer resources on average. The data suggests furthermore that
+participants with no prior experience follow random strategies in their pursuit
+of optimal hyperparameters. Our study investigates the subjective human factor
+in comparisons of state of the art results and scientific reproducibility in
+deep learning.
+
+    ",Computer Vision and Pattern Recognition (cs.CV),
+"MARS, the MAGIC Analysis and Reconstruction Software","  With the commissioning of the second MAGIC gamma-ray Cherenkov telescope
+situated close to MAGIC-I, the standard analysis package of the MAGIC
+collaboration, MARS, has been upgraded in order to perform the stereoscopic
+reconstruction of the detected atmospheric showers. MARS is a ROOT-based code
+written in C++, which includes all the necessary algorithms to transform the
+raw data recorded by the telescopes into information about the physics
+parameters of the observed targets. An overview of the methods for extracting
+the basic shower parameters is presented, together with a description of the
+tools used in the background discrimination and in the estimation of the
+gamma-ray source spectra.
+
+    ",Instrumentation and Methods for Astrophysics (astro-ph.IM),; High Energy Astrophysical Phenomena (astro-ph.HE)
+Irreducible magic sets for $n$-qubit systems,"  Magic sets of observables are minimal structures that capture quantum
+state-independent advantage for systems of $n\ge 2$ qubits and are, therefore,
+fundamental tools for investigating the interface between classical and quantum
+physics. A theorem by Arkhipov (",Quantum Physics (quant-ph),
+Critical magnetic fields and electron-pairing in magic-angle twisted bilayer graphene,"  The velocities of the quasiparticles that form Cooper pairs in a
+superconductor are revealed by the upper critical magnetic field. Here we use
+this property to assess superconductivity in magic-angle twisted bilayer
+graphene (MATBG), which has been observed over a range of moiré band filling,
+twist angle, and screening environment conditions. We find that for pairing
+mechanisms that are unrelated to correlations within the MATBG flat bands,
+minima in an average Fermi velocity $v_F^* \equiv k_B T_c \ell_c /\hbar $,
+where $\ell_c$ is the magnetic length at the critical perpendicular magnetic
+field, are always coincident with transition temperature maxima. Both extrema
+occur near flat-band van Hove singularities. Since no such association is
+present in MATBG experimental data, we conclude that electronic correlations
+that yield a band-filling-dependent pairing glue must play a crucial role in
+MATBG superconductivity.
+
+    ",Superconductivity (cond-mat.supr-con),
+Magic-angle graphene superlattices: a new platform for unconventional superconductivity,"  The understanding of strongly-correlated materials, and in particular
+unconventional superconductors, has puzzled physicists for decades. Such
+difficulties have stimulated new research paradigms, such as ultra-cold atom
+lattices for simulating quantum materials. Here we report on the realization of
+intrinsic unconventional superconductivity in a 2D superlattice created by
+stacking two graphene sheets with a small twist angle. For angles near
+$1.1^\circ$, the first `magic' angle, twisted bilayer graphene (TBG) exhibits
+ultra-flat bands near charge neutrality, which lead to correlated insulating
+states at half-filling. Upon electrostatic doping away from these correlated
+insulating states, we observe tunable zero-resistance states with a critical
+temperature $T_c$ up to 1.7 K. The temperature-density phase diagram shows
+similarities with that of the cuprates, including superconducting domes.
+Moreover, quantum oscillations indicate small Fermi surfaces near the
+correlated insulating phase, in analogy with under-doped cuprates. The relative
+high $T_c$, given such small Fermi surface (corresponding to a record-low 2D
+carrier density of $10^{11} \textrm{cm}^{-2}$ , renders TBG among the strongest
+coupling superconductors, in a regime close to the BCS-BEC crossover. These
+novel results establish TBG as the first purely carbon-based 2D superconductor
+and as a highly tunable platform to investigate strongly-correlated phenomena,
+which could lead to insights into the physics of high-$T_c$ superconductors and
+quantum spin liquids.
+
+    ",Mesoscale and Nanoscale Physics (cond-mat.mes-hall),; Strongly Correlated Electrons (cond-mat.str-el); Superconductivity (cond-mat.supr-con)
+Fine structure of flat bands in a chiral model of magic angles,"  We analyze symmetries of Bloch eigenfunctions at magic angles for the
+Tarnopolsky--Kruchkov--Vishwanath chiral model of the twisted bilayer graphene
+(TBG) following the framework introduced by Becker--Embree--Wittsten--Zworski.
+In particular, we show that vanishing of the first Bloch eigenvalue away from
+the Dirac points implies its vanishing at all momenta, that is the existence of
+a flat band. We then study how the multiplicity of the flat band is related to
+the nodal set of the Bloch eigenfunctions. We also demonstrate that for a
+generic choice of tunneling potentials, obeying all translational and
+rotational symmetries, the Hamiltonian only exhibits flat bands of minimal
+multiplicity. We conclude with two numerical observations about the structure
+of flat bands.
+
+    ",Mathematical Physics (math-ph),; Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el); Spectral Theory (math.SP); Quantum Physics (quant-ph)
+Advanced stereoscopic gamma-ray shower analysis with the MAGIC telescopes,"  The MAGIC experiment was upgraded to a two-telescope system in 2009. Unlike
+other Imaging Air Cherenkov Telescope arrays, MAGIC has operated for five years
+exclusively in monoscopic mode, and the single telescope analysis was optimized
+throughout this time. To improve the analysis, we used techniques like the
+random forest event classification method for different purposes, and
+sophisticated image cleaning algorithms. The monoscopic performance was
+optimized in the energy domain around and below 100 GeV, which is inaccessible
+for the other arrays of Cherenkov telescopes. Still, with these analysis
+techniques, we were competitive also in the TeV regime. In the recent
+development of the stereoscopic analysis chain, the know-how of these single
+telescope techniques was combined with the new possibilities of the
+three-dimensional reconstruction, taking advantage both of the richness of
+single images and their projections onto the sky. We present recent
+advancements in the image cleaning and direction reconstruction algorithms, sky
+mapping and other procedures currently used in the analysis of MAGIC stereo
+data.
+
+    ",Instrumentation and Methods for Astrophysics (astro-ph.IM),
+Isotopic shift and search of magic number in the superheavy region,"  The ground state bulk properties such as binding energy, root-mean-square
+radius, pairing energy, nuclear density distributions, and single-particle
+energies are calculated for the isotopic chain of Ca, Sn, Pb, and Z = 120
+nuclei. The relativistic mean-field with recently developed G3, IOPB-1, and
+Relativistic-Hartree-Bogoliubov with density-dependent DD-ME1 and DD-ME2
+parameter sets are used in the present analysis. The respective shifts over the
+isotopic chain for the structural observables and surface property like
+symmetry energy are also estimated using a three-point method, which is crucial
+for the systematic analysis of the shell/sub-shell closure. The calculated
+results are compared with the available experimental data for various bulk
+properties, wherever available. A multiple isotopic shifts leads to the
+shell/sub-shell closure at N = (20 \& 28), (50 \& 82), and 126 for Ca, Sn, and
+Pb isotopes, respectively, are observed. The analysis also supports the neutron
+magic at N = 40 and 184 for highly neutron-rich $^{60}$Ca, and $^{304}$120,
+predicted to be the next double magic beyond $^{208}$Pb, respectively.
+Observing the occupancy number, we notice the higher neutron orbitals are
+mostly occupied before the lower one, which causes the kinks at neutron magic
+with an amalgam in the isotopic chain trend above nuclei. We also notice the
+correlation between the occupation probabilities and the magicity of a nucleus
+and vice-versa.
+
+    ",Nuclear Theory (nucl-th),
+Magic ELF: Image Deraining Meets Association Learning and Transformer,"  Convolutional neural network (CNN) and Transformer have achieved great
+success in multimedia applications. However, little effort has been made to
+effectively and efficiently harmonize these two architectures to satisfy image
+deraining. This paper aims to unify these two architectures to take advantage
+of their learning merits for image deraining. In particular, the local
+connectivity and translation equivariance of CNN and the global aggregation
+ability of self-attention (SA) in Transformer are fully exploited for specific
+local context and global structure representations. Based on the observation
+that rain distribution reveals the degradation location and degree, we
+introduce degradation prior to help background recovery and accordingly present
+the association refinement deraining scheme. A novel multi-input attention
+module (MAM) is proposed to associate rain perturbation removal and background
+recovery. Moreover, we equip our model with effective depth-wise separable
+convolutions to learn the specific feature representations and trade off
+computational complexity. Extensive experiments show that our proposed method
+(dubbed as ELF) outperforms the state-of-the-art approach (MPRNet) by 0.25 dB
+on average, but only accounts for 11.7\% and 42.1\% of its computational cost
+and parameters. The source code is available at
+",Computer Vision and Pattern Recognition (cs.CV),
+Complex instruction set computing architecture for performing accurate quantum $Z$ rotations with less magic,"  We present quantum protocols for executing arbitrarily accurate $\pi/2^k$
+rotations of a qubit about its $Z$ axis. Reduced instruction set computing
+(\textsc{risc}) architectures typically restrict the instruction set to
+stabilizer operations and a single non-stabilizer operation, such as
+preparation of a ""magic"" state from which $T = Z(\pi/4)$ gates can be
+teleported. Although the overhead required to distill high-fidelity copies of
+this magic state is high, the subsequent quantum compiling overhead to realize
+$Z$ rotations in a \textsc{risc} architecture can be much greater. We develop a
+complex instruction set computing (\textsc{cisc}) architecture whose
+instruction set includes stabilizer operations and preparation of magic states
+from which $Z(\pi/2^k)$ gates can be teleported, for $2 \leq k \leq
+k_{\text{max}}$. This results in a substantial overall reduction in the number
+of gates required to achieve a desired gate accuracy for $Z$ rotations. The key
+to our construction is a family of shortened quantum Reed-Muller codes of
+length $2^{k+2}-1$, whose magic-state distillation threshold shrinks with $k$
+but is greater than 0.85% for $k \leq 6$.
+
+    ",Quantum Physics (quant-ph),
+Integrability in the chiral model of magic angles,"  Magic angles in the chiral model of twisted bilayer graphene are parameters
+for which the chiral version of the Bistritzer--MacDonald Hamiltonian exhibits
+a flat band at energy zero. We compute the sums over powers of (complex) magic
+angles and use that to show that the set of magic angles is infinite. We also
+provide a new proof of the existence of the first real magic angle, showing
+also that the corresponding flat band has minimal multiplicity for the simplest
+possible choice of potentials satisfying all symmetries. These results indicate
+(though not prove) a hidden integrability of the chiral model.
+
+    ",Mathematical Physics (math-ph),; Materials Science (cond-mat.mtrl-sci); Strongly Correlated Electrons (cond-mat.str-el); Spectral Theory (math.SP); Quantum Physics (quant-ph)
+Stabilizer Rényi entropy,"  We introduce a novel measure for the quantum property of nonstabilizerness -
+commonly known as ""magic"" - by considering the Rényi entropy of the
+probability distribution associated to a pure quantum state given by the square
+of the expectation value of Pauli strings in that state. We show that this is a
+good measure of nonstabilizerness from the point of view of resource theory and
+show bounds with other known measures. The stabilizer Rényi entropy has the
+advantage of being easily computable because it does not need a minimization
+procedure. We present a protocol for an experimental measurement by randomized
+measurements. We show that the nonstabilizerness is intimately connected to
+out-of-time-order correlation functions and that maximal levels of
+nonstabilizerness are necessary for quantum chaos.
+
+    ",Quantum Physics (quant-ph),
+A lower bound on intergalactic magnetic fields from time variability of 1ES 0229+200 from MAGIC and Fermi/LAT observations,"  Extended and delayed emission around distant TeV sources induced by the
+effects of propagation of gamma rays through the intergalactic medium can be
+used for the measurement of the intergalactic magnetic field (IGMF). We search
+for delayed GeV emission from the hard-spectrum TeV blazar 1ES 0229+200 with
+the goal to detect or constrain the IGMF-dependent secondary flux generated
+during the propagation of TeV gamma rays through the intergalactic medium. We
+analyze the most recent MAGIC observations over a 5 year time span and
+complement them with historic data of the H.E.S.S. and VERITAS telescopes along
+with a 12-year long exposure of the Fermi/LAT telescope. We use them to trace
+source evolution in the GeV-TeV band over one-and-a-half decade in time. We use
+Monte Carlo simulations to predict the delayed secondary gamma-ray flux,
+modulated by the source variability, as revealed by TeV-band observations. We
+then compare these predictions for various assumed IGMF strengths to all
+available measurements of the gamma-ray flux evolution. We find that the source
+flux in the energy range above 200 GeV experiences variations around its
+average on the 14 years time span of observations. No evidence for the flux
+variability is found in 1-100 GeV energy range accessible to Fermi/LAT.
+Non-detection of variability due to delayed emission from electromagnetic
+cascade developing in the intergalactic medium imposes a lower bound of
+B>1.8e-17 G for long correlation length IGMF and B>1e-14 G for an IGMF of the
+cosmological origin. Though weaker than the one previously derived from the
+analysis of Fermi/LAT data, this bound is more robust, being based on a
+conservative intrinsic source spectrum estimate and accounting for the details
+of source variability in the TeV energy band. We discuss implications of this
+bound for cosmological magnetic fields which might explain the baryon asymmetry
+of the Universe.
+
+    ",High Energy Astrophysical Phenomena (astro-ph.HE),; Cosmology and Nongalactic Astrophysics (astro-ph.CO)
+Magic entanglement renormalization for quantum fields,"  Continuous tensor networks are variational wavefunctions proposed in recent
+years to efficiently simulate quantum field theories (QFTs). Prominent examples
+include the continuous matrix product state (cMPS) and the continuous
+multi-scale entanglement renormalization ansatz (cMERA). While the cMPS can
+approximate ground states of a class of QFT Hamiltonians that are both local
+and interacting, cMERA is only well-understood for QFTs that are quasi-local
+and non-interacting. In this paper we propose the magic cMERA, a concrete
+realization of cMERA for a free boson QFT that simultaneously satisfies four
+remarkable properties: (i) it is the exact ground state of a strictly local
+Hamiltonian; (ii) in the massless case, its spectrum of scaling operators is
+exactly soluble in real space; (iii) it has the short-distance structure of a
+cMPS; (iv) it is generated by a quasi-local entangler that can be written as a
+continuous matrix product operator. None of these properties is fulfilled by
+previous cMERA proposals. Properties (iii)-(iv) establish a firm connection
+between cMERA and cMPS wavefunctionals, opening the path to applying powerful
+cMPS numerical techniques, valid for interacting QFTs, also to cMERA
+calculations.
+
+    ",Strongly Correlated Electrons (cond-mat.str-el),; High Energy Physics - Theory (hep-th); Quantum Physics (quant-ph)
+"MAGIC: a general, powerful and tractable method for selective inference","  Selective inference is a recent research topic that tries to perform valid
+inference after using the data to select a reasonable statistical model. We
+propose MAGIC, a new method for selective inference that is general, powerful
+and tractable. MAGIC is a method for selective inference after solving a convex
+optimization problem with smooth loss and $\ell_1$ penalty. Randomization is
+incorporated into the optimization problem to boost statistical power. Through
+reparametrization, MAGIC reduces the problem into a sampling problem with
+simple constraints. MAGIC applies to many $\ell_1$ penalized optimization
+problem including the Lasso, logistic Lasso and neighborhood selection in
+graphical models, all of which we consider in this paper.
+
+    ",Statistics Theory (math.ST),
+Chaos by Magic,"  There is a property of a quantum state called magic. It measures how
+difficult for a classical computer to simulate the state. In this paper, we
+study magic of states in the integrable and chaotic regimes of the higher-spin
+generalization of the Ising model through two quantities called ""Mana"" and
+""Robustness of Magic"" (RoM). We find that in the chaotic regime, Mana increases
+monotonically in time in the early-time region, and at late times these
+quantities oscillate around some non-zero value that increases linearly with
+respect to the system size. Our result also suggests that under chaotic
+dynamics, any state evolves to a state whose Mana almost saturates the optimal
+upper bound, i.e., the state becomes ""maximally magical."" We find that RoM also
+shows similar behaviors. On the other hand, in the integrable regime, Mana and
+RoM behave periodically in time in contrast to the chaotic case. In the anti-de
+Sitter/conformal field theory correspondence (AdS/CFT correspondence),
+classical spacetime emerges from the chaotic nature of the dual quantum system.
+Our result suggests that magic of quantum states is strongly involved behind
+the emergence of spacetime geometry.
+
+    ",High Energy Physics - Theory (hep-th),; Strongly Correlated Electrons (cond-mat.str-el); Quantum Physics (quant-ph)
+Magic angles and correlations in twisted nodal superconductors,"  Motivated by recent advances in the fabrication of twisted bilayers of 2D
+materials, we consider the low-energy properties of a twisted pair of
+two-dimensional nodal superconductors. We study both the cases of singlet and
+triplet superconductors. It is demonstrated that the Bogoliubov-de Gennes (BdG)
+quasiparticle dispersion undergoes dramatic reconstruction due to the twist. In
+particular, the velocity of the neutral massless Dirac excitations near the gap
+nodes is strongly renormalized by the interlayer hopping and vanishes at a
+``magic angle'' where in the limit of a circular Fermi surface a quadratic band
+touching is formed. In addition, it is shown that the BdG disperion can be
+tuned with an interlayer displacement field, magnetic field, and current, which
+can suppress the velocity renormalization, create finite BdG Fermi surfaces, or
+open a gap, respectively. Finally, interactions between quasiparticles are
+shown to lead to the emergence of a correlated superconducting state breaking
+time-reversal symmetry in the vicinity of the magic angle. Estimates of the
+magic angle in a variety of nodal superconductors are presented, ranging from
+the cuprates to the organic and heavy fermion superconductors, all of which are
+shown to be promising for the experimental realization of our proposal.
+
+    ",Superconductivity (cond-mat.supr-con),; Strongly Correlated Electrons (cond-mat.str-el)
+Goodness of Generalized Seniority in Semi-magic Nuclei,"  Symmetry plays an important role in understanding the nuclear structure
+properties from the rotation of a nucleus to the spin, parity and isospin of
+nuclear states. This simplifies the complexity of the nuclear problems in one
+way or the other. Seniority is also a well known quantum number which arises
+due to the symmetry in the pairing interaction of nuclei. We present empirical
+as well as theoretical evidences based on decay rates which support the
+goodness of seniority at higher spins as well as in nrich or, n-deficient
+nuclei. We find that the generalized seniority governs the identical trends of
+high-spin isomers in different semi-magic chains, where different set of
+nucleon orbitals from different valence spaces are involved.
+
+    ",Nuclear Theory (nucl-th),
+Magic Fermions: Carroll and Flat Bands,"  The Carroll algebra is constructed as the $c\to0$ limit of the Poincare
+algebra and is associated to symmetries on generic null surfaces. In this
+paper, we begin investigations of Carrollian fermions or fermions defined on
+generic null surfaces. Due to the availability of two different (degenerate)
+metrics on Carroll spacetimes, there is the possibility of two different
+versions of Carroll Clifford algebras. We consider both possibilities and
+construct explicit representations of Carrollian gamma matrices and show how to
+build higher spacetime dimensional representations out of lower ones. Actions
+for Carroll fermions are constructed with these gamma matrices and the
+properties of these actions are investigated.
+",High Energy Physics - Theory (hep-th),; Strongly Correlated Electrons (cond-mat.str-el); Superconductivity (cond-mat.supr-con)
+"First Combined Study on LIV from Observations of Energy-dependent Time Delays from Multiple-type Gamma-ray Sources -- Part I. Motivation, Method Description and Validation through Simulations of H.E.S.S., MAGIC and VERITAS Datasets","  Gamma-ray astronomy has become one of the main experimental ways to test the
+modified dispersion relations (MDRs) of photons in vacuum, obtained in some
+attempts to formulate a theory of Quantum Gravity. The MDRs in use imply time
+delays which depend on the energy, and which increase with distance following
+some function of redshift. The use of transient, or variable, distant and
+highly energetic sources, already allows us to set stringent limits on the
+energy scale related to this phenomenon, usually thought to be of the order of
+the Planck energy, but robust conclusions on the existence of MDR-related
+propagation effects still require the analysis of a large population of
+sources.
+",High Energy Astrophysical Phenomena (astro-ph.HE),; General Relativity and Quantum Cosmology (gr-qc)
+Moiré Landau fans and magic zeros,"  We study the energy spectrum of moiré systems under a uniform magnetic
+field. The superlattice potential generally broadens Landau levels into Chern
+bands with finite bandwidth. However, we find that these Chern bands become
+flat at a discrete set of magnetic fields which we dub ""magic zeros"". The flat
+band subspace is generally different from the Landau level subspace in the
+absence of the moiré superlattice. By developing a semiclassical quantization
+method and taking account of superlattice induced Bragg reflection, we prove
+that magic zeros arise from the simultaneous quantization of two distinct
+$k$-space orbits. The flat bands at magic zeros provide a new setting for
+exploring crystalline fractional quantum Hall physics.
+
+    ",Mesoscale and Nanoscale Physics (cond-mat.mes-hall),

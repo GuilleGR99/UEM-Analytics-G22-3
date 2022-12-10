@@ -1,0 +1,613 @@
+titulo,abstract,clase_pri,clase_otr
+How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence,"  Legal Artificial Intelligence (LegalAI) focuses on applying the technology of
+artificial intelligence, especially natural language processing, to benefit
+tasks in the legal domain. In recent years, LegalAI has drawn increasing
+attention rapidly from both AI researchers and legal professionals, as LegalAI
+is beneficial to the legal system for liberating legal professionals from a
+maze of paperwork. Legal professionals often think about how to solve tasks
+from rule-based and symbol-based methods, while NLP researchers concentrate
+more on data-driven and embedding methods. In this paper, we introduce the
+history, the current state, and the future directions of research in LegalAI.
+We illustrate the tasks from the perspectives of legal professionals and NLP
+researchers and show several representative applications in LegalAI. We conduct
+experiments and provide an in-depth analysis of the advantages and
+disadvantages of existing works to explore possible future directions. You can
+find the implementation of our work from ",Computation and Language (cs.CL),
+Applications of Artificial Intelligence Techniques to Combating Cyber Crimes: A Review,"  With the advances in information technology (IT) criminals are using
+cyberspace to commit numerous cyber crimes. Cyber infrastructures are highly
+vulnerable to intrusions and other threats. Physical devices and human
+intervention are not sufficient for monitoring and protection of these
+infrastructures; hence, there is a need for more sophisticated cyber defense
+systems that need to be flexible, adaptable and robust, and able to detect a
+wide variety of threats and make intelligent real-time decisions. Numerous
+bio-inspired computing methods of Artificial Intelligence have been
+increasingly playing an important role in cyber crime detection and prevention.
+The purpose of this study is to present advances made so far in the field of
+applying AI techniques for combating cyber crimes, to demonstrate how these
+techniques can be an effective tool for detection and prevention of cyber
+attacks, as well as to give the scope for future work.
+
+    ",Artificial Intelligence (cs.AI),; Cryptography and Security (cs.CR); Computers and Society (cs.CY)
+Artificial Intelligence and its Role in Near Future,"  AI technology has a long history which is actively and constantly changing
+and growing. It focuses on intelligent agents, which contain devices that
+perceive the environment and based on which takes actions in order to maximize
+goal success chances. In this paper, we will explain the modern AI basics and
+various representative applications of AI. In the context of the modern
+digitalized world, AI is the property of machines, computer programs, and
+systems to perform the intellectual and creative functions of a person,
+independently find ways to solve problems, be able to draw conclusions and make
+decisions. Most artificial intelligence systems have the ability to learn,
+which allows people to improve their performance over time. The recent research
+on AI tools, including machine learning, deep learning and predictive analysis
+intended toward increasing the planning, learning, reasoning, thinking and
+action taking ability. Based on which, the proposed research intends towards
+exploring on how the human intelligence differs from the artificial
+intelligence. Moreover, we critically analyze what AI of today is capable of
+doing, why it still cannot reach human intelligence and what are the open
+challenges existing in front of AI to reach and outperform human level of
+intelligence. Furthermore, it will explore the future predictions for
+artificial intelligence and based on which potential solution will be
+recommended to solve it within next decades.
+
+    ",Artificial Intelligence (cs.AI),; Computer Vision and Pattern Recognition (cs.CV)
+The Challenge of Non-Technical Loss Detection using Artificial Intelligence: A Survey,"  Detection of non-technical losses (NTL) which include electricity theft,
+faulty meters or billing errors has attracted increasing attention from
+researchers in electrical engineering and computer science. NTLs cause
+significant harm to the economy, as in some countries they may range up to 40%
+of the total electricity distributed. The predominant research direction is
+employing artificial intelligence to predict whether a customer causes NTL.
+This paper first provides an overview of how NTLs are defined and their impact
+on economies, which include loss of revenue and profit of electricity providers
+and decrease of the stability and reliability of electrical power grids. It
+then surveys the state-of-the-art research efforts in a up-to-date and
+comprehensive review of algorithms, features and data sets used. It finally
+identifies the key scientific and engineering challenges in NTL detection and
+suggests how they could be addressed in the future.
+
+    ",Artificial Intelligence (cs.AI),
+Building Ethics into Artificial Intelligence,"  As artificial intelligence (AI) systems become increasingly ubiquitous, the
+topic of AI governance for ethical decision-making by AI has captured public
+imagination. Within the AI research community, this topic remains less familiar
+to many researchers. In this paper, we complement existing surveys, which
+largely focused on the psychological, social and legal discussions of the
+topic, with an analysis of recent advances in technical solutions for AI
+governance. By reviewing publications in leading AI conferences including AAAI,
+AAMAS, ECAI and IJCAI, we propose a taxonomy which divides the field into four
+areas: 1) exploring ethical dilemmas; 2) individual ethical decision
+frameworks; 3) collective ethical decision frameworks; and 4) ethics in
+human-AI interactions. We highlight the intuitions and key techniques used in
+each approach, and discuss promising future research directions towards
+successful integration of ethical AI systems into human societies.
+
+    ",Artificial Intelligence (cs.AI),
+From Statistical Relational to Neuro-Symbolic Artificial Intelligence,"  Neuro-symbolic and statistical relational artificial intelligence both
+integrate frameworks for learning with logical reasoning. This survey
+identifies several parallels across seven different dimensions between these
+two fields. These cannot only be used to characterize and position
+neuro-symbolic artificial intelligence approaches but also to identify a number
+of directions for further research.
+
+    ",Artificial Intelligence (cs.AI),
+Detection of Covid-19 From Chest X-ray Images Using Artificial Intelligence: An Early Review,"  In 2019, the entire world is facing a situation of health emergency due to a
+newly emerged coronavirus (COVID-19). Almost 196 countries are affected by
+covid-19, while USA, Italy, China, Spain, Iran, and France have the maximum
+active cases of COVID-19. The issues, medical and healthcare departments are
+facing in delay of detecting the COVID-19. Several artificial intelligence
+based system are designed for the automatic detection of COVID-19 using chest
+x-rays. In this article we will discuss the different approaches used for the
+detection of COVID-19 and the challenges we are facing. It is mandatory to
+develop an automatic detection system to prevent the transfer of the virus
+through contact. Several deep learning architecture are deployed for the
+detection of COVID-19 such as ResNet, Inception, Googlenet etc. All these
+approaches are detecting the subjects suffering with pneumonia while its hard
+to decide whether the pneumonia is caused by COVID-19 or due to any other
+bacterial or fungal attack.
+
+    ",Image and Video Processing (eess.IV),; Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)
+"Gathering Strength, Gathering Storms: The One Hundred Year Study on Artificial Intelligence (AI100) 2021 Study Panel Report","  In September 2021, the ""One Hundred Year Study on Artificial Intelligence""
+project (AI100) issued the second report of its planned long-term periodic
+assessment of artificial intelligence (AI) and its impact on society. It was
+written by a panel of 17 study authors, each of whom is deeply rooted in AI
+research, chaired by Michael Littman of Brown University. The report, entitled
+""Gathering Strength, Gathering Storms,"" answers a set of 14 questions probing
+critical areas of AI development addressing the major risks and dangers of AI,
+its effects on society, its public perception and the future of the field. The
+report concludes that AI has made a major leap from the lab to people's lives
+in recent years, which increases the urgency to understand its potential
+negative effects. The questions were developed by the AI100 Standing Committee,
+chaired by Peter Stone of the University of Texas at Austin, consisting of a
+group of AI leaders with expertise in computer science, sociology, ethics,
+economics, and other disciplines.
+
+    ",Artificial Intelligence (cs.AI),
+Linking Artificial Intelligence Principles,"  Artificial Intelligence principles define social and ethical considerations
+to develop future AI. They come from research institutes, government
+organizations and industries. All versions of AI principles are with different
+considerations covering different perspectives and making different emphasis.
+None of them can be considered as complete and can cover the rest AI principle
+proposals. Here we introduce LAIP, an effort and platform for linking and
+analyzing different Artificial Intelligence Principles. We want to explicitly
+establish the common topics and links among AI Principles proposed by different
+organizations and investigate on their uniqueness. Based on these efforts, for
+the long-term future of AI, instead of directly adopting any of the AI
+principles, we argue for the necessity of incorporating various AI Principles
+into a comprehensive framework and focusing on how they can interact and
+complete each other.
+
+    ",Artificial Intelligence (cs.AI),; Computers and Society (cs.CY)
+"AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence","  Perhaps the most ambitious scientific quest in human history is the creation
+of general artificial intelligence, which roughly means AI that is as smart or
+smarter than humans. The dominant approach in the machine learning community is
+to attempt to discover each of the pieces required for intelligence, with the
+implicit assumption that some future group will complete the Herculean task of
+figuring out how to combine all of those pieces into a complex thinking
+machine. I call this the ""manual AI approach"". This paper describes another
+exciting path that ultimately may be more successful at producing general AI.
+It is based on the clear trend in machine learning that hand-designed solutions
+eventually are replaced by more effective, learned solutions. The idea is to
+create an AI-generating algorithm (AI-GA), which automatically learns how to
+produce general AI. Three Pillars are essential for the approach: (1)
+meta-learning architectures, (2) meta-learning the learning algorithms
+themselves, and (3) generating effective learning environments. I argue that
+either approach could produce general AI first, and both are scientifically
+worthwhile irrespective of which is the fastest path. Because both are
+promising, yet the ML community is currently committed to the manual approach,
+I argue that our community should increase its research investment in the AI-GA
+approach. To encourage such research, I describe promising work in each of the
+Three Pillars. I also discuss AI-GA-specific safety and ethical considerations.
+Because it it may be the fastest path to general AI and because it is
+inherently scientifically interesting to understand the conditions in which a
+simple algorithm can produce general AI (as happened on Earth where Darwinian
+evolution produced human intelligence), I argue that the pursuit of AI-GAs
+should be considered a new grand challenge of computer science research.
+
+    ",Artificial Intelligence (cs.AI),
+Artificial Intelligence Safety and Cybersecurity: a Timeline of AI Failures,"  In this work, we present and analyze reported failures of artificially
+intelligent systems and extrapolate our analysis to future AIs. We suggest that
+both the frequency and the seriousness of future AI failures will steadily
+increase. AI Safety can be improved based on ideas developed by cybersecurity
+experts. For narrow AIs safety failures are at the same, moderate, level of
+criticality as in cybersecurity, however for general AI, failures have a
+fundamentally different impact. A single failure of a superintelligent system
+may cause a catastrophic event without a chance for recovery. The goal of
+cybersecurity is to reduce the number of successful attacks on the system; the
+goal of AI Safety is to make sure zero attacks succeed in bypassing the safety
+mechanisms. Unfortunately, such a level of performance is unachievable. Every
+security system will eventually fail; there is no such thing as a 100% secure
+system.
+
+    ",Artificial Intelligence (cs.AI),; Computers and Society (cs.CY)
+A comparative study of artificial intelligence and human doctors for the purpose of triage and diagnosis,"  Online symptom checkers have significant potential to improve patient care,
+however their reliability and accuracy remain variable. We hypothesised that an
+artificial intelligence (AI) powered triage and diagnostic system would compare
+favourably with human doctors with respect to triage and diagnostic accuracy.
+We performed a prospective validation study of the accuracy and safety of an AI
+powered triage and diagnostic system. Identical cases were evaluated by both an
+AI system and human doctors. Differential diagnoses and triage outcomes were
+evaluated by an independent judge, who was blinded from knowing the source (AI
+system or human doctor) of the outcomes. Independently of these cases,
+vignettes from publicly available resources were also assessed to provide a
+benchmark to previous studies and the diagnostic component of the MRCGP exam.
+Overall we found that the Babylon AI powered Triage and Diagnostic System was
+able to identify the condition modelled by a clinical vignette with accuracy
+comparable to human doctors (in terms of precision and recall). In addition, we
+found that the triage advice recommended by the AI System was, on average,
+safer than that of human doctors, when compared to the ranges of acceptable
+triage provided by independent expert judges, with only a minimal reduction in
+appropriateness.
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG); Applications (stat.AP); Machine Learning (stat.ML)
+"CERTIFAI: Counterfactual Explanations for Robustness, Transparency, Interpretability, and Fairness of Artificial Intelligence models","  As artificial intelligence plays an increasingly important role in our
+society, there are ethical and moral obligations for both businesses and
+researchers to ensure that their machine learning models are designed,
+deployed, and maintained responsibly. These models need to be rigorously
+audited for fairness, robustness, transparency, and interpretability. A variety
+of methods have been developed that focus on these issues in isolation,
+however, managing these methods in conjunction with model development can be
+cumbersome and timeconsuming. In this paper, we introduce a unified and
+model-agnostic approach to address these issues: Counterfactual Explanations
+for Robustness, Transparency, Interpretability, and Fairness of Artificial
+Intelligence models (CERTIFAI). Unlike previous methods in this domain,
+CERTIFAI is a general tool that can be applied to any black-box model and any
+type of input data. Given a model and an input instance, CERTIFAI uses a custom
+genetic algorithm to generate counterfactuals: instances close to the input
+that change the prediction of the model. We demonstrate how these
+counterfactuals can be used to examine issues of robustness, interpretability,
+transparency, and fairness. Additionally, we introduce CERScore, the first
+black-box model robustness score that performs comparably to methods that have
+access to model internals.
+
+    ",Machine Learning (cs.LG),; Machine Learning (stat.ML)
+Smart Sustainable Agriculture (SSA) Solution Underpinned by Internet of Things (IoT) and Artificial Intelligence (AI),"  The Internet of Things (IoT) and Artificial Intelligence (AI) have been
+employed in agriculture over a long period of time, alongside other advanced
+computing technologies. However, increased attention is currently being paid to
+the use of such smart technologies. Agriculture has provided an important
+source of food for human beings over many thousands of years, including the
+development of appropriate farming methods for different types of crops. The
+emergence of new advanced IoT technologies has the potential to monitor the
+agricultural environment to ensure high-quality products. However, there
+remains a lack of research and development in relation to Smart Sustainable
+Agriculture (SSA), accompanied by complex obstacles arising from the
+fragmentation of agricultural processes, i.e. the control and operation of
+IoT/AI machines; data sharing and management; interoperability; and large
+amounts of data analysis and storage. This study firstly, explores existing
+IoT/AI technologies adopted for SSA and secondly, identifies IoT/AI technical
+architecture capable of underpinning the development of SSA platforms. As well
+as contributing to the current body of knowledge, this research reviews
+research and development within SSA and provides an IoT/AI architecture to
+establish a Smart, Sustainable Agriculture platform as a solution.
+
+    ",Signal Processing (eess.SP),
+A Grounded Interaction Protocol for Explainable Artificial Intelligence,"  Explainable Artificial Intelligence (XAI) systems need to include an
+explanation model to communicate the internal decisions, behaviours and actions
+to the interacting humans. Successful explanation involves both cognitive and
+social processes. In this paper we focus on the challenge of meaningful
+interaction between an explainer and an explainee and investigate the
+structural aspects of an interactive explanation to propose an interaction
+protocol. We follow a bottom-up approach to derive the model by analysing
+transcripts of different explanation dialogue types with 398 explanation
+dialogues. We use grounded theory to code and identify key components of an
+explanation dialogue. We formalize the model using the agent dialogue framework
+(ADF) as a new dialogue type and then evaluate it in a human-agent interaction
+study with 101 dialogues from 14 participants. Our results show that the
+proposed model can closely follow the explanation dialogues of human-agent
+conversations.
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG)
+Blockchain and Artificial Intelligence,"  It is undeniable that artificial intelligence (AI) and blockchain concepts
+are spreading at a phenomenal rate. Both technologies have distinct degree of
+technological complexity and multi-dimensional business implications. However,
+a common misunderstanding about blockchain concept, in particular, is that
+blockchain is decentralized and is not controlled by anyone. But the underlying
+development of a blockchain system is still attributed to a cluster of core
+developers. Take smart contract as an example, it is essentially a collection
+of codes (or functions) and data (or states) that are programmed and deployed
+on a blockchain (say, Ethereum) by different human programmers. It is thus,
+unfortunately, less likely to be free of loopholes and flaws. In this article,
+through a brief overview about how artificial intelligence could be used to
+deliver bug-free smart contract so as to achieve the goal of blockchain 2.0, we
+to emphasize that the blockchain implementation can be assisted or enhanced via
+various AI techniques. The alliance of AI and blockchain is expected to create
+numerous possibilities.
+
+    ",Artificial Intelligence (cs.AI),
+"Innateness, AlphaZero, and Artificial Intelligence","  The concept of innateness is rarely discussed in the context of artificial
+intelligence. When it is discussed, or hinted at, it is often the context of
+trying to reduce the amount of innate machinery in a given system. In this
+paper, I consider as a test case a recent series of papers by Silver et al
+(Silver et al., 2017a) on AlphaGo and its successors that have been presented
+as an argument that a ""even in the most challenging of domains: it is possible
+to train to superhuman level, without human examples or guidance"", ""starting
+tabula rasa.""
+",Artificial Intelligence (cs.AI),
+Artificial Intelligence for Social Good: A Survey,"  Artificial intelligence for social good (AI4SG) is a research theme that aims
+to use and advance artificial intelligence to address societal issues and
+improve the well-being of the world. AI4SG has received lots of attention from
+the research community in the past decade with several successful applications.
+Building on the most comprehensive collection of the AI4SG literature to date
+with over 1000 contributed papers, we provide a detailed account and analysis
+of the work under the theme in the following ways. (1) We quantitatively
+analyze the distribution and trend of the AI4SG literature in terms of
+application domains and AI techniques used. (2) We propose three conceptual
+methods to systematically group the existing literature and analyze the eight
+AI4SG application domains in a unified framework. (3) We distill five research
+topics that represent the common challenges in AI4SG across various application
+domains. (4) We discuss five issues that, we hope, can shed light on the future
+development of the AI4SG research.
+
+    ",Computers and Society (cs.CY),; Artificial Intelligence (cs.AI)
+"Impact of Artificial Intelligence on Businesses: from Research, Innovation, Market Deployment to Future Shifts in Business Models","  The fast pace of artificial intelligence (AI) and automation is propelling
+strategists to reshape their business models. This is fostering the integration
+of AI in the business processes but the consequences of this adoption are
+underexplored and need attention. This paper focuses on the overall impact of
+AI on businesses - from research, innovation, market deployment to future
+shifts in business models. To access this overall impact, we design a
+three-dimensional research model, based upon the Neo-Schumpeterian economics
+and its three forces viz. innovation, knowledge, and entrepreneurship. The
+first dimension deals with research and innovation in AI. In the second
+dimension, we explore the influence of AI on the global market and the
+strategic objectives of the businesses and finally, the third dimension
+examines how AI is shaping business contexts. Additionally, the paper explores
+AI implications on actors and its dark sides.
+
+    ",General Economics (econ.GN),; Artificial Intelligence (cs.AI); Computers and Society (cs.CY)
+Machine Learning in Artificial Intelligence: Towards a Common Understanding,"  The application of ""machine learning"" and ""artificial intelligence"" has
+become popular within the last decade. Both terms are frequently used in
+science and media, sometimes interchangeably, sometimes with different
+meanings. In this work, we aim to clarify the relationship between these terms
+and, in particular, to specify the contribution of machine learning to
+artificial intelligence. We review relevant literature and present a conceptual
+framework which clarifies the role of machine learning to build (artificial)
+intelligent agents. Hence, we seek to provide more terminological clarity and a
+starting point for (interdisciplinary) discussions and future research.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI)
+The De-democratization of AI: Deep Learning and the Compute Divide in Artificial Intelligence Research,"  Increasingly, modern Artificial Intelligence (AI) research has become more
+computationally intensive. However, a growing concern is that due to unequal
+access to computing power, only certain firms and elite universities have
+advantages in modern AI research. Using a novel dataset of 171394 papers from
+57 prestigious computer science conferences, we document that firms, in
+particular, large technology firms and elite universities have increased
+participation in major AI conferences since deep learning's unanticipated rise
+in 2012. The effect is concentrated among elite universities, which are ranked
+1-50 in the QS World University Rankings. Further, we find two strategies
+through which firms increased their presence in AI research: first, they have
+increased firm-only publications; and second, firms are collaborating primarily
+with elite universities. Consequently, this increased presence of firms and
+elite universities in AI research has crowded out mid-tier (QS ranked 201-300)
+and lower-tier (QS ranked 301-500) universities. To provide causal evidence
+that deep learning's unanticipated rise resulted in this divergence, we
+leverage the generalized synthetic control method, a data-driven counterfactual
+estimator. Using machine learning based text analysis methods, we provide
+additional evidence that the divergence between these two groups - large firms
+and non-elite universities - is driven by access to computing power or compute,
+which we term as the ""compute divide"". This compute divide between large firms
+and non-elite universities increases concerns around bias and fairness within
+AI technology, and presents an obstacle towards ""democratizing"" AI. These
+results suggest that a lack of access to specialized equipment such as compute
+can de-democratize knowledge production.
+
+    ",Computers and Society (cs.CY),; Machine Learning (cs.LG)
+Explainable Artificial Intelligence (XAI) on TimeSeries Data: A Survey,"  Most of state of the art methods applied on time series consist of deep
+learning methods that are too complex to be interpreted. This lack of
+interpretability is a major drawback, as several applications in the real world
+are critical tasks, such as the medical field or the autonomous driving field.
+The explainability of models applied on time series has not gather much
+attention compared to the computer vision or the natural language processing
+fields. In this paper, we present an overview of existing explainable AI (XAI)
+methods applied on time series and illustrate the type of explanations they
+produce. We also provide a reflection on the impact of these explanation
+methods to provide confidence and trust in the AI systems.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI)
+"Hi Sigma, do I have the Coronavirus?: Call for a New Artificial Intelligence Approach to Support Health Care Professionals Dealing With The COVID-19 Pandemic","  Just like your phone can detect what song is playing in crowded spaces, we
+show that Artificial Intelligence transfer learning algorithms trained on cough
+phone recordings results in diagnostic tests for COVID-19. To gain adoption by
+the health care community, we plan to validate our results in a clinical trial
+and three other venues in Mexico, Spain and the USA . However, if we had data
+from other on-going clinical trials and volunteers, we may do much more. For
+example, for confirmed stay-at-home COVID-19 patients, a longitudinal audio
+test could be developed to determine contact-with-hospital recommendations, and
+for the most critical COVID-19 patients a success ratio forecast test,
+including patient clinical data, to prioritize ICU allocation. As a challenge
+to the engineering community and in the context of our clinical trial, the
+authors suggest distributing cough recordings daily, hoping other trials and
+crowdsourcing users will contribute more data. Previous approaches to complex
+AI tasks have either used a static dataset or were private efforts led by large
+corporations. All existing COVID-19 trials published also follow this paradigm.
+Instead, we suggest a novel open collective approach to large-scale real-time
+health care AI. We will be posting updates at ",Computers and Society (cs.CY),; Human-Computer Interaction (cs.HC); Machine Learning (cs.LG)
+Global AI Ethics: A Review of the Social Impacts and Ethical Implications of Artificial Intelligence,"  The ethical implications and social impacts of artificial intelligence have
+become topics of compelling interest to industry, researchers in academia, and
+the public. However, current analyses of AI in a global context are biased
+toward perspectives held in the U.S., and limited by a lack of research,
+especially outside the U.S. and Western Europe.
+",Computers and Society (cs.CY),
+A Definition of Artificial Intelligence,"  In this paper we offer a formal definition of Artificial Intelligence and
+this directly gives us an algorithm for construction of this object. Really,
+this algorithm is useless due to the combinatory explosion.
+",Artificial Intelligence (cs.AI),
+Diagnosis of Coronary Artery Disease Using Artificial Intelligence Based Decision Support System,"  This research is about the development a fuzzy decision support system for
+the diagnosis of coronary artery disease based on evidence. The coronary artery
+disease data sets taken from University California Irvine (UCI) are used. The
+knowledge base of fuzzy decision support system is taken by using rules
+extraction method based on Rough Set Theory. The rules then are selected and
+fuzzified based on information from discretization of numerical attributes.
+Fuzzy rules weight is proposed using the information from support of extracted
+rules. UCI heart disease data sets collected from U.S., Switzerland and
+Hungary, data from Ipoh Specialist Hospital Malaysia are used to verify the
+proposed system. The results show that the system is able to give the
+percentage of coronary artery blocking better than cardiologists and
+angiography. The results of the proposed system were verified and validated by
+three expert cardiologists and are considered to be more efficient and useful.
+
+    ",Artificial Intelligence (cs.AI),
+A Theory of Universal Artificial Intelligence based on Algorithmic Complexity,"  Decision theory formally solves the problem of rational agents in uncertain
+worlds if the true environmental prior probability distribution is known.
+Solomonoff's theory of universal induction formally solves the problem of
+sequence prediction for unknown prior distribution. We combine both ideas and
+get a parameterless theory of universal Artificial Intelligence. We give strong
+arguments that the resulting AIXI model is the most intelligent unbiased agent
+possible. We outline for a number of problem classes, including sequence
+prediction, strategic games, function minimization, reinforcement and
+supervised learning, how the AIXI model can formally solve them. The major
+drawback of the AIXI model is that it is uncomputable. To overcome this
+problem, we construct a modified algorithm AIXI-tl, which is still effectively
+more intelligent than any other time t and space l bounded agent. The
+computation time of AIXI-tl is of the order tx2^l. Other discussed topics are
+formal definitions of intelligence order relations, the horizon problem and
+relations of the AIXI theory to other AI approaches.
+
+    ",Artificial Intelligence (cs.AI),; Information Theory (cs.IT); Machine Learning (cs.LG)
+Explainable Artificial Intelligence Approaches: A Survey,"  The lack of explainability of a decision from an Artificial Intelligence (AI)
+based ""black box"" system/model, despite its superiority in many real-world
+applications, is a key stumbling block for adopting AI in many high stakes
+applications of different domain or industry. While many popular Explainable
+Artificial Intelligence (XAI) methods or approaches are available to facilitate
+a human-friendly explanation of the decision, each has its own merits and
+demerits, with a plethora of open challenges. We demonstrate popular XAI
+methods with a mutual case study/task (i.e., credit default prediction),
+analyze for competitive advantages from multiple perspectives (e.g., local,
+global), provide meaningful insight on quantifying explainability, and
+recommend paths towards responsible or human-centered AI using XAI as a medium.
+Practitioners can use this work as a catalog to understand, compare, and
+correlate competitive advantages of popular XAI methods. In addition, this
+survey elicits future research directions towards responsible or human-centric
+AI systems, which is crucial to adopt AI in high stakes applications.
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG)
+Computational Power and the Social Impact of Artificial Intelligence,"  Machine learning is a computational process. To that end, it is inextricably
+tied to computational power - the tangible material of chips and semiconductors
+that the algorithms of machine intelligence operate on. Most obviously,
+computational power and computing architectures shape the speed of training and
+inference in machine learning, and therefore influence the rate of progress in
+the technology. But, these relationships are more nuanced than that: hardware
+shapes the methods used by researchers and engineers in the design and
+development of machine learning models. Characteristics such as the power
+consumption of chips also define where and how machine learning can be used in
+the real world.
+",Artificial Intelligence (cs.AI),; Computers and Society (cs.CY)
+A 20-Year Community Roadmap for Artificial Intelligence Research in the US,"  Decades of research in artificial intelligence (AI) have produced formidable
+technologies that are providing immense benefit to industry, government, and
+society. AI systems can now translate across multiple languages, identify
+objects in images and video, streamline manufacturing processes, and control
+cars. The deployment of AI systems has not only created a trillion-dollar
+industry that is projected to quadruple in three years, but has also exposed
+the need to make AI systems fair, explainable, trustworthy, and secure. Future
+AI systems will rightfully be expected to reason effectively about the world in
+which they (and people) operate, handling complex tasks and responsibilities
+effectively and ethically, engaging in meaningful communication, and improving
+their awareness through experience.
+",Computers and Society (cs.CY),; Artificial Intelligence (cs.AI)
+"Deep learning, deep change? Mapping the development of the Artificial Intelligence General Purpose Technology","  General Purpose Technologies (GPTs) that can be applied in many industries
+are an important driver of economic growth and national and regional
+competitiveness. In spite of this, the geography of their development and
+diffusion has not received significant attention in the literature. We address
+this with an analysis of Deep Learning (DL), a core technique in Artificial
+Intelligence (AI) increasingly being recognized as the latest GPT. We identify
+DL papers in a novel dataset from ArXiv, a popular preprints website, and use
+CrunchBase, a technology business directory to measure industrial capabilities
+related to it. After showing that DL conforms with the definition of a GPT,
+having experienced rapid growth and diffusion into new fields where it has
+generated an impact, we describe changes in its geography. Our analysis shows
+China's rise in AI rankings and relative decline in several European countries.
+We also find that initial volatility in the geography of DL has been followed
+by consolidation, suggesting that the window of opportunity for new entrants
+might be closing down as new DL research hubs become dominant. Finally, we
+study the regional drivers of DL clustering. We find that competitive DL
+clusters tend to be based in regions combining research and industrial
+activities related to it. This could be because GPT developers and adopters
+located close to each other can collaborate and share knowledge more easily,
+thus overcoming coordination failures in GPT deployment. Our analysis also
+reveals a Chinese comparative advantage in DL after we control for other
+explanatory factors, perhaps underscoring the importance of access to data and
+supportive policies for the successful development of this complex, `omni-use'
+technology.
+
+    ",Computers and Society (cs.CY),; Econometrics (econ.EM)
+Artificial Intelligence Governance and Ethics: Global Perspectives,"  Artificial intelligence (AI) is a technology which is increasingly being
+utilised in society and the economy worldwide, and its implementation is
+planned to become more prevalent in coming years. AI is increasingly being
+embedded in our lives, supplementing our pervasive use of digital technologies.
+But this is being accompanied by disquiet over problematic and dangerous
+implementations of AI, or indeed, even AI itself deciding to do dangerous and
+problematic actions, especially in fields such as the military, medicine and
+criminal justice. These developments have led to concerns about whether and how
+AI systems adhere, and will adhere to ethical standards. These concerns have
+stimulated a global conversation on AI ethics, and have resulted in various
+actors from different countries and sectors issuing ethics and governance
+initiatives and guidelines for AI. Such developments form the basis for our
+research in this report, combining our international and interdisciplinary
+expertise to give an insight into what is happening in Australia, China,
+Europe, India and the US.
+
+    ",Computers and Society (cs.CY),; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+Neuro-Symbolic Artificial Intelligence: Current Trends,"  Neuro-Symbolic Artificial Intelligence -- the combination of symbolic methods
+with methods that are based on artificial neural networks -- has a
+long-standing history. In this article, we provide a structured overview of
+current trends, by means of categorizing recent publications from key
+conferences. The article is meant to serve as a convenient starting point for
+research on the general topic.
+
+    ",Artificial Intelligence (cs.AI),; Machine Learning (cs.LG)
+Improving content marketing processes with the approaches by artificial intelligence,"  Content marketing is todays one of the most remarkable approaches in the
+context of marketing processes of companies. Value of this kind of marketing
+has improved in time, thanks to the latest developments regarding to computer
+and communication technologies. Nowadays, especially social media based
+platforms have a great importance on enabling companies to design multimedia
+oriented, interactive content. But on the other hand, there is still something
+more to do for improved content marketing approaches. In this context,
+objective of this study is to focus on intelligent content marketing, which can
+be done by using artificial intelligence. Artificial Intelligence is todays one
+of the most remarkable research fields and it can be used easily as
+multidisciplinary. So, this study has aimed to discuss about its potential on
+improving content marketing. In detail, the study has enabled readers to
+improve their awareness about the intersection point of content marketing and
+artificial intelligence. Furthermore, the authors have introduced some example
+models of intelligent content marketing, which can be achieved by using current
+Web technologies and artificial intelligence techniques.
+
+    ",Artificial Intelligence (cs.AI),; Social and Information Networks (cs.SI)
+Security and Privacy for Artificial Intelligence: Opportunities and Challenges,"  The increased adoption of Artificial Intelligence (AI) presents an
+opportunity to solve many socio-economic and environmental challenges; however,
+this cannot happen without securing AI-enabled technologies. In recent years,
+most AI models are vulnerable to advanced and sophisticated hacking techniques.
+This challenge has motivated concerted research efforts into adversarial AI,
+with the aim of developing robust machine and deep learning models that are
+resilient to different types of adversarial scenarios. In this paper, we
+present a holistic cyber security review that demonstrates adversarial attacks
+against AI applications, including aspects such as adversarial knowledge and
+capabilities, as well as existing methods for generating adversarial examples
+and existing cyber defence models. We explain mathematical AI models,
+especially new variants of reinforcement and federated learning, to demonstrate
+how attack vectors would exploit vulnerabilities of AI models. We also propose
+a systematic framework for demonstrating attack techniques against AI
+applications and reviewed several cyber defences that would protect AI
+applications against those attacks. We also highlight the importance of
+understanding the adversarial goals and their capabilities, especially the
+recent attacks against industry applications, to develop adaptive defences that
+assess to secure AI applications. Finally, we describe the main challenges and
+future research directions in the domain of security and privacy of AI
+technologies.
+
+    ",Cryptography and Security (cs.CR),; Artificial Intelligence (cs.AI)
+Artificial Intelligence for Social Good,"  The Computing Community Consortium (CCC), along with the White House Office
+of Science and Technology Policy (OSTP), and the Association for the
+Advancement of Artificial Intelligence (AAAI), co-sponsored a public workshop
+on Artificial Intelligence for Social Good on June 7th, 2016 in Washington, DC.
+This was one of five workshops that OSTP co-sponsored and held around the
+country to spur public dialogue on artificial intelligence, machine learning,
+and to identify challenges and opportunities related to AI. In the AI for
+Social Good workshop, the successful deployments and the potential use of AI in
+various topics that are essential for social good were discussed, including but
+not limited to urban computing, health, environmental sustainability, and
+public welfare. This report highlights each of these as well as a number of
+crosscutting issues.
+
+    ",Computers and Society (cs.CY),
+The Dataset Nutrition Label (2nd Gen): Leveraging Context to Mitigate Harms in Artificial Intelligence,"  As the production of and reliance on datasets to produce automated
+decision-making systems (ADS) increases, so does the need for processes for
+evaluating and interrogating the underlying data. After launching the Dataset
+Nutrition Label in 2018, the Data Nutrition Project has made significant
+updates to the design and purpose of the Label, and is launching an updated
+Label in late 2020, which is previewed in this paper. The new Label includes
+context-specific Use Cases &Alerts presented through an updated design and user
+interface targeted towards the data scientist profile. This paper discusses the
+harm and bias from underlying training data that the Label is intended to
+mitigate, the current state of the work including new datasets being labeled,
+new and existing challenges, and further directions of the work, as well as
+Figures previewing the new label.
+
+    ",Machine Learning (cs.LG),; Artificial Intelligence (cs.AI)
+"Beyond STEM, How Can Women Engage Big Data, Analytics, Robotics and Artificial Intelligence? An Exploratory Analysis of Confidence and Educational Factors in the Emerging Technology Waves Influencing the Role of, and Impact Upon, Women","  In spite of the rapidly advancing global technological environment, the
+professional participation of women in technology, big data, analytics,
+artificial intelligence and information systems related domains remains
+proportionately low. Furthermore, it is of no less concern that the number of
+women in leadership in these domains are in even lower proportions. In spite of
+numerous initiatives to improve the participation of women in technological
+domains, there is an increasing need to gain additional insights into this
+phenomenon especially since it occurs in nations and geographies which have
+seen a sharp rise in overall female education, without such increase
+translating into a corresponding spurt in information systems and technological
+roles for women. The present paper presents findings from an exploratory
+analysis and outlines a framework to gain insights into educational factors in
+the emerging technology waves influencing the role of, and impact upon, women.
+We specifically identify ways for learning and self-efficacy as key factors,
+which together lead us to the Advancement of Women in Technology (AWT) insights
+framework. Based on the AWT framework, we also proposition principles that can
+be used to encourage higher professional engagement of women in emerging and
+advanced technologies. Key Words- Women's Education, Technology, Artificial
+Intelligence, Knowing, Confidence, Self-Efficacy, Learning.
+
+    ",Computers and Society (cs.CY),
+Artificial Intelligence MArkup Language: A Brief Tutorial,"  The purpose of this paper is to serve as a reference guide for the
+development of chatterbots implemented with the AIML language. In order to
+achieve this, the main concepts in Pattern Recognition area are described
+because the AIML uses such theoretical framework in their syntactic and
+semantic structures. After that, AIML language is described and each AIML
+command/tag is followed by an application example. Also, the usage of AIML
+embedded tags for the handling of sequence dialogue limitations between humans
+and machines is shown. Finally, computer systems that assist in the design of
+chatterbots with the AIML language are classified and described.
+
+    ",Artificial Intelligence (cs.AI),; Software Engineering (cs.SE)
