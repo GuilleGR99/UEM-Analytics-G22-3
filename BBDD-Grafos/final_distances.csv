@@ -1,0 +1,5 @@
+_id,titulo_2,titulo,distance
+{'ObjectId': '63cd0281196124b0b995c486'},Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU,Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,0.0507366182
+{'ObjectId': '63cd1a3b1e5d7066432ab712'},Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU,0.0507366178
+{'ObjectId': '63cd1a3b1e5d7066432ab713'},Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,0.1217430322
+{'ObjectId': '63cd1a3b1e5d7066432ab714'},Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,The Advantage Regret-Matching Actor-Critic,0.0674314126
