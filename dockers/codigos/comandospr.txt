@@ -1,0 +1,1 @@
+docker run -e BUSQUEDA="artificial inteligence" -it api_spring 
