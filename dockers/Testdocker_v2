@@ -1,0 +1,10 @@
+FROM python:3.9
+
+RUN pip install \
+    transformers\
+    numpy\
+    pandas\
+    nltk\
+    torch
+
+CMD cd volumen  && python3 test_docker.py 

@@ -1,0 +1,4 @@
+version: "3"
+services:
+  scraper:
+    image: scraper_docker
