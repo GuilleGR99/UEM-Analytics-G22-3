@@ -1,0 +1,161 @@
+{
+  "title": "GSA Dashboard",
+  "version": "2.2",
+  "settings": {
+    "pagenumber": 0,
+    "editable": true,
+    "fullscreenEnabled": false,
+    "parameters": {
+      "undefined": ""
+    }
+  },
+  "pages": [
+    {
+      "title": "Main Page",
+      "reports": [
+        {
+          "title": "Hola! 👋",
+          "query": "![image](https://i.ibb.co/p465VCY/Logo-letras-negras-2.png)\n\n**Te presentamos GSA (Graph State of the Art)** \n \nSi estás desarrollando un documento de investigación como el TFG, doctorado o similar, te facilitamos la búsqueda de las características más trending, presentes en los documentos académicos obtenidos de Cambridge, arvix, springer y SSRN. Aquí encontrarás gráficos con los autores que cuentan con más Papers, categorías y keywords de moda... así como grafos que relacionan todas estas características.\n\n**De nada! 😀**\n\n\n",
+          "width": 3,
+          "height": 2,
+          "x": 0,
+          "y": 0,
+          "type": "text",
+          "selection": {},
+          "settings": {}
+        },
+        {
+          "title": "Keyword que más aparece",
+          "query": "MATCH (p:Paper)-[r:CONTIENE]->(k:Keyword) RETURN DISTINCT k.keyword,count(r) AS count ORDER BY count DESC LIMIT 1",
+          "width": 3,
+          "height": 2,
+          "x": 9,
+          "y": 0,
+          "type": "value",
+          "selection": {},
+          "settings": {
+            "nodePositions": {},
+            "colors": "nivo",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "fontSize": 30,
+            "verticalAlign": "middle"
+          }
+        },
+        {
+          "title": "Clase que más aparece",
+          "query": "MATCH (p:Paper)-[r:EN_CLASE]->(c:Clase) RETURN DISTINCT c.clase as Clase, count(r) as count ORDER BY count DESC",
+          "width": 6,
+          "height": 2,
+          "x": 3,
+          "y": 0,
+          "type": "pie",
+          "selection": {
+            "index": "Clase",
+            "value": "count",
+            "key": "(none)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "colors": "pastel2",
+            "type": "Node Property"
+          }
+        },
+        {
+          "title": "Autores y Papers de Clase Trending",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:EN_CLASE]->(c:Clase) WHERE c.clase = \"['Machine Learning (cs.LG)']\" RETURN r1,r2,c,a,p",
+          "width": 9,
+          "height": 2,
+          "x": 3,
+          "y": 2,
+          "type": "graph",
+          "selection": {
+            "Clase": "(label)",
+            "Autor": "name",
+            "Paper": "(label)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "nodeColorScheme": "accent"
+          }
+        },
+        {
+          "title": "Autores y Papers de Keyword Trending",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:CONTIENE]->(k:Keyword) WHERE k.keyword = \" 'reinforcement learning'\" RETURN r1,r2,k,a,p\n\n\n",
+          "width": 9,
+          "height": 2,
+          "x": 3,
+          "y": 4,
+          "type": "graph",
+          "selection": {
+            "Keyword": "(label)",
+            "Autor": "name",
+            "Paper": "(label)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "nodeColorScheme": "pastel1"
+          }
+        },
+        {
+          "title": "Descargar info de Papers",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:EN_CLASE]->(c:Clase) WHERE c.clase = \"['Machine Learning (cs.LG)']\" RETURN DISTINCT p.titulo AS Título, p.resumen AS Resumen",
+          "width": 3,
+          "height": 2,
+          "x": 0,
+          "y": 2,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "nodePositions": {},
+            "allowDownload": true,
+            "transposed": false,
+            "type": "Node Property"
+          }
+        },
+        {
+          "title": "Descargar info de Papers",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:CONTIENE]->(k:Keyword) WHERE k.keyword = \" 'reinforcement learning'\" RETURN DISTINCT p.titulo AS Título, p.resumen AS Resumen\n\n\n",
+          "width": 3,
+          "height": 2,
+          "x": 0,
+          "y": 4,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "nodePositions": {},
+            "allowDownload": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "GSA Graph",
+      "reports": [
+        {
+          "title": "GSA Graph",
+          "query": "MATCH p=()-->() RETURN p \n\n\n",
+          "width": 12,
+          "height": 3,
+          "x": 0,
+          "y": 0,
+          "type": "graph",
+          "selection": {
+            "Paper": "(label)",
+            "Clase": "(label)",
+            "Fuente": "fuente",
+            "Autor": "name",
+            "Keyword": "(label)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "nodeColorScheme": "set3",
+            "backgroundColor": "rgba(255, 255, 255, 0.79)"
+          }
+        }
+      ]
+    }
+  ],
+  "parameters": {},
+  "extensions": {}
+}
