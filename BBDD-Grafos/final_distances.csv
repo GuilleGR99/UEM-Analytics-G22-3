@@ -1,5 +1,484 @@
 _id,titulo_2,titulo,distance
-{'ObjectId': '63cd0281196124b0b995c486'},Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU,Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,0.0507366182
-{'ObjectId': '63cd1a3b1e5d7066432ab712'},Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU,0.0507366178
-{'ObjectId': '63cd1a3b1e5d7066432ab713'},Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,0.1217430322
-{'ObjectId': '63cd1a3b1e5d7066432ab714'},Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,The Advantage Regret-Matching Actor-Critic,0.0674314126
+63ce54761af11ad2543e7f01,Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,0.7045983076
+63ce55618bc0d657be0364c8,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU,0.9241891801
+63ce55618bc0d657be0364ca,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,2.9999998212
+63ce55628bc0d657be0364d0,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.507510677
+63ce55628bc0d657be0364d2,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,Design and application of adaptive PID controller based on asynchronous advantage actor–critic learning method,0.5610898435
+63ce55628bc0d657be0364d5,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,Robustness Assessment of Asynchronous Advantage Actor-Critic Based on Dynamic Skewness and Sparseness Computation: A Parallel Computing View,0.5844155103
+63ce55638bc0d657be0364e1,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,Fleet Planning Under Demand and Fuel Price Uncertainty,1.1509010494
+63ce55b5ec93bd1b9263f49f,The Advantage Regret-Matching Actor-Critic,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5004381984
+63ce55beec93bd1b9263f549,The Advantage Regret-Matching Actor-Critic,Play Ms. Pac-Man Using an Advanced Reinforcement Learning Agent,0.6120894551
+63ce55c3ec93bd1b9263f5a3,The Advantage Regret-Matching Actor-Critic,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,0.6615318358
+63ce55f0bcb1b86d7ac3f0f3,Actor-Critic Sequence Training for Image Captioning,Actor-Critic Sequence Training for Image Captioning,3.0000004172
+63ce5601bcb1b86d7ac3f230,Actor-Critic Sequence Training for Image Captioning,Artificial Inteligence Methods in the Problems of Drug Side-Effects,0.5045394078
+63ce562d77c470075818e4eb,Sample Efficient Actor-Critic with Experience Replay,Sample Efficient Actor-Critic with Experience Replay,2.9999998212
+63ce562d77c470075818e4ee,Sample Efficient Actor-Critic with Experience Replay,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.500994578
+63ce56700021cf6e3ec28ae1,Off-policy Maximum Entropy Reinforcement Learning : Soft Actor-Critic with Advantage Weighted Mixture Policy(SAC-AWMP),Off-policy Maximum Entropy Reinforcement Learning : Soft Actor-Critic with Advantage Weighted Mixture Policy(SAC-AWMP),3.0000001192
+63ce56700021cf6e3ec28ae4,Off-policy Maximum Entropy Reinforcement Learning : Soft Actor-Critic with Advantage Weighted Mixture Policy(SAC-AWMP),Hybrid Actor-Critic Reinforcement Learning in Parameterized Action Space,0.6229600757
+63ce56700021cf6e3ec28ae9,Off-policy Maximum Entropy Reinforcement Learning : Soft Actor-Critic with Advantage Weighted Mixture Policy(SAC-AWMP),A Prioritized objective actor-critic method for deep reinforcement learning,0.7166651487
+63ce56b12f71bcbb7bb61209,Asynchronous Advantage Actor-Critic Agent for Starcraft II,Attention-based advantage actor-critic algorithm with prioritized experience replay for complex 2-D robotic motion planning,0.5045944378
+63ce56ef5f4f841e3b8c405c,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,0.507510677
+63ce56ef5f4f841e3b8c405d,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,The Advantage Regret-Matching Actor-Critic,0.5004381984
+63ce56ef5f4f841e3b8c405f,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Sample Efficient Actor-Critic with Experience Replay,0.500994578
+63ce56ef5f4f841e3b8c4062,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,3.000000596
+63ce56ef5f4f841e3b8c4066,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Attention-based advantage actor-critic algorithm with prioritized experience replay for complex 2-D robotic motion planning,1.043307364
+63ce56f25f4f841e3b8c4092,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,“Pathologist-independent” strategy for T1 colorectal cancer after endoscopic resection,0.5173952579
+63ce56f45f4f841e3b8c40b3,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Molecular Modelling,0.5173952579
+63ce56fc5f4f841e3b8c4126,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,JNeRF: An efficient heterogeneous NeRF model zoo based on Jittor,0.5173952579
+63ce56fd5f4f841e3b8c4134,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Bin-Packing,0.5173952579
+63ce56fe5f4f841e3b8c414d,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Message from the Editor-in-Chief,0.5173952579
+63ce57005f4f841e3b8c4161,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Causal Logic Programming,0.5735773016
+63ce57005f4f841e3b8c4166,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,0.6508643478
+63ce57075f4f841e3b8c41d0,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Soft Computing Essentials,0.5173952579
+63ce57085f4f841e3b8c41e4,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Product Ontology Supporting Information Exchanging in Global Furniture Industry,0.5173952579
+63ce57095f4f841e3b8c41ed,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Guest Editorial: Special Issue on Advances in Computer Vision and Applications (ACCV 2020),0.5173952579
+63ce57095f4f841e3b8c41f0,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Guest Editorial: Special Issue on Computer Vision from 2D to 3D,0.5173952579
+63ce57095f4f841e3b8c41f5,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Discretization of Continuous Features by Using a Kernel,0.5173952579
+63ce570a5f4f841e3b8c41f8,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,Applications to Social Systems (2),0.5173952579
+63ce5733d3b2a7772cdb429d,Hybrid Actor-Critic Reinforcement Learning in Parameterized Action Space,Off-policy Maximum Entropy Reinforcement Learning : Soft Actor-Critic with Advantage Weighted Mixture Policy(SAC-AWMP),0.6229600757
+63ce5733d3b2a7772cdb42a0,Hybrid Actor-Critic Reinforcement Learning in Parameterized Action Space,Hybrid Actor-Critic Reinforcement Learning in Parameterized Action Space,2.9999995232
+63ce5734d3b2a7772cdb42ad,Hybrid Actor-Critic Reinforcement Learning in Parameterized Action Space,Efficient Multi-Agent Exploration with Mutual-Guided Actor-Critic,0.5067086518
+63ce577048ae9663e8ce9de0,Design and application of adaptive PID controller based on asynchronous advantage actor–critic learning method,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,0.5610898435
+63ce577148ae9663e8ce9def,Design and application of adaptive PID controller based on asynchronous advantage actor–critic learning method,Optimal fractional-order PID controller based on fractional-order actor-critic algorithm,0.5763259828
+63ce577b48ae9663e8ce9e8d,Design and application of adaptive PID controller based on asynchronous advantage actor–critic learning method,Fuel cell starvation control using model predictive technique with Laguerre and exponential weight functions,0.7468603849
+63ce57b211d728d7c9a670c7,Balance Control for the First-order Inverted Pendulum Based on the Advantage Actor-critic Algorithm,Optimal fractional-order PID controller based on fractional-order actor-critic algorithm,0.5339262933
+63ce57efbacff2dc0f2ab8ae,Attention-based advantage actor-critic algorithm with prioritized experience replay for complex 2-D robotic motion planning,Asynchronous Advantage Actor-Critic Agent for Starcraft II,0.5045944378
+63ce57efbacff2dc0f2ab8af,Attention-based advantage actor-critic algorithm with prioritized experience replay for complex 2-D robotic motion planning,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,1.043307364
+63ce57fabacff2dc0f2ab94e,Attention-based advantage actor-critic algorithm with prioritized experience replay for complex 2-D robotic motion planning,The New Hardware Structure of the Emmy II Robot,0.5024316907
+63ce5832eab074149c3d2686,Robustness Assessment of Asynchronous Advantage Actor-Critic Based on Dynamic Skewness and Sparseness Computation: A Parallel Computing View,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,0.5844155103
+63ce5833eab074149c3d2691,Robustness Assessment of Asynchronous Advantage Actor-Critic Based on Dynamic Skewness and Sparseness Computation: A Parallel Computing View,Robustness Assessment of Asynchronous Advantage Actor-Critic Based on Dynamic Skewness and Sparseness Computation: A Parallel Computing View,3.0000001192
+63ce5877b5782ad02110377e,A Prioritized objective actor-critic method for deep reinforcement learning,Off-policy Maximum Entropy Reinforcement Learning : Soft Actor-Critic with Advantage Weighted Mixture Policy(SAC-AWMP),0.7166651487
+63ce5878b5782ad021103788,A Prioritized objective actor-critic method for deep reinforcement learning,Natural Actor-Critic,0.5619814694
+63ce58bc4ebb3314a0008f44,Deep Reinforcement Learning in VizDoom via DQN and Actor-Critic Agents,Deep Reinforcement Learning in VizDoom via DQN and Actor-Critic Agents,3.0000002384
+63ce58bd4ebb3314a0008f4d,Deep Reinforcement Learning in VizDoom via DQN and Actor-Critic Agents,Evaluation and Potential Improvements of a Deep Reinforcement Learning Model for Automated Stock Trading,0.529551886
+63ce59417885183f8dfecc5b,Natural Actor-Critic,A Prioritized objective actor-critic method for deep reinforcement learning,0.5619814694
+63ce59417885183f8dfecc60,Natural Actor-Critic,Cooperative Traffic Signal Control Through AÂ  Counterfactual Multi-Agent Deep Actor Critic Approach,0.582726866
+63ce5986084f1cc9e6295793,Optimal fractional-order PID controller based on fractional-order actor-critic algorithm,Design and application of adaptive PID controller based on asynchronous advantage actor–critic learning method,0.5763259828
+63ce5986084f1cc9e6295794,Optimal fractional-order PID controller based on fractional-order actor-critic algorithm,Balance Control for the First-order Inverted Pendulum Based on the Advantage Actor-critic Algorithm,0.5339262933
+63ce5986084f1cc9e629579b,Optimal fractional-order PID controller based on fractional-order actor-critic algorithm,Optimal fractional-order PID controller based on fractional-order actor-critic algorithm,2.9999999404
+63ce5a120089434ace0ff3c4,Cooperative Traffic Signal Control Through AÂ  Counterfactual Multi-Agent Deep Actor Critic Approach,Natural Actor-Critic,0.582726866
+63ce5a120089434ace0ff3c7,Cooperative Traffic Signal Control Through AÂ  Counterfactual Multi-Agent Deep Actor Critic Approach,Cooperative Traffic Signal Control Through AÂ  Counterfactual Multi-Agent Deep Actor Critic Approach,3.0000001192
+63ce5a9d572f5b91fb31d4c6,Efficient Multi-Agent Exploration with Mutual-Guided Actor-Critic,Hybrid Actor-Critic Reinforcement Learning in Parameterized Action Space,0.5067086518
+63ce5a9d572f5b91fb31d4d3,Efficient Multi-Agent Exploration with Mutual-Guided Actor-Critic,Efficient Multi-Agent Exploration with Mutual-Guided Actor-Critic,2.9999998808
+63ce5aea04b1cf5f2650998c,Stock Market Trading Agent Using On-Policy Reinforcement Learning Algorithms,Stock Market Trading Agent Using On-Policy Reinforcement Learning Algorithms,2.9999998808
+63ce5aea04b1cf5f26509990,Stock Market Trading Agent Using On-Policy Reinforcement Learning Algorithms,Empirical Demonstration of Stock Paper Trading for Financial Reinforcement Learning,0.9842566848
+63ce5afb04b1cf5f26509a66,Stock Market Trading Agent Using On-Policy Reinforcement Learning Algorithms,An Online Kernel-Based Clustering Approach for Value Function Approximation,0.6113664806
+63ce5b34a43b94497d342539,Evaluation and Potential Improvements of a Deep Reinforcement Learning Model for Automated Stock Trading,Deep Reinforcement Learning in VizDoom via DQN and Actor-Critic Agents,0.529551886
+63ce5b762e9e7716cb9a78cc,Fleet Planning Under Demand and Fuel Price Uncertainty,Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU,0.5213267058
+63ce5b762e9e7716cb9a78ce,Fleet Planning Under Demand and Fuel Price Uncertainty,Towards Understanding Asynchronous Advantage Actor-critic: Convergence and Linear Speedup,1.1509010494
+63ce5b782e9e7716cb9a78e5,Fleet Planning Under Demand and Fuel Price Uncertainty,Fleet Planning Under Demand and Fuel Price Uncertainty,3.0000001788
+63ce5bbe8d367abd4d23069b,Resource Allocation Based on Deep Reinforcement Learning with High-Dimensional Matrix Diagram in Multi-Modal Optical Networks,Resource Allocation Based on Deep Reinforcement Learning with High-Dimensional Matrix Diagram in Multi-Modal Optical Networks,3.0
+63ce5c065b710c062e99ab1b,Empirical Demonstration of Stock Paper Trading for Financial Reinforcement Learning,Stock Market Trading Agent Using On-Policy Reinforcement Learning Algorithms,0.9842566848
+63ce5c065b710c062e99ab1f,Empirical Demonstration of Stock Paper Trading for Financial Reinforcement Learning,The Use of Deep Reinforcement Learning in Tactical Asset Allocation,0.6012264043
+63ce5c255b710c062e99accf,Empirical Demonstration of Stock Paper Trading for Financial Reinforcement Learning,Re-planning of Quadrotors Under Disturbance Based on Meta Reinforcement Learning,0.5187074393
+63ce5c4effa4da6adc466732,The Use of Deep Reinforcement Learning in Tactical Asset Allocation,Empirical Demonstration of Stock Paper Trading for Financial Reinforcement Learning,0.6012264043
+63ce5c4effa4da6adc466733,The Use of Deep Reinforcement Learning in Tactical Asset Allocation,The Use of Deep Reinforcement Learning in Tactical Asset Allocation,2.9999997616
+63ce5c6affa4da6adc4668e3,The Use of Deep Reinforcement Learning in Tactical Asset Allocation,Re-planning of Quadrotors Under Disturbance Based on Meta Reinforcement Learning,0.7154255658
+63ce5cb22620410e2e2daf05,Machine learning in mental health: a scoping review of methods and applications,MHA: a multimodal hierarchical attention model for depression detection in social media,0.7540691197
+63ce5e8241c1d22ddf2e1f75,Global video object segmentation with spatial constraint module,Global video object segmentation with spatial constraint module,3.0000001192
+63ce5e8341c1d22ddf2e1f7e,Global video object segmentation with spatial constraint module,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,0.5744818449
+63ce5e9041c1d22ddf2e2034,Global video object segmentation with spatial constraint module,Full-duplex strategy for video object segmentation,0.5052015185
+63ce5e9541c1d22ddf2e206b,Global video object segmentation with spatial constraint module,Recurrent Graph Neural Networks for Video Instance Segmentation,0.5047368109
+63ce5e9f41c1d22ddf2e20f0,Global video object segmentation with spatial constraint module,Localized Content-Based Image Retrieval Using Semi-Supervised Multiple Instance Learning,0.5047368631
+63ce5ecbc7a5faa2e5ca2357,Assessment of simplified momentum equations for free surface flows through rigid porous media,Assessment of simplified momentum equations for free surface flows through rigid porous media,3.0000001788
+63ce8077546a4401c9890601,Sphere Face Model: A 3D morphable model with hypersphere manifold latent space using joint 2D/3D training,A lightweight CNN-based algorithm and implementation on embedded system for real-time face recognition,0.784252882
+63ce8078546a4401c989060d,Sphere Face Model: A 3D morphable model with hypersphere manifold latent space using joint 2D/3D training,Face Localization in 2D Frontal Face Images Using Luminosity Profiles Analysis,0.5720010996
+63ce817d8f92600d4042a7d7,Towards uniform point distribution in feature-preserving point cloud filtering,Point cloud completion via structured feature maps using a feedback network,0.5821778923
+63ce81998f92600d4042a8ed,Polygonal finite element-based content-aware image warping,Polygonal finite element-based content-aware image warping,3.0000001192
+63ce819a8f92600d4042a8f6,Polygonal finite element-based content-aware image warping,Practical construction of globally injective parameterizations with positional constraints,0.5919579864
+63ce81b88f92600d4042aa7a,Polygonal finite element-based content-aware image warping,Deformed shape estimation for flexible composite marine propellers by image registration,0.6354300082
+63ce82448f92600d4042b01b,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,Global video object segmentation with spatial constraint module,0.5744818598
+63ce82568f92600d4042b109,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,0.7474191487
+63ce825a8f92600d4042b13f,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,Vehicle re-identification based on keypoint segmentation of original image,0.87861678
+63ce825b8f92600d4042b14f,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,Improving the anti-occlusion ability of correlation filter-based trackers via segmentation,0.5306341797
+63ce82608f92600d4042b187,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,Localized Content-Based Image Retrieval Using Semi-Supervised Multiple Instance Learning,0.5545800626
+63ce82658f92600d4042b1c8,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,The segmentation effect of style transfer on fetal head ultrasound image: a study of multi-source data,0.5022970736
+63ce826f8f92600d4042b1ea,Bin-scanning: Segmentation of X-ray CT volume of binned parts using Morse skeleton graph of distance transform,Bin-scanning: Segmentation of X-ray CT volume of binned parts using Morse skeleton graph of distance transform,3.0000002384
+63ce82708f92600d4042b1f8,Bin-scanning: Segmentation of X-ray CT volume of binned parts using Morse skeleton graph of distance transform,Exploring the characteristics of an optimal design of non-programming plugged learning for developing primary school students’ computational thinking in mathematics,0.5124897361
+63ce82898f92600d4042b332,Bin-scanning: Segmentation of X-ray CT volume of binned parts using Morse skeleton graph of distance transform,Computer Vision Based Quality Control for Additive Manufacturing Parts,0.5365129113
+63ce829a8f92600d4042b3b5,Foveated rendering: A state-of-the-art survey,Foveated rendering: A state-of-the-art survey,2.9999998808
+63ce82b98f92600d4042b549,Foveated rendering: A state-of-the-art survey,Visualization in virtual reality: a systematic review,0.5042838603
+63ce82c58f92600d4042b580,Deep unfolding multi-scale regularizer network for image denoising,Deep unfolding multi-scale regularizer network for image denoising,3.0
+63ce82c88f92600d4042b5ad,Deep unfolding multi-scale regularizer network for image denoising,Features as Keypoints and How Fuzzy Transforms Retrieve Them,0.6523112953
+63ce82d78f92600d4042b663,Deep unfolding multi-scale regularizer network for image denoising,Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring,0.5836738944
+63ce82d98f92600d4042b681,Deep unfolding multi-scale regularizer network for image denoising,Weakly-supervised object localization with gradient-pyramid feature,0.9617969096
+63ce82e58f92600d4042b717,Deep unfolding multi-scale regularizer network for image denoising,Multi-scale lung tissue classification for interstitial lung diseases using learned Gabor filters,0.5105242208
+63ce82e68f92600d4042b724,Deep unfolding multi-scale regularizer network for image denoising,Two-channel deep recursive multi-scale network based on multi-attention for no-reference image quality assessment,1.0764778852
+63ce82e68f92600d4042b727,Deep unfolding multi-scale regularizer network for image denoising,A deep image prior-based three-stage denoising method using generative and fusion strategies,0.6552032232
+63ce82f18f92600d4042b74b,Towards harmonized regional style transfer and manipulation for facial images,Towards harmonized regional style transfer and manipulation for facial images,3.0000001788
+63ce831b8f92600d4042b911,Practical construction of globally injective parameterizations with positional constraints,Polygonal finite element-based content-aware image warping,0.5919579864
+63ce83548f92600d4042bb7d,Collaborative knowledge management to identify data analytics opportunities in additive manufacturing,Formalisation and Verification of Knowledge Management in Digital Economy and Organisations,0.5830560774
+63ce83738f92600d4042bca7,Modeling multi-scale sub-group context for group activity recognition,Modeling multi-scale sub-group context for group activity recognition,2.9999998212
+63ce839e8f92600d4042be70,Real Time Facial Emotions Detection of Multiple Faces Using Deep Learning,Real Time Facial Emotions Detection of Multiple Faces Using Deep Learning,2.9999999404
+63ce83b68f92600d4042bf9f,Real Time Facial Emotions Detection of Multiple Faces Using Deep Learning,An effective deep learning model for ship detection from satellite images,0.608672902
+63ce83b88f92600d4042bfb3,Real Time Facial Emotions Detection of Multiple Faces Using Deep Learning,Import vertical characteristic of rain streak for single image deraining,0.6708981097
+63ce83bc8f92600d4042bfe9,Real Time Facial Emotions Detection of Multiple Faces Using Deep Learning,Multiple Predominant Instruments Recognition in Polyphonic Music Using Spectro/Modgd-gram Fusion,0.6159971952
+63ce83ca8f92600d4042c039,Fuzzy Transform on 1-D Manifolds,Fuzzy Transform on 1-D Manifolds,3.0000001192
+63ce83f68f92600d4042c202,New Approach to Develop Ductile Cast Iron Digital Grade for Automotive Components,New Approach to Develop Ductile Cast Iron Digital Grade for Automotive Components,3.0000001788
+63ce84228f92600d4042c3cb,Kubernetes as a Standard Container Orchestrator - A Bibliometric Analysis,Kubernetes as a Standard Container Orchestrator - A Bibliometric Analysis,2.9999998808
+63ce844e8f92600d4042c594,Ultra Fast Classification and Regression of High-Dimensional Problems Projected on 2D,Ultra Fast Classification and Regression of High-Dimensional Problems Projected on 2D,2.9999997616
+63ce846a8f92600d4042c6e7,Ultra Fast Classification and Regression of High-Dimensional Problems Projected on 2D,Experiments with Trained and Untrained Fusers,0.5400138274
+63ce84a48f92600d4042c904,“Pathologist-independent” strategy for T1 colorectal cancer after endoscopic resection,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5173952579
+63ce84b78f92600d4042c9ee,“Pathologist-independent” strategy for T1 colorectal cancer after endoscopic resection,Causal Logic Programming,0.5773083568
+63ce84d38f92600d4042caeb,Scholarly knowledge graphs through structuring scholarly communication: a review,Scholarly knowledge graphs through structuring scholarly communication: a review,2.9999992847
+63ce84d68f92600d4042cb09,Scholarly knowledge graphs through structuring scholarly communication: a review,What’s Next?,0.5376435518
+63ce84ff8f92600d4042cca8,Exploring the characteristics of an optimal design of non-programming plugged learning for developing primary school students’ computational thinking in mathematics,Bin-scanning: Segmentation of X-ray CT volume of binned parts using Morse skeleton graph of distance transform,0.5124897361
+63ce85008f92600d4042ccb3,Exploring the characteristics of an optimal design of non-programming plugged learning for developing primary school students’ computational thinking in mathematics,Exploring the characteristics of an optimal design of non-programming plugged learning for developing primary school students’ computational thinking in mathematics,3.0000004172
+63ce852d8f92600d4042ce7b,COVID-CCD-Net: COVID-19 and colon cancer diagnosis system with optimized CNN hyperparameters using gradient-based optimizer,COVID-CCD-Net: COVID-19 and colon cancer diagnosis system with optimized CNN hyperparameters using gradient-based optimizer,3.0000001192
+63ce85508f92600d4042d016,COVID-CCD-Net: COVID-19 and colon cancer diagnosis system with optimized CNN hyperparameters using gradient-based optimizer,A deep learning based dual encoder–decoder framework for anatomical structure segmentation in chest X-ray images,0.7052473575
+63ce855b8f92600d4042d043,Towards standardizing retinal optical coherence tomography angiography: a review,Towards standardizing retinal optical coherence tomography angiography: a review,3.0000001192
+63ce855c8f92600d4042d059,Towards standardizing retinal optical coherence tomography angiography: a review,Distance metric learning for graph structured data,0.5701463446
+63ce85658f92600d4042d0c6,Towards standardizing retinal optical coherence tomography angiography: a review,Artificial Intelligence Elements in Data Mining from Remote Experiments,0.5518097356
+63ce85b48f92600d4042d3d1,"Overview: Catalysts, Feedstocks in Biodiesel Production","Overview: Catalysts, Feedstocks in Biodiesel Production",2.9999999404
+63ce85e18f92600d4042d598,"Interrelation Between the Composition and Near-Infrared Spectra of Milk, Blood Plasma and Rumen Juice of Lactating Cows","Interrelation Between the Composition and Near-Infrared Spectra of Milk, Blood Plasma and Rumen Juice of Lactating Cows",3.0
+63ce85e18f92600d4042d599,"Interrelation Between the Composition and Near-Infrared Spectra of Milk, Blood Plasma and Rumen Juice of Lactating Cows",Artificial Neural Network Applied to Near-Infrared Spectra of Raw Milk for Dairy Cow Feeding Management,1.284522146
+63ce860e8f92600d4042d75e,Artificial Neural Network Applied to Near-Infrared Spectra of Raw Milk for Dairy Cow Feeding Management,"Interrelation Between the Composition and Near-Infrared Spectra of Milk, Blood Plasma and Rumen Juice of Lactating Cows",1.284522146
+63ce860e8f92600d4042d75f,Artificial Neural Network Applied to Near-Infrared Spectra of Raw Milk for Dairy Cow Feeding Management,Artificial Neural Network Applied to Near-Infrared Spectra of Raw Milk for Dairy Cow Feeding Management,2.9999998808
+63ce866b8f92600d4042db11,Introduction,Developing a Method for Understanding How to Empower Creativity Through Digital Technologies: The Case of AI,0.5261492729
+63ce86c28f92600d4042de72,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,2.999999702
+63ce86c28f92600d4042de76,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,On Modeling of Fuzzy Peterson’s Syllogisms Using Peterson’s Rules,0.5076264739
+63ce86d08f92600d4042df18,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,AMI Screening Using Linguistic Fuzzy Rules,0.5337947384
+63ce86db8f92600d4042df96,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,Logical approaches to fuzzy similarity-based reasoning: an overview,0.61910671
+63ce86f08f92600d4042e036,A Local Rotation Transformation Model for Vehicle Re-Identification,A Local Rotation Transformation Model for Vehicle Re-Identification,3.0000002384
+63ce87528f92600d4042e41b,Computer Navigation and Robotics in Orthopedic Trauma Implantology,The New Hardware Structure of the Emmy II Robot,0.5238234699
+63ce87778f92600d4042e57b,On Modeling of Fuzzy Peterson’s Syllogisms Using Peterson’s Rules,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,0.5076264739
+63ce87778f92600d4042e57d,On Modeling of Fuzzy Peterson’s Syllogisms Using Peterson’s Rules,On Modeling of Fuzzy Peterson’s Syllogisms Using Peterson’s Rules,3.0000001192
+63ce87858f92600d4042e61f,On Modeling of Fuzzy Peterson’s Syllogisms Using Peterson’s Rules,AMI Screening Using Linguistic Fuzzy Rules,0.6416180581
+63ce87ff8f92600d4042eabe,Enhancing Efficiency and Quality of Image Caption Generation with CARU,Enhancing Efficiency and Quality of Image Caption Generation with CARU,2.9999999404
+63ce882d8f92600d4042ec7e,Machine Learning Applied to Harmonic Functions in Music Composition,Machine Learning Applied to Harmonic Functions in Music Composition,2.9999998808
+63ce885a8f92600d4042ee3e,Managing the Complexity of Dialogues in Context: A Data-Driven Discovery Method for Dialectical Reply Structures,Managing the Complexity of Dialogues in Context: A Data-Driven Discovery Method for Dialectical Reply Structures,3.0000002384
+63ce88888f92600d4042effe,Rap4DQ: Learning to recommend relevant API documentation for developer questions,Rap4DQ: Learning to recommend relevant API documentation for developer questions,3.0000003576
+63ce88b68f92600d4042f1be,An ontology model for maintenance strategy selection and assessment,An ontology model for maintenance strategy selection and assessment,3.0
+63ce88c28f92600d4042f247,An ontology model for maintenance strategy selection and assessment,Automated Reasoning Support for Ontology Development,0.5461821109
+63ce88cd8f92600d4042f2c9,An ontology model for maintenance strategy selection and assessment,Ontology Generation from Social Networks,0.6574560851
+63ce88e48f92600d4042f37e,Media and communication studies in Sweden,Media and communication studies in Sweden,2.9999998212
+63ce893e8f92600d4042f6ef,Distance metric learning for graph structured data,Towards standardizing retinal optical coherence tomography angiography: a review,0.5701463446
+63ce895a8f92600d4042f832,Distance metric learning for graph structured data,Probabilistic Relaxation Labeling by Fokker-Planck Diffusion on a Graph,0.7263341993
+63ce895d8f92600d4042f857,Distance metric learning for graph structured data,Online handwritten scripts classification using fuzzy attributed relational graphs,0.6699996293
+63ce899b8f92600d4042fa75,A Rhythmic Activation Mechanism for Soft Multi-legged Robots,A Rhythmic Activation Mechanism for Soft Multi-legged Robots,3.0000001192
+63ce89f68f92600d4042fded,A graph-based approach for population health analysis using Geo-tagged tweets,A graph-based approach for population health analysis using Geo-tagged tweets,2.999999702
+63ce8a148f92600d4042ff32,A graph-based approach for population health analysis using Geo-tagged tweets,Part machining feature recognition based on a deep learning method,0.6386103332
+63ce8a248f92600d4042ff97,What’s Next?,Scholarly knowledge graphs through structuring scholarly communication: a review,0.5376435518
+63ce8a268f92600d4042ffa9,What’s Next?,What’s Next?,2.9999998808
+63ce8a2a8f92600d4042ffdf,What’s Next?,Extended Algorithm for Travelling Salesman Problem with Conditions in Nodes,0.5563132167
+63ce8a408f92600d404300db,What’s Next?,Probabilistic Relaxation Labeling by Fokker-Planck Diffusion on a Graph,0.5369884968
+63ce8a7d8f92600d404302ec,Molecular Modelling,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5173952579
+63ce8a908f92600d404303c9,Molecular Modelling,Causal Logic Programming,0.5773083568
+63ce8aaf8f92600d404304d9,Three-Stream Convolutional Neural Network for Human Fall Detection,Three-Stream Convolutional Neural Network for Human Fall Detection,3.0000003576
+63ce8ac08f92600d40430595,Three-Stream Convolutional Neural Network for Human Fall Detection,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,0.5331279039
+63ce8ac88f92600d404305f2,Three-Stream Convolutional Neural Network for Human Fall Detection,MAN and CAT: mix attention to nn and concatenate attention to YOLO,0.5380333364
+63ce8b098f92600d40430831,Features as Keypoints and How Fuzzy Transforms Retrieve Them,Deep unfolding multi-scale regularizer network for image denoising,0.6523112953
+63ce8b0b8f92600d4043084d,Features as Keypoints and How Fuzzy Transforms Retrieve Them,Features as Keypoints and How Fuzzy Transforms Retrieve Them,2.9999999404
+63ce8b1e8f92600d40430921,Features as Keypoints and How Fuzzy Transforms Retrieve Them,Weakly-supervised object localization with gradient-pyramid feature,0.5912469625
+63ce8b278f92600d40430982,Features as Keypoints and How Fuzzy Transforms Retrieve Them,DATaR: Depth Augmented Target Redetection using Kernelized Correlation Filter,0.5663297996
+63ce8b2d8f92600d404309c4,Features as Keypoints and How Fuzzy Transforms Retrieve Them,Two-channel deep recursive multi-scale network based on multi-attention for no-reference image quality assessment,0.6754556149
+63ce8b398f92600d40430a07,A Survey on Recent Deep Learning Architectures,A Survey on Recent Deep Learning Architectures,3.0000001788
+63ce8b4f8f92600d40430af8,A Survey on Recent Deep Learning Architectures,Sample hardness guided softmax loss for face recognition,0.5329963863
+63ce8b968f92600d40430d79,Detection of Acute Inflammation of Urinary Bladder and Acute Nephritis of Renal Pelvis Origin Using Artificial Neural Network,Detection of Acute Inflammation of Urinary Bladder and Acute Nephritis of Renal Pelvis Origin Using Artificial Neural Network,2.9999998808
+63ce8b9b8f92600d40430dae,Detection of Acute Inflammation of Urinary Bladder and Acute Nephritis of Renal Pelvis Origin Using Artificial Neural Network,A fuzzy control system for decision-making about fungicide applications against grape downy mildew,0.7082948759
+63ce8baa8f92600d40430e58,Detection of Acute Inflammation of Urinary Bladder and Acute Nephritis of Renal Pelvis Origin Using Artificial Neural Network,Artificial Inteligence Methods in the Problems of Drug Side-Effects,0.5061713755
+63ce8bc58f92600d40430f32,Audio-visual combination of syllables involves time-sensitive dynamics following from fusion failure,Audio-visual combination of syllables involves time-sensitive dynamics following from fusion failure,2.9999998808
+63ce8c238f92600d404312a2,A Study on Fight Against COVID-19 from Latest Technological Intervention,A Study on Fight Against COVID-19 from Latest Technological Intervention,2.9999998212
+63ce8c318f92600d40431341,A Study on Fight Against COVID-19 from Latest Technological Intervention,Deep learning imaging features derived from kidney ultrasounds predict chronic kidney disease progression in children with posterior urethral valves,0.5171904713
+63ce8c518f92600d4043145a,Organic materials and devices for brain-inspired computing: From artificial implementation to biophysical realism,Organic materials and devices for brain-inspired computing: From artificial implementation to biophysical realism,3.0000001192
+63ce8c808f92600d40431612,A quantum hindsight on density functional theory for computation of materials properties,A quantum hindsight on density functional theory for computation of materials properties,2.9999998808
+63ce8caf8f92600d404317ca,A novel deep learning framework for copy-moveforgery detection in images,An efficient method for image forgery detection based on trigonometric transforms and deep learning,1.4618843198
+63ce8cde8f92600d40431980,An efficient method for image forgery detection based on trigonometric transforms and deep learning,An efficient method for image forgery detection based on trigonometric transforms and deep learning,2.9999999404
+63ce8d008f92600d40431aed,An efficient method for image forgery detection based on trigonometric transforms and deep learning,Two-channel deep recursive multi-scale network based on multi-attention for no-reference image quality assessment,0.5353558213
+63ce8d0e8f92600d40431b37,On the DoF and secure DoF of K-user MIMO interference channel with instantaneous relays,On the DoF and secure DoF of K-user MIMO interference channel with instantaneous relays,3.0000001192
+63ce8d3d8f92600d40431cee,An experimental scrutiny of visual design modelling: VCL up against UML+OCL,An experimental scrutiny of visual design modelling: VCL up against UML+OCL,3.0000001788
+63ce8d6e8f92600d40431eb5,Classification of CT Scan Images of Lungs Using Deep Convolutional Neural Network with External Shape-Based Features,Biomedical image classification based on a feature concatenation and ensemble of deep CNNs,0.8301579654
+63ce8e2f8f92600d40432573,Data-Driven Multi-step Demand Prediction for Ride-Hailing Services Using Convolutional Neural Network,Data-Driven Multi-step Demand Prediction for Ride-Hailing Services Using Convolutional Neural Network,3.0000001192
+63ce8e318f92600d40432583,Data-Driven Multi-step Demand Prediction for Ride-Hailing Services Using Convolutional Neural Network,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,0.5195455551
+63ce8e438f92600d4043263e,Data-Driven Multi-step Demand Prediction for Ride-Hailing Services Using Convolutional Neural Network,Description Logics for Relative Terminologies,0.5494209751
+63ce8e908f92600d404328d7,Neural Network Collection,Neural Network Collection,2.9999998808
+63ce8ec08f92600d40432a89,Gold Price: Trend-Cycle Analysis Using Fuzzy Techniques,Gold Price: Trend-Cycle Analysis Using Fuzzy Techniques,2.9999997616
+63ce8f218f92600d40432deb,Actors in the Serverless Space,Actors in the Serverless Space,2.9999999404
+63ce8fe58f92600d404332f9,A Review on the Artificial Intelligence Algorithms for the Recognition of Activities of Daily Living Using Sensors in Mobile Devices,A Review on the Artificial Intelligence Algorithms for the Recognition of Activities of Daily Living Using Sensors in Mobile Devices,3.0000001192
+63ce8ffc8f92600d404333ee,A Review on the Artificial Intelligence Algorithms for the Recognition of Activities of Daily Living Using Sensors in Mobile Devices,Bayesian Approach to Action Selection and Attention Focusing,0.5432489291
+63ce90468f92600d40433655,Efficient anomaly detection from medical signals and images,Efficient anomaly detection from medical signals and images,2.9999995828
+63ce90578f92600d4043370b,Efficient anomaly detection from medical signals and images,Theoretical Foundation of Detection,1.0972287655
+63ce905d8f92600d40433743,Efficient anomaly detection from medical signals and images,Attention-based residual autoencoder for video anomaly detection,0.6355007887
+63ce90668f92600d4043379d,Efficient anomaly detection from medical signals and images,Hybrid anomaly detection method for hyperspectral images,0.6330346465
+63ce907c8f92600d40433841,Semantic and geometric reasoning for robotic grasping: a probabilistic logic approach,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,0.8279409558
+63ce90828f92600d4043387b,Semantic and geometric reasoning for robotic grasping: a probabilistic logic approach,Variational Bayes Inference for Logic-Based Probabilistic Models on BDDs,0.5608590543
+63ce90a78f92600d404339af,Universal kernels which are continuous on the diagonal,Universal kernels which are continuous on the diagonal,3.0000001192
+63ce90e78f92600d40433bf7,Biomedical image classification based on a feature concatenation and ensemble of deep CNNs,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,0.5843123496
+63ce90e98f92600d40433c0f,Biomedical image classification based on a feature concatenation and ensemble of deep CNNs,Multi-branch aware module with channel shuffle pixel-wise attention for lightweight image super-resolution,0.5008873641
+63ce90f08f92600d40433c54,Biomedical image classification based on a feature concatenation and ensemble of deep CNNs,MAN and CAT: mix attention to nn and concatenate attention to YOLO,0.6791154668
+63ce913a8f92600d40433eb1,Cardiac Computed Tomography,Cardiac Computed Tomography,2.9999998212
+63ce91628f92600d4043400f,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic,0.7045983672
+63ce91698f92600d40434054,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,Data-Driven Multi-step Demand Prediction for Ride-Hailing Services Using Convolutional Neural Network,0.5195455551
+63ce916a8f92600d4043405c,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,3.0000001192
+63ce91798f92600d404340f5,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,0.8466796577
+63ce91828f92600d40434152,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,MAN and CAT: mix attention to nn and concatenate attention to YOLO,0.5219812691
+63ce91828f92600d40434156,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,Import vertical characteristic of rain streak for single image deraining,0.5157903023
+63ce918b8f92600d404341b2,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,Two-channel deep recursive multi-scale network based on multi-attention for no-reference image quality assessment,0.5011329055
+63ce918c8f92600d404341b6,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,A deep learning based dual encoder–decoder framework for anatomical structure segmentation in chest X-ray images,0.5651571155
+63ce91d68f92600d404343b0,Optimized test suites for automated testing using different optimization techniques,Optimized test suites for automated testing using different optimization techniques,2.9999999404
+63ce92068f92600d4043455a,A Framework for Domain-Specific Natural Language Information Brokerage,A Framework for Domain-Specific Natural Language Information Brokerage,2.9999998808
+63ce92388f92600d40434704,Evolution of control with learning classifier systems,Evolution of control with learning classifier systems,2.999999702
+63ce924b8f92600d404347c1,Evolution of control with learning classifier systems,Artificial Inteligence Methods in the Problems of Drug Side-Effects,0.5264609009
+63ce92698f92600d404348ae,Introduction to OpenCL for FPGA,Introduction to OpenCL for FPGA,2.9999997616
+63ce929b8f92600d40434a58,The Fantastic in Postmodernity,The Fantastic in Postmodernity,2.9999997616
+63ce92cc8f92600d40434c02,Development of Knowledge-Based Systems Which Use Bayesian Networks,Development of Knowledge-Based Systems Which Use Bayesian Networks,3.0000001192
+63ce92e38f92600d40434ce5,Development of Knowledge-Based Systems Which Use Bayesian Networks,Collaborative Filtering for Massive Datasets Based on Bayesian Networks,0.8604612052
+63ce92e88f92600d40434d16,Development of Knowledge-Based Systems Which Use Bayesian Networks,Optimizing Inference in Bayesian Networks and Semiring Valuation Algebras,0.7907724679
+63ce92e88f92600d40434d17,Development of Knowledge-Based Systems Which Use Bayesian Networks,Logical Compilation of Bayesian Networks with Discrete Variables,0.5158612132
+63ce93308f92600d40434f54,On-the-Fly Multiple Sources Data Analysis in AR-Based Decision Support Systems,On-the-Fly Multiple Sources Data Analysis in AR-Based Decision Support Systems,2.9999997616
+63ce93638f92600d404350fd,PRISMO: Priority Based Spam Detection Using Multi Optimization,PRISMO: Priority Based Spam Detection Using Multi Optimization,2.9999998808
+63ce93958f92600d404352a6,Autobiography,Autobiography,3.0000001192
+63ce94979c697f5977f4f904,A scheduling model of logistics service supply chain based on the time windows of the FLSP’s operation and customer requirement,A scheduling model of logistics service supply chain based on the time windows of the FLSP’s operation and customer requirement,3.0
+63ce94ef9c697f5977f4fbe8,Canonical correlation for principal components of time series,Applying Boosting to Similarity Literals for Time Series Classification,0.8002739847
+63ce950b9c697f5977f4fca2,What is answer set programming to propositional satisfiability,What is answer set programming to propositional satisfiability,3.0000001192
+63ce950e9c697f5977f4fcbc,What is answer set programming to propositional satisfiability,Explaining Preferences and Preferring Explanations,0.6106179804
+63ce95219c697f5977f4fd66,What is answer set programming to propositional satisfiability,Simple Random Logic Programs,0.7353628278
+63ce95889c697f5977f50083,Towards improving feature extraction and classification for activity recognition on streaming data,Adaptation of Decision Trees for Handling Concept Drift,0.5088914335
+63ce958b9c697f5977f500a4,Towards improving feature extraction and classification for activity recognition on streaming data,On Resources Optimization in Fuzzy Clustering of Data Streams,0.50055103
+63ce958c9c697f5977f500aa,Towards improving feature extraction and classification for activity recognition on streaming data,A New Fuzzy Classifier for Data Streams,0.5728467703
+63ce95b49c697f5977f501d7,Extended Algorithm for Travelling Salesman Problem with Conditions in Nodes,What’s Next?,0.5563132167
+63ce95d69c697f5977f50305,Extended Algorithm for Travelling Salesman Problem with Conditions in Nodes,Probabilistic Relaxation Labeling by Fokker-Planck Diffusion on a Graph,0.765172869
+63ce95f49c697f5977f503d5,LEMRG: Decision Rule Generation Algorithm for Mining MicroRNA Expression Data,LEMRG: Decision Rule Generation Algorithm for Mining MicroRNA Expression Data,2.9999998212
+63ce962f9c697f5977f505a1,Compliance management ontology – a shared conceptualization for research and practice in compliance management,Compliance management ontology – a shared conceptualization for research and practice in compliance management,3.0000001192
+63ce96379c697f5977f505ea,Compliance management ontology – a shared conceptualization for research and practice in compliance management,Automated Reasoning Support for Ontology Development,0.5792777389
+63ce96459c697f5977f5066c,Compliance management ontology – a shared conceptualization for research and practice in compliance management,Ontology Generation from Social Networks,0.5745142549
+63ce96699c697f5977f5076d,Agent-based simulation with NetLogo to evaluate ambient intelligence scenarios,Agent-based simulation with NetLogo to evaluate ambient intelligence scenarios,2.9999999404
+63ce96a29c697f5977f50939,A texture descriptor: BackGround Local Binary Pattern (BGLBP),A texture descriptor: BackGround Local Binary Pattern (BGLBP),3.0
+63ce96dd9c697f5977f50b05,Increase of the speed of operation of scalar neural network tree when solving the nearest neighbor search problem in binary space of large dimension,Increase of the speed of operation of scalar neural network tree when solving the nearest neighbor search problem in binary space of large dimension,2.9999998808
+63ce97139c697f5977f50ca0,A fuzzy control system for decision-making about fungicide applications against grape downy mildew,Detection of Acute Inflammation of Urinary Bladder and Acute Nephritis of Renal Pelvis Origin Using Artificial Neural Network,0.7082948759
+63ce97189c697f5977f50cd1,A fuzzy control system for decision-making about fungicide applications against grape downy mildew,A fuzzy control system for decision-making about fungicide applications against grape downy mildew,3.0
+63ce97319c697f5977f50db2,A fuzzy control system for decision-making about fungicide applications against grape downy mildew,Computer Vision Based Quality Control for Additive Manufacturing Parts,0.5425846297
+63ce97c69c697f5977f51230,Indirect Method of Learning Weights of Intuitionistic Statement Networks,Indirect Method of Learning Weights of Intuitionistic Statement Networks,2.9999999404
+63ce98029c697f5977f513fa,Accuracy Investigations of Turbine Blading Neural Models Applied to Thermal and Flow Diagnostics,Accuracy Investigations of Turbine Blading Neural Models Applied to Thermal and Flow Diagnostics,3.0000001788
+63ce983d9c697f5977f515c4,Automatic Categorization of Email into Folders by Ant Colony Decision Tree and Social Networks,Automatic Categorization of Email into Folders by Ant Colony Decision Tree and Social Networks,3.0
+63ce98519c697f5977f51676,Automatic Categorization of Email into Folders by Ant Colony Decision Tree and Social Networks,New Multi-Objective Algorithms for Neural Network Training Applied to Genomic Classification Data,0.5315204561
+63ce98789c697f5977f5178e,Automated Augmented Reality Content Creation for Print Media,Automated Augmented Reality Content Creation for Print Media,2.9999998212
+63ce98b49c697f5977f51958,A Namespace Approach for Modularity in BDI Programming Languages,A Namespace Approach for Modularity in BDI Programming Languages,2.9999997616
+63ce98cf9c697f5977f51a42,A Namespace Approach for Modularity in BDI Programming Languages,An Anticipatory Trust Model for Open Distributed Systems,0.510598138
+63ce98ef9c697f5977f51b22,Enhancing Cooperative Coevolution with Surrogate-Assisted Local Search,Enhancing Cooperative Coevolution with Surrogate-Assisted Local Search,2.9999995828
+63ce99089c697f5977f51bfa,Enhancing Cooperative Coevolution with Surrogate-Assisted Local Search,Memetic Algorithm for Intense Local Search Methods Using Local Search Chains,0.9114916176
+63ce992b9c697f5977f51cec,Distributed Algorithm for Robotic Network Self-deployment in Indoor Environments Using Wireless Signal Strength,Distributed Algorithm for Robotic Network Self-deployment in Indoor Environments Using Wireless Signal Strength,3.0000001192
+63ce992c9c697f5977f51cf7,Distributed Algorithm for Robotic Network Self-deployment in Indoor Environments Using Wireless Signal Strength,The New Hardware Structure of the Emmy II Robot,0.5911771357
+63ce993b9c697f5977f51d73,Distributed Algorithm for Robotic Network Self-deployment in Indoor Environments Using Wireless Signal Strength,Self-Localization of an Omnidirectional Mobile Robot Based on an Optical Flow Sensor,0.604593426
+63ce993b9c697f5977f51d7a,Distributed Algorithm for Robotic Network Self-deployment in Indoor Environments Using Wireless Signal Strength,Assistance System for Disabled People: A Robot Controlled by Blinking and Wireless Link,0.5212208629
+63ce99679c697f5977f51eb6,Optimization in Biology Parameter Estimation and the Associated Optimization Problem,Optimization in Biology Parameter Estimation and the Associated Optimization Problem,2.9999999404
+63ce99af9c697f5977f520e3,Scalability Model Based on the Concept of Granularity,Towards an OpenCL Implementation of Genetic Algorithms on GPUs,0.5206897855
+63ce99be9c697f5977f52164,Scalability Model Based on the Concept of Granularity,Estimation of mean response time of multi-agent systems,0.6971122697
+63ce99df9c697f5977f52248,Statistical Laws in Linguistics,Statistical Laws in Linguistics,2.9999998212
+63ce9a1b9c697f5977f52411,Abnormality Segmentation and Classification of Multi-class Brain Tumor in MR Images Using Fuzzy Logic-Based Hybrid Kernel SVM,Abnormality Segmentation and Classification of Multi-class Brain Tumor in MR Images Using Fuzzy Logic-Based Hybrid Kernel SVM,3.0000003576
+63ce9a669c697f5977f5265c,Matrix transformation method in quadratic binary optimization,Binary optimization: Efficient increasing of global minimum basin of attraction,1.1542264521
+63ce9a699c697f5977f52675,Matrix transformation method in quadratic binary optimization,Artificial Inteligence Methods in the Problems of Drug Side-Effects,0.7101308554
+63ce9a939c697f5977f527a1,"MaxiMOOP: A Multi-Role, Low Cost and Small Sailing Robot Platform","MaxiMOOP: A Multi-Role, Low Cost and Small Sailing Robot Platform",3.0000001192
+63ce9b089c697f5977f52b1d,Explaining Preferences and Preferring Explanations,What is answer set programming to propositional satisfiability,0.6106179804
+63ce9b0a9c697f5977f52b2f,Explaining Preferences and Preferring Explanations,Explaining Preferences and Preferring Explanations,3.0000001788
+63ce9b0b9c697f5977f52b35,Explaining Preferences and Preferring Explanations,Enablers and Inhibitors in Causal Justifications of Logic Programs,0.7346298248
+63ce9b0c9c697f5977f52b41,Explaining Preferences and Preferring Explanations,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,0.5618755221
+63ce9b0d9c697f5977f52b43,Explaining Preferences and Preferring Explanations,A Complexity Assessment for Queries Involving Sufficient and Necessary Causes,0.8645394444
+63ce9b159c697f5977f52b8e,Explaining Preferences and Preferring Explanations,Causal Logic Programming,0.6484793127
+63ce9b1e9c697f5977f52bd9,Explaining Preferences and Preferring Explanations,Simple Random Logic Programs,1.0700113326
+63ce9b479c697f5977f52cf6,The Comstrat Model: Development of an Expert System in Strategic Marketing,The Comstrat Model: Development of an Expert System in Strategic Marketing,2.9999997616
+63ce9b649c697f5977f52df2,The Comstrat Model: Development of an Expert System in Strategic Marketing,OCR-RTPS: an OCR-based real-time positioning system for the valet parking,0.5364131331
+63ce9bb99c697f5977f5302c,The New Hardware Structure of the Emmy II Robot,Computer Navigation and Robotics in Orthopedic Trauma Implantology,0.5238234699
+63ce9bc29c697f5977f5307b,The New Hardware Structure of the Emmy II Robot,Distributed Algorithm for Robotic Network Self-deployment in Indoor Environments Using Wireless Signal Strength,0.5911771357
+63ce9bc39c697f5977f53082,The New Hardware Structure of the Emmy II Robot,The New Hardware Structure of the Emmy II Robot,2.999999702
+63ce9bce9c697f5977f530e3,The New Hardware Structure of the Emmy II Robot,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,0.641600579
+63ce9bd19c697f5977f530fe,The New Hardware Structure of the Emmy II Robot,Self-Localization of an Omnidirectional Mobile Robot Based on an Optical Flow Sensor,0.5621847808
+63ce9bdf9c697f5977f53171,The New Hardware Structure of the Emmy II Robot,A study of an autonomous mobile robot for a sewer inspection system,0.5211826563
+63ce9c3d9c697f5977f5340c,On Coarser Interval Temporal Logics and their Satisfiability Problem,On Coarser Interval Temporal Logics and their Satisfiability Problem,2.9999999404
+63ce9c529c697f5977f534c0,On Coarser Interval Temporal Logics and their Satisfiability Problem,A temporal and channel-combined attention block for action segmentation,0.6874977648
+63ce9c799c697f5977f535cd,Enablers and Inhibitors in Causal Justifications of Logic Programs,Explaining Preferences and Preferring Explanations,0.7346298248
+63ce9c7b9c697f5977f535de,Enablers and Inhibitors in Causal Justifications of Logic Programs,A Complexity Assessment for Queries Involving Sufficient and Necessary Causes,0.8402855992
+63ce9c849c697f5977f53629,Enablers and Inhibitors in Causal Justifications of Logic Programs,Causal Logic Programming,0.5333050787
+63ce9c8c9c697f5977f53674,Enablers and Inhibitors in Causal Justifications of Logic Programs,Simple Random Logic Programs,0.5109857544
+63ce9cb69c697f5977f53794,A survey of emerging patterns for supervised classification,A survey of emerging patterns for supervised classification,2.9999998808
+63ce9cb99c697f5977f537b0,A survey of emerging patterns for supervised classification,Patterns and Trends in the Concept of Green Economy: A Text Mining Approach,0.5451828986
+63ce9cbc9c697f5977f537ce,A survey of emerging patterns for supervised classification,Related Work,0.5121663474
+63ce9cf39c697f5977f53958,Constrained model predictive control of proton exchange membrane fuel cell,Constrained model predictive control of proton exchange membrane fuel cell,3.0000001192
+63ce9cf39c697f5977f5395b,Constrained model predictive control of proton exchange membrane fuel cell,Fuel cell starvation control using model predictive technique with Laguerre and exponential weight functions,0.8800326288
+63ce9d2f9c697f5977f53b1c,Abnormal behavior detection using dominant sets,Abnormal behavior detection using dominant sets,2.9999998808
+63ce9d6c9c697f5977f53ce0,Towards a HPC-oriented parallel implementation of a learning algorithm for bioinformatics applications,Towards a HPC-oriented parallel implementation of a learning algorithm for bioinformatics applications,3.0000001192
+63ce9d989c697f5977f53e14,Fuel cell starvation control using model predictive technique with Laguerre and exponential weight functions,Design and application of adaptive PID controller based on asynchronous advantage actor–critic learning method,0.7468604296
+63ce9daa9c697f5977f53ea1,Fuel cell starvation control using model predictive technique with Laguerre and exponential weight functions,Constrained model predictive control of proton exchange membrane fuel cell,0.8800326288
+63ce9daa9c697f5977f53ea4,Fuel cell starvation control using model predictive technique with Laguerre and exponential weight functions,Fuel cell starvation control using model predictive technique with Laguerre and exponential weight functions,2.9999998808
+63ce9de89c697f5977f54068,Parallel model based fault detection algorithm for electronic parking brake system,Parallel model based fault detection algorithm for electronic parking brake system,2.9999998212
+63ce9e4a9c697f5977f54193,Play Ms. Pac-Man Using an Advanced Reinforcement Learning Agent,The Advantage Regret-Matching Actor-Critic,0.6120894551
+63ce9e679c697f5977f54282,Play Ms. Pac-Man Using an Advanced Reinforcement Learning Agent,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,0.6170717478
+63ce9e9a9c697f5977f543ee,"Bootstrapping a Portuguese WordNet from Galician, Spanish and English Wordnets","Bootstrapping a Portuguese WordNet from Galician, Spanish and English Wordnets",3.0000001192
+63ce9ed79c697f5977f545b1,"
+              Conclave: Ontology-Driven Measurement of Semantic Relatedness between Source Code Elements and Problem Domain Concepts","
+              Conclave: Ontology-Driven Measurement of Semantic Relatedness between Source Code Elements and Problem Domain Concepts",2.9999999404
+63ce9f2b9c697f5977f54774,Finitely Additive Probability Measures in Automated Medical Diagnostics,Finitely Additive Probability Measures in Automated Medical Diagnostics,2.9999998808
+63ce9f9f9c697f5977f54ac7,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,Semantic and geometric reasoning for robotic grasping: a probabilistic logic approach,0.8279409558
+63ce9fa39c697f5977f54aeb,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,Explaining Preferences and Preferring Explanations,0.5618755221
+63ce9fa59c697f5977f54af8,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,2.9999998808
+63ce9fb49c697f5977f54b78,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,Modal Hybrid Logics,0.5127050132
+63ce9fb89c697f5977f54b9e,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,Enhance understanding and reasoning ability for image captioning,0.546890825
+63ce9fba9c697f5977f54baa,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,Logical approaches to fuzzy similarity-based reasoning: an overview,0.79773283
+63ce9fbd9c697f5977f54bc1,On the Semantics of Defeasible Reasoning for Description Logic Ontologies,A First Order Theory of Functional Parthood,0.5895879567
+63ce9fe19c697f5977f54cba,The Abilities of P Colony Based Models in Robot Control,The Abilities of P Colony Based Models in Robot Control,2.9999999404
+63cea01c9c697f5977f54e6d,A Complexity Assessment for Queries Involving Sufficient and Necessary Causes,Explaining Preferences and Preferring Explanations,0.8645394444
+63cea0279c697f5977f54ec6,A Complexity Assessment for Queries Involving Sufficient and Necessary Causes,Causal Logic Programming,1.5365899503
+63cea0309c697f5977f54f11,A Complexity Assessment for Queries Involving Sufficient and Necessary Causes,Simple Random Logic Programs,0.8095741868
+63cea0d49c697f5977f553b9,Neural Networks in Modeling of CNC Milling of Moderate Slope Surfaces,Neural Networks in Modeling of CNC Milling of Moderate Slope Surfaces,2.9999995828
+63cea14e9c697f5977f55735,Numerical Optimal Control of Integral-Algebraic Equations Using Differential Evolution with Fletcher’s Filter,Numerical Optimal Control of Integral-Algebraic Equations Using Differential Evolution with Fletcher’s Filter,2.999999702
+63cea1bb9c697f5977f55a3f,Artificial Intelligence Elements in Data Mining from Remote Experiments,Towards standardizing retinal optical coherence tomography angiography: a review,0.5518097356
+63cea2bf9c697f5977f55fdd,An Artificial Bee Colony Algorithm for the Set Covering Problem,An Artificial Bee Colony Algorithm for the Set Covering Problem,2.9999999404
+63cea2fd9c697f5977f56197,A New Approach to Solve the Software Project Scheduling Problem Based on Max–Min Ant System,A New Approach to Solve the Software Project Scheduling Problem Based on Max–Min Ant System,2.9999994636
+63cea3789c697f5977f56509,MIMO Pseudo Neural Networks for Iris Data Classification,MIMO Pseudo Neural Networks for Iris Data Classification,2.9999999404
+63cea3f29c697f5977f56869,Patterns and Trends in the Concept of Green Economy: A Text Mining Approach,A survey of emerging patterns for supervised classification,0.5451828986
+63cea3f49c697f5977f56879,Patterns and Trends in the Concept of Green Economy: A Text Mining Approach,Patterns and Trends in the Concept of Green Economy: A Text Mining Approach,3.0
+63cea4329c697f5977f56a31,Logistic Warehouse Process Optimization Through Genetic Programming Algorithm,Logistic Warehouse Process Optimization Through Genetic Programming Algorithm,3.0000002384
+63cea4709c697f5977f56be9,On the Simulation of the Brain Activity: A Brief Survey,On the Simulation of the Brain Activity: A Brief Survey,3.0000003576
+63cea4809c697f5977f56c70,On the Simulation of the Brain Activity: A Brief Survey,VirtualECare: Group Support in Collaborative Networks Organizations for Digital Homecare,0.6826861706
+63cea4ad9c697f5977f56da1,A Binary Firefly Algorithm for the Set Covering Problem,A Binary Firefly Algorithm for the Set Covering Problem,2.999999702
+63cea4d79c697f5977f56eb7,JNeRF: An efficient heterogeneous NeRF model zoo based on Jittor,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5173952579
+63cea4f39c697f5977f56f91,JNeRF: An efficient heterogeneous NeRF model zoo based on Jittor,Causal Logic Programming,0.5773083568
+63cea5689c697f5977f572c6,Relational large scale multi-label classification method for video categorization,Relational large scale multi-label classification method for video categorization,3.0000001788
+63cea5a79c697f5977f5747d,Vision-Based Mobile Robot Navigation Using Subgoals,Vision-Based Mobile Robot Navigation Using Subgoals,2.9999997616
+63cea6559c697f5977f57919,Formalisation and Verification of Knowledge Management in Digital Economy and Organisations,Collaborative knowledge management to identify data analytics opportunities in additive manufacturing,0.5830560774
+63cea6659c697f5977f5799d,Formalisation and Verification of Knowledge Management in Digital Economy and Organisations,Formalisation and Verification of Knowledge Management in Digital Economy and Organisations,2.9999998808
+63cea6739c697f5977f57a05,Formalisation and Verification of Knowledge Management in Digital Economy and Organisations,Gossip Galore: An Embodied Conversational Agent for Collecting and Sharing Pop Trivia from the Web,0.6025204957
+63cea6e49c697f5977f57d05,Adaptation of Decision Trees for Handling Concept Drift,Adaptation of Decision Trees for Handling Concept Drift,2.9999998808
+63cea6e89c697f5977f57d26,Adaptation of Decision Trees for Handling Concept Drift,On Resources Optimization in Fuzzy Clustering of Data Streams,0.8112968802
+63cea6e99c697f5977f57d2c,Adaptation of Decision Trees for Handling Concept Drift,A New Fuzzy Classifier for Data Streams,0.8011134863
+63cea7239c697f5977f57eb9,Mappets: An Interactive Plugin for Transmedia Machinima on Unity3D,Mappets: An Interactive Plugin for Transmedia Machinima on Unity3D,2.9999998808
+63cea7ab9c697f5977f58267,Weights Aging in Social Networks,Time Based Modeling of Collaboration Social Networks,0.9561778903
+63cea7b09c697f5977f58293,Weights Aging in Social Networks,New Multi-Objective Algorithms for Neural Network Training Applied to Genomic Classification Data,0.5710727274
+63cea7e19c697f5977f583d0,Real-Time FPGA-Based Human Iris Recognition Embedded System: Zero-Delay Human Iris Feature Extraction,Real-Time FPGA-Based Human Iris Recognition Embedded System: Zero-Delay Human Iris Feature Extraction,3.0000001788
+63cea84a9c697f5977f5868a,Bin-Packing,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5173952579
+63cea8659c697f5977f5875d,Bin-Packing,Causal Logic Programming,0.5773083568
+63cea8919c697f5977f58878,Automated Reasoning Support for Ontology Development,An ontology model for maintenance strategy selection and assessment,0.5461821109
+63cea8999c697f5977f588b4,Automated Reasoning Support for Ontology Development,Compliance management ontology – a shared conceptualization for research and practice in compliance management,0.5792777389
+63cea8b09c697f5977f58963,Automated Reasoning Support for Ontology Development,Ontology Generation from Social Networks,0.8829495311
+63cea8e29c697f5977f58aae,Testing the Homoskedasticity/Heteroskedasticity of the Errors Using the White Test: Pattern Classification by k-Variances and Informational Criteria,Value Function Approximation through Sparse Bayesian Modeling,0.5031375885
+63cea91f9c697f5977f58c3f,"
+            iForm
+          ","
+            iForm
+          ",3.0000001192
+63cea9269c697f5977f58c7a,"
+            iForm
+          ",Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,0.5025395453
+63cea9329c697f5977f58cd6,"
+            iForm
+          ",STR Transformer: A Cross-domain Transformer for Scene Text Recognition,0.6497679055
+63cea95e9c697f5977f58dee,Multi-objective genetic learning of serial hierarchical fuzzy systems for large-scale problems,Multi-objective genetic learning of serial hierarchical fuzzy systems for large-scale problems,2.9999998808
+63cea9cb9c697f5977f590b1,Full-duplex strategy for video object segmentation,Global video object segmentation with spatial constraint module,0.5052015185
+63cea9e09c697f5977f5914a,Full-duplex strategy for video object segmentation,Full-duplex strategy for video object segmentation,2.9999998808
+63ceaa4b9c697f5977f5940e,Point cloud completion via structured feature maps using a feedback network,Towards uniform point distribution in feature-preserving point cloud filtering,0.5821778923
+63ceaa9f9c697f5977f5964f,Focusing on your subject: Deep subject-aware image composition recommendation networks,Focusing on your subject: Deep subject-aware image composition recommendation networks,2.9999997616
+63ceaadf9c697f5977f597fb,Joint specular highlight detection and removal in single images via Unet-Transformer,Joint specular highlight detection and removal in single images via Unet-Transformer,3.0000001192
+63ceab639c697f5977f59b67,Robust template feature matching method using motion-constrained DCF designed for visual navigation in asteroid landing,Integrated visual navigation based on angles-only measurements for asteroid final landing phase,0.6443753541
+63ceabb19c697f5977f59d7a,DeepRadiation: An intelligent augmented reality platform for predicting urban energy performance just through 360 panoramic streetscape images utilizing various deep learning models,Caroline: An Autonomously Driving Vehicle for Urban Environments,0.5576127023
+63ceabdc9c697f5977f59e83,Related Work,A survey of emerging patterns for supervised classification,0.5121663474
+63ceabe19c697f5977f59ea2,Related Work,Related Work,2.9999996424
+63ceac669c697f5977f5a215,A new evolutionary approach for computing Nash equilibria in bimatrix games with known support,Optimistic Selection Rule Better Than Majority Voting System,0.5542033762
+63ceace29c697f5977f5a53d,An unsupervised approach to modeling personalized contexts of mobile users,An unsupervised approach to modeling personalized contexts of mobile users,3.0000001192
+63ceace79c697f5977f5a561,An unsupervised approach to modeling personalized contexts of mobile users,Deep Gradient Learning for Efficient Camouflaged Object Detection,0.6128368676
+63ceaebb27740e7cab343ba6,AMI Screening Using Linguistic Fuzzy Rules,Modelling of Fuzzy Peterson’s Syllogisms Related to Graded Peterson’s Cube of Opposition,0.5337947384
+63ceaebc27740e7cab343baa,AMI Screening Using Linguistic Fuzzy Rules,On Modeling of Fuzzy Peterson’s Syllogisms Using Peterson’s Rules,0.6416180581
+63ceaed127740e7cab343c4c,AMI Screening Using Linguistic Fuzzy Rules,AMI Screening Using Linguistic Fuzzy Rules,2.9999999404
+63ceaee727740e7cab343cfb,AMI Screening Using Linguistic Fuzzy Rules,Intelligent Mixed Reality for the Creation of Ambient Assisted Living,0.5689384118
+63ceaf1427740e7cab343e1c,Optimizing coverage performance of multiple random path-planning robots,Optimizing coverage performance of multiple random path-planning robots,3.0000001192
+63ceaf5727740e7cab343fec,Meaning in Artificial Agents: The Symbol Grounding Problem Revisited,Meaning in Artificial Agents: The Symbol Grounding Problem Revisited,3.0000003576
+63ceaf9b27740e7cab3441bc,Coevolution in Cartesian Genetic Programming,Coevolution in Cartesian Genetic Programming,3.0000001788
+63ceafc327740e7cab3442ba,An Online Kernel-Based Clustering Approach for Value Function Approximation,Stock Market Trading Agent Using On-Policy Reinforcement Learning Algorithms,0.6113664806
+63ceafdf27740e7cab344394,An Online Kernel-Based Clustering Approach for Value Function Approximation,Value Function Approximation through Sparse Bayesian Modeling,0.5803322792
+63ceb04927740e7cab34464a,Message from the Editor-in-Chief,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5173952579
+63ceb06827740e7cab34473a,Message from the Editor-in-Chief,Causal Logic Programming,0.5773083568
+63ceb09b27740e7cab34487d,Variational Bayes Inference for Logic-Based Probabilistic Models on BDDs,Semantic and geometric reasoning for robotic grasping: a probabilistic logic approach,0.5608590543
+63ceb0ac27740e7cab3448f4,Variational Bayes Inference for Logic-Based Probabilistic Models on BDDs,Variational Bayes Inference for Logic-Based Probabilistic Models on BDDs,2.9999999404
+63ceb0b527740e7cab34493a,Variational Bayes Inference for Logic-Based Probabilistic Models on BDDs,Modal Hybrid Logics,0.507561177
+63ceb0f927740e7cab344ac2,On Fuzzy Clustering of Data Streams with Concept Drift,On Fuzzy Clustering of Data Streams with Concept Drift,3.000000596
+63ceb0f927740e7cab344ac4,On Fuzzy Clustering of Data Streams with Concept Drift,On Resources Optimization in Fuzzy Clustering of Data Streams,0.7985182703
+63ceb0f927740e7cab344ac6,On Fuzzy Clustering of Data Streams with Concept Drift,On Pre-processing Algorithms for Data Stream,0.8155662417
+63ceb13a27740e7cab344c90,A visualized soundscape prediction model for design processes in urban parks,A visualized soundscape prediction model for design processes in urban parks,2.9999998808
+63ceb17927740e7cab344df9,On Resources Optimization in Fuzzy Clustering of Data Streams,Towards improving feature extraction and classification for activity recognition on streaming data,0.50055103
+63ceb18227740e7cab344e3f,On Resources Optimization in Fuzzy Clustering of Data Streams,Adaptation of Decision Trees for Handling Concept Drift,0.8112968802
+63ceb18527740e7cab344e5c,On Resources Optimization in Fuzzy Clustering of Data Streams,On Fuzzy Clustering of Data Streams with Concept Drift,0.7985182703
+63ceb18627740e7cab344e5e,On Resources Optimization in Fuzzy Clustering of Data Streams,On Resources Optimization in Fuzzy Clustering of Data Streams,2.9999999404
+63ceb18627740e7cab344e60,On Resources Optimization in Fuzzy Clustering of Data Streams,On Pre-processing Algorithms for Data Stream,0.6380785704
+63ceb18627740e7cab344e64,On Resources Optimization in Fuzzy Clustering of Data Streams,A New Fuzzy Classifier for Data Streams,1.2205827832
+63ceb1c727740e7cab34502c,A Voronoi diagram approach for detecting defects in 3D printed fiber-reinforced polymers from microscope images,A Voronoi diagram approach for detecting defects in 3D printed fiber-reinforced polymers from microscope images,2.9999998808
+63ceb20c27740e7cab3451f6,On Pre-processing Algorithms for Data Stream,On Fuzzy Clustering of Data Streams with Concept Drift,0.8155662417
+63ceb20d27740e7cab3451f8,On Pre-processing Algorithms for Data Stream,On Resources Optimization in Fuzzy Clustering of Data Streams,0.6380785704
+63ceb20f27740e7cab345208,On Pre-processing Algorithms for Data Stream,Exponential Fuzzy C-Means for Collaborative Filtering,0.6215668619
+63ceb25d27740e7cab3453c6,A conservative level set method for liquid-gas flows with application in liquid jet atomisation,A conservative level set method for liquid-gas flows with application in liquid jet atomisation,3.0000004768
+63ceb29f27740e7cab345578,Value Function Approximation through Sparse Bayesian Modeling,Testing the Homoskedasticity/Heteroskedasticity of the Errors Using the White Test: Pattern Classification by k-Variances and Informational Criteria,0.5031375885
+63ceb30227740e7cab34581b,AR assistance for efficient dynamic target search,Search and rescue with sparsely connected swarms,0.5016431063
+63ceb32027740e7cab3458c0,A New Fuzzy Classifier for Data Streams,Towards improving feature extraction and classification for activity recognition on streaming data,0.5728467703
+63ceb32927740e7cab345906,A New Fuzzy Classifier for Data Streams,Adaptation of Decision Trees for Handling Concept Drift,0.8011134863
+63ceb32d27740e7cab345925,A New Fuzzy Classifier for Data Streams,On Resources Optimization in Fuzzy Clustering of Data Streams,1.2205827832
+63ceb32e27740e7cab345928,A New Fuzzy Classifier for Data Streams,A New Fuzzy Classifier for Data Streams,3.0000001192
+63ceb37227740e7cab345ae1,Integrated visual navigation based on angles-only measurements for asteroid final landing phase,Robust template feature matching method using motion-constrained DCF designed for visual navigation in asteroid landing,0.6443753541
+63ceb37427740e7cab345af3,Integrated visual navigation based on angles-only measurements for asteroid final landing phase,Integrated visual navigation based on angles-only measurements for asteroid final landing phase,3.0
+63ceb3ba27740e7cab345cbe,A survey of urban visual analytics: Advances and future directions,A survey of urban visual analytics: Advances and future directions,2.9999998808
+63ceb3ff27740e7cab345e89,Computing with Infinite Argumentation Frameworks: The Case of AFRAs,Computing with Infinite Argumentation Frameworks: The Case of AFRAs,3.0000001192
+63ceb40b27740e7cab345edf,Computing with Infinite Argumentation Frameworks: The Case of AFRAs,Word Equations with One Unknown,0.5102567375
+63ceb44627740e7cab346054,Systemic Risk and Security Management,Systemic Risk and Security Management,3.0000001192
+63ceb45427740e7cab3460be,Systemic Risk and Security Management,Cognitive Abilities in Agents,0.7971875966
+63ceb4d227740e7cab3463e8,A Variable Neighbourhood Search Enhancement for the Shift Sequence Based Method of the Personal Scheduling in Hospitals,A Variable Neighbourhood Search Enhancement for the Shift Sequence Based Method of the Personal Scheduling in Hospitals,2.9999998212
+63ceb50327740e7cab346519,Deep learning imaging features derived from kidney ultrasounds predict chronic kidney disease progression in children with posterior urethral valves,A Study on Fight Against COVID-19 from Latest Technological Intervention,0.5171904713
+63ceb51827740e7cab3465b2,Deep learning imaging features derived from kidney ultrasounds predict chronic kidney disease progression in children with posterior urethral valves,Deep learning imaging features derived from kidney ultrasounds predict chronic kidney disease progression in children with posterior urethral valves,2.9999998808
+63ceb55f27740e7cab34677c,An Evolutionary Algorithm for Skyline Query Optimization,An Evolutionary Algorithm for Skyline Query Optimization,2.999999702
+63ceb59927740e7cab3468e8,Towards an OpenCL Implementation of Genetic Algorithms on GPUs,Scalability Model Based on the Concept of Granularity,0.5206897855
+63ceb5a627740e7cab346946,Towards an OpenCL Implementation of Genetic Algorithms on GPUs,Towards an OpenCL Implementation of Genetic Algorithms on GPUs,2.9999996424
+63ceb5af27740e7cab346986,Towards an OpenCL Implementation of Genetic Algorithms on GPUs,Parallel Distributed Genetic Algorithm for Expensive Multi-Objective Optimization Problems,0.6640994102
+63ceb5cc27740e7cab346a24,Causal Logic Programming,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.5735773016
+63ceb5e027740e7cab346ab7,Causal Logic Programming,Explaining Preferences and Preferring Explanations,0.6484793127
+63ceb5e127740e7cab346abd,Causal Logic Programming,Enablers and Inhibitors in Causal Justifications of Logic Programs,0.5333050787
+63ceb5e327740e7cab346acb,Causal Logic Programming,A Complexity Assessment for Queries Involving Sufficient and Necessary Causes,1.5365899503
+63ceb63227740e7cab346cd8,Exponential Fuzzy C-Means for Collaborative Filtering,Exponential Fuzzy C-Means for Collaborative Filtering,3.0000001788
+63ceb67927740e7cab346ea1,Geometric optimization for prey–predator strategies,Geometric optimization for prey–predator strategies,3.0000003576
+63ceb6cb27740e7cab3470b8,Memetic algorithms based on local search chains for large scale continuous optimisation problems: MA-SSW-Chains,Study of the Influence of the Local Search Method in Memetic Algorithms for Large Scale Continuous Optimization Problems,0.7157621384
+63ceb6cf27740e7cab3470d6,Memetic algorithms based on local search chains for large scale continuous optimisation problems: MA-SSW-Chains,Memetic Algorithm for Intense Local Search Methods Using Local Search Chains,1.4023486376
+63ceb70727740e7cab347231,Development of a pulse control-type MEMS microrobot with a hardware neural network,Development of a pulse control-type MEMS microrobot with a hardware neural network,2.999999702
+63ceb72c27740e7cab347305,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,The Advantage Regret-Matching Actor-Critic,0.6615318358
+63ceb72d27740e7cab34730a,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,An advantage actor-critic algorithm for robotic motion planning in dense and dynamic scenarios,0.6508643478
+63ceb74227740e7cab3473a0,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,The New Hardware Structure of the Emmy II Robot,0.641600579
+63ceb74327740e7cab3473aa,Cooperative Multi-Agent Reinforcement Learning for Multi-Component Robotic Systems: guidelines for future research,Play Ms. Pac-Man Using an Advanced Reinforcement Learning Agent,0.6170717478
+63ceb79527740e7cab3475bf,Artificial Intelligence In Materials Science: Application to Molecular and Particulate Simulations,Artificial Intelligence In Materials Science: Application to Molecular and Particulate Simulations,2.9999998808
+63ceb7df27740e7cab347786,A New Class for Robotic Sailing: The Robotic Racing Micro Magic,A New Class for Robotic Sailing: The Robotic Racing Micro Magic,2.9999998808
+63ceb82327740e7cab347932,Optimistic Selection Rule Better Than Majority Voting System,A new evolutionary approach for computing Nash equilibria in bimatrix games with known support,0.5542033762
+63ceb82627740e7cab34794d,Optimistic Selection Rule Better Than Majority Voting System,Optimistic Selection Rule Better Than Majority Voting System,2.9999997616
+63ceb86e27740e7cab347b14,VLP: A Survey on Vision-language Pre-training,VLP: A Survey on Vision-language Pre-training,3.0000001192
+63ceb8b127740e7cab347cc0,Deep Gradient Learning for Efficient Camouflaged Object Detection,An unsupervised approach to modeling personalized contexts of mobile users,0.6128368676
+63ceb8b927740e7cab347cfc,Deep Gradient Learning for Efficient Camouflaged Object Detection,Weakly-supervised object localization with gradient-pyramid feature,0.5836369693
+63ceb8fc27740e7cab347ea0,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,2.9999999404
+63ceb90127740e7cab347ec4,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,Discrepant mutual learning fusion network for unsupervised domain adaptation on person re-identification,0.5414602458
+63ceb90527740e7cab347ee3,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,Learning and Domain Adaptation,0.7767550051
+63ceb90b27740e7cab347f0c,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,Weighted progressive alignment for multi-source domain adaptation,1.2077023089
+63ceb90d27740e7cab347f1d,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,Carton dataset synthesis method for loading-and-unloading carton detection based on deep learning,0.5332153291
+63ceb91227740e7cab347f3d,Domain-Specific Bias Filtering for Single Labeled Domain Generalization,A domain adaptation method for bearing fault diagnosis using multiple incomplete source data,0.6169620901
+63ceb94327740e7cab348066,A comprehensive survey on human pose estimation approaches,A comprehensive survey on human pose estimation approaches,2.9999999404
+63ceb94827740e7cab348088,A comprehensive survey on human pose estimation approaches,Animal Pose Tracking: 3D Multimodal Dataset and Token-based Pose Optimization,0.6275831759
+63ceb94a27740e7cab34809c,A comprehensive survey on human pose estimation approaches,Lightweight human pose estimation algorithm based on polarized self-attention,0.6656016111
+63ceb95127740e7cab3480c7,A comprehensive survey on human pose estimation approaches,Monocular Omnidirectional Visual Odometry for Outdoor Ground Vehicles,0.5908747762
+63ceb98a27740e7cab34822c,Pruning-aware Sparse Regularization for Network Pruning,Pruning-aware Sparse Regularization for Network Pruning,3.0000001192
+63ceb99927740e7cab348292,Pruning-aware Sparse Regularization for Network Pruning,Import vertical characteristic of rain streak for single image deraining,0.5152257755
+63ceb9b427740e7cab348319,Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring,Deep unfolding multi-scale regularizer network for image denoising,0.5836738944
+63ceb9d327740e7cab3483f2,Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring,Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring,2.9999996424
+63ceb9ed27740e7cab3484a6,Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring,Multi-scale lung tissue classification for interstitial lung diseases using learned Gabor filters,0.5052485466
+63ceb9ef27740e7cab3484b3,Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring,Two-channel deep recursive multi-scale network based on multi-attention for no-reference image quality assessment,0.5663330108
+63ceba2927740e7cab3485ce,AnimalTrack: A Benchmark for Multi-Animal Tracking in the Wild,Going Deeper than Tracking: A Survey of Computer-Vision Based Recognition of Animal Pain and Emotions,0.6127097011
+63ceba2c27740e7cab3485e5,AnimalTrack: A Benchmark for Multi-Animal Tracking in the Wild,Leveraging temporal-aware fine-grained features for robust multiple object tracking,0.5750340521
+63ceba4327740e7cab348635,AnimalTrack: A Benchmark for Multi-Animal Tracking in the Wild,DATaR: Depth Augmented Target Redetection using Kernelized Correlation Filter,0.5829877257
+63ceba6227740e7cab348696,Recurrent Graph Neural Networks for Video Instance Segmentation,Global video object segmentation with spatial constraint module,0.5047368109
+63ceba8327740e7cab34877c,Recurrent Graph Neural Networks for Video Instance Segmentation,Recurrent Graph Neural Networks for Video Instance Segmentation,3.0000003576
+63ceba8327740e7cab34877e,Recurrent Graph Neural Networks for Video Instance Segmentation,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,0.6073504239
+63ceba8b27740e7cab3487b4,Recurrent Graph Neural Networks for Video Instance Segmentation,Vehicle re-identification based on keypoint segmentation of original image,0.5572193116
+63cebaeb27740e7cab348941,Visual Superordinate Abstraction for Robust Concept Learning,Visual Superordinate Abstraction for Robust Concept Learning,2.9999995828
+63cebb1527740e7cab348a27,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Semi-supervised 3D shape segmentation with multilevel consistency and part substitution,0.7474191487
+63cebb2527740e7cab348a55,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Three-Stream Convolutional Neural Network for Human Fall Detection,0.5331279039
+63cebb2a27740e7cab348a75,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Biomedical image classification based on a feature concatenation and ensemble of deep CNNs,0.5843123496
+63cebb2b27740e7cab348a78,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,0.8466796577
+63cebb3927740e7cab348ad6,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,"
+            iForm
+          ",0.5025395453
+63cebb4027740e7cab348b04,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Recurrent Graph Neural Networks for Video Instance Segmentation,0.6073504239
+63cebb4027740e7cab348b06,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,3.0000001192
+63cebb4427740e7cab348b1e,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Multi-branch aware module with channel shuffle pixel-wise attention for lightweight image super-resolution,0.5752100125
+63cebb4827740e7cab348b3c,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Vehicle re-identification based on keypoint segmentation of original image,0.7031003833
+63cebb4e27740e7cab348b63,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,MAN and CAT: mix attention to nn and concatenate attention to YOLO,0.5816337988
+63cebb5627740e7cab348b9d,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,Multiple Predominant Instruments Recognition in Polyphonic Music Using Spectro/Modgd-gram Fusion,0.5975035727
+63cebb5c27740e7cab348bc7,Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation,A deep learning based dual encoder–decoder framework for anatomical structure segmentation in chest X-ray images,0.7230564058
