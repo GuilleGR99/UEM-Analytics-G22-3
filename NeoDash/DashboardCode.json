@@ -6,12 +6,15 @@
     "editable": true,
     "fullscreenEnabled": false,
     "parameters": {
-      "undefined": ""
+      "undefined": "",
+      "neodash_keyword_keyword": "",
+      "neodash_autor_name": "'Rémi Munos'",
+      "neodash_paper_titulo": "Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic"
     }
   },
   "pages": [
     {
-      "title": "Main Page",
+      "title": "Trendings",
       "reports": [
         {
           "title": "Hola! 👋",
@@ -125,6 +128,56 @@
           "settings": {
             "nodePositions": {},
             "allowDownload": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Pages similares",
+      "reports": [
+        {
+          "title": "Filtra por el Paper que desees!",
+          "query": "MATCH (n:`Paper`) \nWHERE toLower(toString(n.`titulo`)) CONTAINS toLower($input) \nRETURN DISTINCT n.`titulo` as value ORDER BY size(toString(value)) ASC LIMIT 5",
+          "width": 4,
+          "height": 1,
+          "x": 0,
+          "y": 0,
+          "type": "select",
+          "selection": {},
+          "settings": {
+            "nodePositions": {},
+            "type": "Node Property",
+            "entityType": "Paper",
+            "propertyType": "titulo",
+            "parameterName": "neodash_paper_titulo"
+          }
+        },
+        {
+          "title": "Descargar info de Distancias",
+          "query": "MATCH (titulo:Paper)-[r1:DISTANCE]->(titulo_2:Paper) WHERE titulo.titulo = $neodash_paper_titulo RETURN r1.distance as Distancia, titulo_2.titulo as Paper\n\n",
+          "width": 4,
+          "height": 2,
+          "x": 0,
+          "y": 1,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "nodePositions": {}
+          }
+        },
+        {
+          "title": "Distancias del filtrado a los demás Papers",
+          "query": "MATCH (titulo:Paper)-[r1:DISTANCE]->(titulo_2:Paper) WHERE titulo.titulo = $neodash_paper_titulo RETURN r1, titulo, titulo_2\n\n\n",
+          "width": 8,
+          "height": 3,
+          "x": 4,
+          "y": 0,
+          "type": "graph",
+          "selection": {
+            "Paper": "(label)"
+          },
+          "settings": {
+            "nodePositions": {}
           }
         }
       ]
