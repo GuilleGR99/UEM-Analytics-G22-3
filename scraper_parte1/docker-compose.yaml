@@ -2,3 +2,9 @@ version: "3"
 services:
   scraper:
     image: scraper_docker
+  comparador:
+    image: comparador
+  limpiador:
+    image: limpiador
+  tokenizador:
+    image: tokenizador

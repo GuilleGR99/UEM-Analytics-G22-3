@@ -2,15 +2,15 @@
 
 ## Integrantes
 -Julieta Benitez  
--Guillermo Garcia  
+-Guillermo García  
 -Lucas Le More  
 -Miguel Moreno  
--Lucia Espinosa  
+-Lucía Espinosa  
 
 ## Proyecto
 Con nuestro proyecto queremos facilitar la búsqueda y uso de distintos documentos académicos. Haremos web scraping de páginas como Google Scholar para recopilar información y después la ordenaremos y relacionamos entre sí gracias a una red neuronal de clasificación de texto para que la tarea de buscar información sea más natural y dinámica.
 
 ## Diseño Inicial Infraestructura
-![DiseñoInicialAyT](https://user-images.githubusercontent.com/90759980/203812865-13a30ec6-6d32-48de-b0a1-d7aa06248e16.png)
+![DiseñoInicialAyT](https://i.ibb.co/RH6g6Nt/Infraestructura-drawio.png)
 
 
