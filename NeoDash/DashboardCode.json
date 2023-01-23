@@ -9,7 +9,8 @@
       "undefined": "",
       "neodash_keyword_keyword": "",
       "neodash_autor_name": "'Rémi Munos'",
-      "neodash_paper_titulo": "Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic"
+      "neodash_paper_titulo": "Simple Random Logic Programs",
+      "neodash_paper_titulo_30": ""
     }
   },
   "pages": [
@@ -19,7 +20,7 @@
         {
           "title": "Hola! 👋",
           "query": "![image](https://i.ibb.co/p465VCY/Logo-letras-negras-2.png)\n\n**Te presentamos GSA (Graph State of the Art)** \n \nSi estás desarrollando un documento de investigación como el TFG, doctorado o similar, te facilitamos la búsqueda de las características más trending, presentes en los documentos académicos obtenidos de Cambridge, arvix, springer y SSRN. Aquí encontrarás gráficos con los autores que cuentan con más Papers, categorías y keywords de moda... así como grafos que relacionan todas estas características.\n\n**De nada! 😀**\n\n\n",
-          "width": 3,
+          "width": 4,
           "height": 2,
           "x": 0,
           "y": 0,
@@ -28,14 +29,18 @@
           "settings": {}
         },
         {
-          "title": "Keyword que más aparece",
-          "query": "MATCH (p:Paper)-[r:CONTIENE]->(k:Keyword) RETURN DISTINCT k.keyword,count(r) AS count ORDER BY count DESC LIMIT 1",
-          "width": 3,
+          "title": "Top 5 Keywords que más aparecen",
+          "query": "MATCH (p:Paper)-[r:CONTIENE]->(k:Keyword) RETURN DISTINCT k.keyword,count(r) AS count ORDER BY count DESC LIMIT 5",
+          "width": 4,
           "height": 2,
-          "x": 9,
+          "x": 8,
           "y": 0,
-          "type": "value",
-          "selection": {},
+          "type": "bar",
+          "selection": {
+            "index": "k.keyword",
+            "value": "count",
+            "key": "(none)"
+          },
           "settings": {
             "nodePositions": {},
             "colors": "nivo",
@@ -46,13 +51,13 @@
           }
         },
         {
-          "title": "Clase que más aparece",
-          "query": "MATCH (p:Paper)-[r:EN_CLASE]->(c:Clase) RETURN DISTINCT c.clase as Clase, count(r) as count ORDER BY count DESC",
-          "width": 6,
+          "title": "Top 5 Clases que más aparecen",
+          "query": "MATCH (p:Paper)-[r:EN_CLASE]->(c:Clase) RETURN DISTINCT c.clase as Clase, count(r) as count ORDER BY count DESC LIMIT 5",
+          "width": 4,
           "height": 2,
-          "x": 3,
+          "x": 4,
           "y": 0,
-          "type": "pie",
+          "type": "bar",
           "selection": {
             "index": "Clase",
             "value": "count",
@@ -66,7 +71,7 @@
         },
         {
           "title": "Autores y Papers de Clase Trending",
-          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:EN_CLASE]->(c:Clase) WHERE c.clase = \"['Machine Learning (cs.LG)']\" RETURN r1,r2,c,a,p",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:EN_CLASE]->(c:Clase) WHERE c.clase = \"['Computer Science'\" RETURN r1,r2,c,a,p LIMIT 100",
           "width": 9,
           "height": 2,
           "x": 3,
@@ -84,7 +89,7 @@
         },
         {
           "title": "Autores y Papers de Keyword Trending",
-          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:CONTIENE]->(k:Keyword) WHERE k.keyword = \" 'reinforcement learning'\" RETURN r1,r2,k,a,p\n\n\n",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:CONTIENE]->(k:Keyword) WHERE k.keyword = \" 'machine learning'\" RETURN r1,r2,k,a,p\n\n\n",
           "width": 9,
           "height": 2,
           "x": 3,
@@ -102,7 +107,7 @@
         },
         {
           "title": "Descargar info de Papers",
-          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:EN_CLASE]->(c:Clase) WHERE c.clase = \"['Machine Learning (cs.LG)']\" RETURN DISTINCT p.titulo AS Título, p.resumen AS Resumen",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:EN_CLASE]->(c:Clase) WHERE c.clase = \"['Computer Science'\" RETURN DISTINCT p.titulo AS Título, p.resumen AS Resumen",
           "width": 3,
           "height": 2,
           "x": 0,
@@ -118,7 +123,7 @@
         },
         {
           "title": "Descargar info de Papers",
-          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:CONTIENE]->(k:Keyword) WHERE k.keyword = \" 'reinforcement learning'\" RETURN DISTINCT p.titulo AS Título, p.resumen AS Resumen\n\n\n",
+          "query": "MATCH (a:Autor)-[r2:REALIZA]->(p:Paper)-[r1:CONTIENE]->(k:Keyword) WHERE k.keyword = \" 'machine learning'\" RETURN DISTINCT p.titulo AS Título, p.resumen AS Resumen\n\n\n",
           "width": 3,
           "height": 2,
           "x": 0,
@@ -137,7 +142,7 @@
       "reports": [
         {
           "title": "Filtra por el Paper que desees!",
-          "query": "MATCH (n:`Paper`) \nWHERE toLower(toString(n.`titulo`)) CONTAINS toLower($input) \nRETURN DISTINCT n.`titulo` as value ORDER BY size(toString(value)) ASC LIMIT 5",
+          "query": "MATCH (n:`Paper`) \nWHERE toLower(toString(n.`titulo`)) CONTAINS toLower($input) \nRETURN DISTINCT n.`titulo` as value ORDER BY size(toString(value)) ASC LIMIT 20",
           "width": 4,
           "height": 1,
           "x": 0,
@@ -149,7 +154,8 @@
             "type": "Node Property",
             "entityType": "Paper",
             "propertyType": "titulo",
-            "parameterName": "neodash_paper_titulo"
+            "parameterName": "neodash_paper_titulo",
+            "suggestionLimit": 20
           }
         },
         {
@@ -187,7 +193,7 @@
       "reports": [
         {
           "title": "GSA Graph",
-          "query": "MATCH p=()-->() RETURN p \n\n\n",
+          "query": "MATCH p=()-->() RETURN p LIMIT 100\n\n\n",
           "width": 12,
           "height": 3,
           "x": 0,
