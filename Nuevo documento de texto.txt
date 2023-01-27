@@ -1,5 +1,0 @@
-papers
-refina papers
-
-final_paper
-final_distances
